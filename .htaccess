@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)$ $1.php [L]
+
+# news_pr DETAILS
+# example.com/news_pr/title
+# ===============================
+RewriteRule ^news_pr/([a-zA-Z0-9_-]+)/?$ news_pr.php?page_url=$1 [L,QSA]

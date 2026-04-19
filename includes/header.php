@@ -1,0 +1,251 @@
+<?php
+// 
+    // ⚠️ PERFORMANCE CRITICAL CODE – DO NOT REMOVE
+    // The code below is implemented specifically to optimise website speed,
+    // Removing or modifying this section may negatively impact.
+// 
+    ob_start(function($buffer){
+
+        return preg_replace(
+            '/<img(?![^>]*loading=)([^>]+)>/i',
+            '<img loading="lazy"$1>',
+            $buffer
+        );
+    });
+?>
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden;">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Xpansion Technologies | Digital Engineering, Cloud, AI & IT Solutions Company</title>
+
+    <meta name="description"
+        content="Xpansion Technologies delivers advanced digital engineering, cloud transformation, AI solutions, smart city platforms, and enterprise IT services to help businesses innovate, scale, and achieve measurable growth with secure and future-ready technology.">
+
+    <meta name="keywords"
+        content="Xpansion Technologies, IT solutions company, digital engineering services, cloud transformation, AI solutions, smart city technology, business intelligence services, enterprise software development, IT consulting company, scalable technology solutions, digital transformation services">
+
+    <!-- Favicons -->
+    <link href="assets2/images/favicon.png" rel="icon">
+    <link href="assets2/images/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- ===CSS-1=== -->
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets2\css\bootstrap.min.css" rel="stylesheet">
+    <link href="assets2\css\bootstrap-icons.css" rel="stylesheet">
+    <link href="assets2\css\glightbox.min.css" rel="stylesheet">
+    <link href="assets2\css\swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets2\css\bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- jQuery JS -->
+    <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+    <!-- Main CSS File -->
+    <link href="assets2/css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container position-relative d-flex align-items-center justify-content-between">
+
+            <a href="index" class="logo d-flex align-items-center me-auto me-xl-0">
+
+                <h1 class="sitename"><img src="assets2/images/logo.png" alt="logo"></h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index" class="active">Home</a></li>
+                    <li><a href="about">About Us</a></li>
+
+
+                    <li class="dropdown"><a href="#"><span> Services</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="digital-engineering-applications">Digital Engineering & Applications</a>
+                            </li>
+
+                            <li><a href="managed-it-security">Managed IT & Security</a>
+                            </li>
+                            <li><a href="ai-intelligent-automation">AI & Intelligent Automation</a></li>
+                            <li><a href="data-business">Data & Business Intelligence</a></li>
+                            <li><a href="cloud-services">Cloud Services</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown"><a href="#"><span> Industry
+                                Solutions</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="telecom-services">Telecom Services</a></li>
+                            <li><a href="talent-acquisition-solutions"> Talent Acquisition Services </a>
+                            </li>
+                            <li><a href="education-solutions">Education Solutions </a>
+                            </li>
+                            <li><a href="smart-city-surveillance">Smart City & Surveillance</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="dropdown"><a href="#"><span>Products</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="xims-invoice-management-system">XIMS- Invoice Management System</a></li>
+                            <li><a href="xt-vms-visitor-management-system">XT-VMS- Visitor Management System </a></li>
+                            <li><a href="foodways">Foodways </a></li>
+                            <li><a href="salon-management-system">Salon Management System </a></li>
+                            <li><a href="xevent">xEvent </a></li>
+                            <li><a href="human-resource-management-system">XHRMS- Human Resource Management System </a>
+                            </li>
+                            <li><a href="sports-academy-management-system"> Sports Academy Management System </a></li>
+
+                        </ul>
+                    </li>
+
+                    <li><a href="case-studies">Case Studies</a></li>
+                    <!-- <li><a href="news-pr">News &amp; PR </a></li> -->
+
+                    <li><a href="contact-us">Contact Us</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list" id="mobile-menu-trigger"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="contact-us">Discuss Project</a>
+
+        </div>
+
+        <!--====================  mobile menu overlay ====================-->
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+            <div class="mobile-menu-overlay__inner">
+                <div class="mobile-menu-overlay__header">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 col-8">
+                                <!-- logo -->
+                                <div class="logo">
+                                    <a href="index">
+                                        <img src="assets/images/logo.png" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-4">
+                                <!-- mobile menu content -->
+                                <div class="mobile-menu-content text-end">
+                                    <span class="mobile-navigation-close-icon" id="mobile-menu-close-trigger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-menu-overlay__body">
+                    <nav class="offcanvas-navigation">
+                        <ul style="padding-left:0px;">
+
+                            <!-- Home -->
+                            <li><a href="index">Home</a></li>
+
+                            <!-- About -->
+                            <li><a href="about">About Us</a></li>
+
+
+                            <!-- Our Services -->
+                            <li class="has-children">
+                                <span class="menu-expand"><i></i></span>
+                                <a href="#">Services</a>
+
+                                <ul class="sub-menu" style="display:none;">
+                                    <li><a href="digital-engineering-applications">Digital Engineering &
+                                            Applications</a>
+                                    </li>
+
+                                    <li><a href="managed-it-security">Managed IT & Security</a>
+                                    </li>
+                                    <li><a href="ai-intelligent-automation">AI & Intelligent Automation</a></li>
+                                    <li><a href="data-business">Data & Business Intelligence</a></li>
+                                    <li><a href="cloud-services">Cloud Services</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Our Services -->
+                            <li class="has-children">
+                                <span class="menu-expand"><i></i></span>
+                                <a href="#">Industry
+                                    Solutions</a>
+
+                                <ul class="sub-menu" style="display:none;">
+                                    <li><a href="telecom-services">Telecom Services</a></li>
+                                    <li><a href="talent-acquisition-solutions"> Talent Acquisition Services </a>
+                                    </li>
+                                    <li><a href="education-solutions">Education Solutions </a>
+                                    </li>
+                                    <li><a href="smart-city-surveillance">Smart City & Surveillance</a></li>
+                                </ul>
+                            </li>
+
+
+                            <!-- Products -->
+                            <li class="has-children">
+                                <span class="menu-expand"><i></i></span>
+                                <a href="#">Products</a>
+
+                                <ul class="sub-menu" style="display:none;">
+                                    <li><a href="xims-invoice-management-system">XIMS - Invoice Management System</a>
+                                    </li>
+                                    <li><a href="xt-vms-visitor-management-system">XT-VMS - Visitor Management
+                                            System</a></li>
+                                    <li><a href="foodways">Foodways</a></li>
+                                    <li><a href="salon-management-system">Salon Management System</a></li>
+                                    <li><a href="xevent">xEvent</a></li>
+                                    <li><a href="human-resource-management-system">XHRMS - Human Resource Management
+                                            System</a></li>
+                                    <li><a href="sports-academy-management-system">Sports Academy Management System</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!-- Case Studies -->
+                            <li><a href="case-studies">Case Studies</a></li>
+
+                            <!-- News -->
+                            <!-- <li><a href="news-pr">News &amp; PR</a></li> -->
+
+                            <!-- Contact -->
+                            <li><a href="contact-us">Contact Us</a></li>
+
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+        <!--====================  End of mobile menu overlay  ====================-->
+
+    </header>
