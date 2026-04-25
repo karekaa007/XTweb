@@ -64,7 +64,7 @@
                                  precision.
                              </p>
                              <div class="action-buttons">
-                                 <a href="contact" class="btn btn-primary-custom">
+                                 <a href="contact-us.php" class="btn btn-primary-custom">
                                      Discuss Project <i class="bi bi-arrow-right"></i>
                                  </a>
                                  <div class="contact-info">
@@ -90,128 +90,30 @@
 
 
 
-         <div class="feature-images-wrapper bg-gradient section-space--ptb_100" data-aos="fade-up"
-             data-aos-duration="1000">
-             <div class="container">
-                 <div class="conact-us-wrap-three">
-                     <h6 class="mb-3 section-sub-title">OUR SERVICES</h6>
-                     <h4 class="heading text-dark mb-3">Comprehensive IT & AI Solutions</h4>
-                 </div>
-
-                 <div class="image-l-r-box">
-                     <div class="row">
-                         <div class="col image-box-area">
-                             <div class="row image-box-boder-box">
-                                 <div class="col-lg-4 col-md-6 image-box-boder">
-                                     <!-- ht-box-icon Start -->
-                                     <div class="ht-box-images style-09">
-                                         <div class="image-box-wrap">
-                                             <div class="box-image">
-                                                 <img src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/100/0c63c2/external-coding-coding-tanah-basah-basic-outline-tanah-basah.png"
-                                                     class="img-fluid" alt="">
-
-                                             </div>
-                                             <div class="content">
-                                                 <h6 class="heading">Digital Engineering & Applications</h6>
-
-                                             </div>
-                                         </div>
-                                     </div>
-                                     <!-- ht-box-icon End -->
-                                 </div>
-                                 <div class="col-lg-4 col-md-6 image-box-boder">
-                                     <!-- ht-box-icon Start -->
-                                     <div class="ht-box-images style-09">
-                                         <div class="image-box-wrap">
-                                             <div class="box-image">
-                                                 <img src="https://img.icons8.com/ios/100/0c63c2/cyber-security.png"
-                                                     class="img-fluid" alt="">
-                                             </div>
-                                             <div class="content">
-                                                 <h6 class="heading">Managed IT & Security</h6>
-
-                                             </div>
-                                         </div>
-                                     </div>
-                                     <!-- ht-box-icon End -->
-                                 </div>
-
-                                 <div class="col-lg-4 col-md-6 image-box-boder">
-                                     <!-- ht-box-icon Start -->
-                                     <div class="ht-box-images style-09">
-                                         <div class="image-box-wrap">
-                                             <div class="box-image">
-                                                 <img src="assets/images/icons/6.png" class="img-fluid" alt="">
-                                             </div>
-                                             <div class="content">
-                                                 <h6 class="heading">AI & Intelligent Automation</h6>
-
-
-                                             </div>
-                                         </div>
-                                     </div>
-                                     <!-- ht-box-icon End -->
-                                 </div>
-                                 <div class="col-lg-4 col-md-6 image-box-boder">
-                                     <!-- ht-box-icon Start -->
-                                     <div class="ht-box-images style-09">
-                                         <div class="image-box-wrap">
-                                             <div class="box-image">
-                                                 <img src="assets/images/icons/7.png" class="img-fluid" alt="">
-                                             </div>
-                                             <div class="content">
-                                                 <h6 class="heading">Data & Business Intelligence</h6>
-
-
-                                             </div>
-                                         </div>
-                                     </div>
-                                     <!-- ht-box-icon End -->
-                                 </div>
-                                 <div class="col-lg-4 col-md-6 image-box-boder">
-                                     <!-- ht-box-icon Start -->
-                                     <div class="ht-box-images style-09">
-                                         <div class="image-box-wrap">
-                                             <div class="box-image">
-                                                 <img src="https://img.icons8.com/external-dreamcreateicons-mixed-dreamcreateicons/100/0c63c2/external-cloud-service-internet-security-dreamcreateicons-mixed-dreamcreateicons.png"
-                                                     class="img-fluid" alt="">
-                                             </div>
-                                             <div class="content">
-                                                 <h6 class="heading">Cloud Services</h6>
-
-                                             </div>
-                                         </div>
-                                     </div>
-                                     <!-- ht-box-icon End -->
-                                 </div>
-
-                                 <div class="col-lg-4 col-md-6 image-box-boder">
-                                     <!-- ht-box-icon Start -->
-                                     <div class="ht-box-images style-09">
-                                         <div class="image-box-wrap">
-                                             <div class="box-image">
-                                                 <img src="https://img.icons8.com/ios/100/0c63c2/company--v1.png"
-                                                     class="img-fluid" alt="">
-                                             </div>
-                                             <div class="content">
-                                                 <h6 class="heading">Industry Solutions</h6>
-
-
-                                             </div>
-                                         </div>
-                                     </div>
-                                     <!-- ht-box-icon End -->
-                                 </div>
-
-                             </div>
+         <section class="logo-slider" data-aos="fade-up" data-aos-duration="1000">
+             <div class="container mt-4 mb-4">
+                 <div class="row justify-content-center">
+                     <div class="col-xl-12 aos-init">
+                         <div class="container section-title aos-init">
+                             <span class="section-subtitle"> Our Top Suppliers</span>
+                             <h2>Preferred Supplier for</h2>
                          </div>
                      </div>
                  </div>
-
-
-
+                 <div class="row justify-content-center">
+                     <div class="col-xl-3 aos-init">
+                         <img style="width: 100%;" src="assets2/images/nsw.png" class="rounded img-fluid" alt="nsw">
+                     </div>
+                     <div class="col-xl-3 aos-init aos-animate" data-aos="fade-right">
+                         <img style="width: 100%;" src="assets2/images/tafe.png" class="rounded img-fluid" alt="tafe">
+                     </div>
+                     <div class="col-xl-3 aos-init aos-animate">
+                         <img style="width: 100%;" src="assets2/images/localbuy.png" class="rounded img-fluid"
+                             alt="localbuy">
+                     </div>
+                 </div>
              </div>
-         </div>
+         </section>
 
 
          <div class="brand-logo-slider-area section-space--ptb_60" data-aos="fade-up" data-aos-duration="1000">
@@ -297,6 +199,126 @@
              </div>
          </div>
 
+         <!-- Testimonials Section -->
+         <section id="testimonials" class="testimonials section" data-aos="fade-up" data-aos-duration="1000">
+             <div class="container section-title aos-init">
+                 <h2>Testimonials</h2>
+                 <p>Transforming Businesses With Technology</p>
+             </div>
+
+             <div class="container aos-init">
+                 <div class="row">
+                     <div class="col-lg-4 aos-init">
+                         <div class="testimonials-sidebar">
+                             <div class="avatar-stack">
+                                 <img src="assets2/images/person-m-3.webp" alt="Happy Client" class="avatar"
+                                     loading="lazy">
+                                 <img src="assets2/images/person-f-7.webp" alt="Happy Client" class="avatar"
+                                     loading="lazy">
+                                 <img src="assets2/images/person-m-9.webp" alt="Happy Client" class="avatar"
+                                     loading="lazy">
+                                 <img src="assets2/images/person-f-4.webp" alt="Happy Client" class="avatar"
+                                     loading="lazy">
+                                 <span class="avatar-count">+2.5k</span>
+                             </div>
+                             <div class="sidebar-content">
+                                 <span class="satisfied-badge"><i class="bi bi-heart-fill"></i> Satisfied Clients</span>
+                                 <h3>Discover What Our Clients Say About Us</h3>
+                                 <p>Hear genuine feedback and experiences shared by our valued clients about our
+                                     services.</p>
+                                 <a target="_blank" href="https://share.google/6wv3lAzJEB3mihv5U"
+                                     class="btn-view-all">View All Reviews <i class="bi bi-arrow-right"></i></a>
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="col-lg-8 aos-init">
+                         <div class="testimonials-carousel swiper">
+                             <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                     <div class="testimonial-card">
+                                         <div class="card-top">
+                                             <div class="stars">
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                             </div>
+                                             <span class="quote-mark"><i class="bi bi-quote"></i></span>
+                                         </div>
+                                         <p class="testimonial-text">"I'd be lost without web design agency. Web design
+                                             agency is the most valuable business resource we have EVER purchased."</p>
+                                         <div class="author-info">
+                                             <img src="assets2/images/person-f-2.webp" alt="Client" class="author-img"
+                                                 loading="lazy">
+                                             <div class="author-details">
+                                                 <h5>- Georgia Holden</h5>
+                                                 <span>Managing Director</span>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+
+                                 <div class="swiper-slide">
+                                     <div class="testimonial-card">
+                                         <div class="card-top">
+                                             <div class="stars">
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                             </div>
+                                             <span class="quote-mark"><i class="bi bi-quote"></i></span>
+                                         </div>
+                                         <p class="testimonial-text">"We've used web design agency for the last five
+                                             years. We can't understand how we've been living without web design
+                                             agency."</p>
+                                         <div class="author-info">
+                                             <img src="assets2/images/person-m-5.webp" alt="Client" class="author-img"
+                                                 loading="lazy">
+                                             <div class="author-details">
+                                                 <h5>- Luke Petrie</h5>
+                                                 <span>Managing Director</span>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+
+                                 <div class="swiper-slide">
+                                     <div class="testimonial-card">
+                                         <div class="card-top">
+                                             <div class="stars">
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                                 <i class="bi bi-star-fill"></i>
+                                             </div>
+                                             <span class="quote-mark"><i class="bi bi-quote"></i></span>
+                                         </div>
+                                         <p class="testimonial-text">I am so pleased with this product. Absolutely
+                                             wonderful! You won't regret it. It's definitely worth the investment.</p>
+                                         <div class="author-info">
+                                             <img src="assets2/images/person-f-9.webp" alt="Client" class="author-img"
+                                                 loading="lazy">
+                                             <div class="author-details">
+                                                 <h5>Jai Erskine</h5>
+                                                 <span>Startup Founder</span>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+
+                             <div class="swiper-pagination"></div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+
          <div class="contact-us-section-wrappaer machine-learning-contact-us-bg section-space--ptb_120"
              data-aos="fade-up" data-aos-duration="1000">
              <div class="container">
@@ -309,7 +331,7 @@
                          </div>
                          <div class="contact-info-two mt-40 text-left">
                              <div class="contact-us-button mt-20">
-                                 <a href="contact-us" class="btn btn--secondary" style="line-height: 2.5;">Contact
+                                 <a href="contact-us.php" class="btn btn--secondary" style="line-height: 2.5;">Contact
                                      us</a>
                              </div>
                          </div>

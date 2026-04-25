@@ -236,12 +236,12 @@ if (isset($_GET['page_url']))
                     <li><a href="../case-studies">Case Studies</a></li>
                     <!-- <li><a href="../news-pr">News &amp; PR </a></li> -->
 
-                    <li><a href="../contact-us">Contact Us</a></li>
+                    <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list" id="mobile-menu-trigger"></i>
             </nav>
 
-            <a class="btn-getstarted" href="../contact-us">Discuss Project</a>
+            <a class="btn-getstarted" href="contact-us.php">Discuss Project</a>
 
         </div>
 
@@ -340,7 +340,7 @@ if (isset($_GET['page_url']))
                             <!-- <li><a href="../news-pr">News &amp; PR</a></li> -->
 
                             <!-- Contact -->
-                            <li><a href="../contact-us">Contact Us</a></li>
+                            <li><a href="contact-us.php">Contact Us</a></li>
 
                         </ul>
                     </nav>
@@ -479,7 +479,7 @@ if (isset($_GET['page_url']))
                                     </div>
                                     <h3>Ready to Transform Your Business?</h3>
                                     <p>Connect with our specialists for a complimentary consultation.</p>
-                                    <a href="contact" class="cta-btn">Schedule a Call <i
+                                    <a href="contact-us.php" class="cta-btn">Schedule a Call <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div><!-- End CTA Widget -->
@@ -557,7 +557,7 @@ if (isset($_GET['page_url']))
                             </div>
                             <div class="contact-info-two mt-40 text-left">
                                 <div class="contact-us-button mt-20">
-                                    <a href="../contact-us" class="btn btn--secondary" style="line-height: 2.5;">Contact
+                                    <a href="contact-us.php" class="btn btn--secondary" style="line-height: 2.5;">Contact
                                         us</a>
                                 </div>
                             </div>

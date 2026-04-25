@@ -149,7 +149,7 @@ managed services to build foundation for future growth. </p>
                          <h3 class="mt-4">Digital Engineering & Applications</h3>
                          <p>Modernize and scale your business with Xpansion's high-performance digital solutions for
                              smarter, faster growth.</p>
-                         <a href="digital-engineering-applications" class="service-link">
+                        <a href="digital-engineering-applications.php" class="service-link">
                              <span>Read More</span>
                              <i class="bi bi-arrow-right"></i>
                          </a>
@@ -163,7 +163,7 @@ managed services to build foundation for future growth. </p>
                          <h3 class="mt-4"> AI & Intelligent Automation</h3>
                          <p>Automate and scale with intelligent systems for smarter growth, deeper insights, and faster
                              results.</p>
-                         <a href="ai-intelligent-automation" class="service-link">
+                         <a href="ai-intelligent-automation.php" class="service-link">
                              <span>Read More</span>
                              <i class="bi bi-arrow-right"></i>
                          </a>
@@ -177,7 +177,7 @@ managed services to build foundation for future growth. </p>
                          <h3 class="mt-4"> Data & Business Intelligence</h3>
                          <p>Turn complex data into actionable insights with scalable platforms and predictive
                              intelligence for smarter growth.</p>
-                         <a href="data-business" class="service-link">
+                         <a href="data-business.php" class="service-link">
                              <span>Read More</span>
                              <i class="bi bi-arrow-right"></i>
                          </a>
@@ -482,7 +482,7 @@ managed services to build foundation for future growth. </p>
                          business.
                      </p>
                      <div class="cta-buttons">
-                         <a href="contact-us" class="btn-cta-primary">Launch Your Project <i
+                        <a href="contact-us.php" class="btn-cta-primary">Launch Your Project <i
                                  class="bi bi-arrow-right"></i></a>
                          <a href="#services" class="btn-cta-secondary"><i class="bi bi-play-circle"></i> Explore
                              Services</a>
@@ -499,271 +499,6 @@ managed services to build foundation for future growth. </p>
 
      </section><!-- /Portfolio Section -->
 
-
-     <!-- Testimonials Section -->
-     <section id="testimonials" class="testimonials section" data-aos="fade-up" data-aos-duration="1000">
-
-         <!-- Section Title -->
-         <div class="container section-title aos-init">
-             <h2>Testimonials</h2>
-             <p>Transforming Businesses With Technology</p>
-         </div><!-- End Section Title -->
-
-         <div class="container aos-init">
-
-             <div class="row">
-
-                 <!-- Left Sidebar -->
-                 <div class="col-lg-4 aos-init">
-                     <div class="testimonials-sidebar">
-                         <div class="avatar-stack">
-                             <img src="assets2/images/person-m-3.webp" alt="Happy Client" class="avatar" loading="lazy">
-                             <img src="assets2/images/person-f-7.webp" alt="Happy Client" class="avatar" loading="lazy">
-                             <img src="assets2/images/person-m-9.webp" alt="Happy Client" class="avatar" loading="lazy">
-                             <img src="assets2/images/person-f-4.webp" alt="Happy Client" class="avatar" loading="lazy">
-                             <span class="avatar-count">+2.5k</span>
-                         </div>
-                         <div class="sidebar-content">
-                             <span class="satisfied-badge"><i class="bi bi-heart-fill"></i> Satisfied Clients</span>
-                             <h3>Discover What Our Clients Say About Us</h3>
-                             <p>Hear genuine feedback and experiences shared by our valued clients about our services.
-                             </p>
-                             <a target="_blank" href="https://share.google/6wv3lAzJEB3mihv5U" class="btn-view-all">View
-                                 All Reviews <i class="bi bi-arrow-right"></i></a>
-                         </div>
-                     </div>
-                 </div><!-- End Left Sidebar -->
-
-                 <!-- Right Testimonials Slider -->
-                 <div class="col-lg-8 aos-init">
-                     <div class="testimonials-carousel swiper">
-
-
-                         <div class="swiper-wrapper" id="swiper-wrapper-1d253e6e46575da5" aria-live="off"
-                             style="transition-duration: 0ms; transform: translate3d(-750px, 0px, 0px); transition-delay: 0ms;">
-
-
-                             <div class="swiper-slide" style="width: 351px; margin-right: 24px;" role="group"
-                                 aria-label="1 / 5" data-swiper-slide-index="0">
-                                 <div class="testimonial-card">
-                                     <div class="card-top">
-                                         <div class="stars">
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                         </div>
-                                         <span class="quote-mark"><i class="bi bi-quote"></i></span>
-                                     </div>
-                                     <p class="testimonial-text"> "I'd be lost without web design agency. Web design
-                                         agency is the most
-                                         valuable business resource we have EVER purchased. Web design agency is the
-                                         most valuable business
-                                         resource" </p>
-                                     <div class="author-info">
-                                         <img src="assets2/images/person-f-2.webp" alt="Client" class="author-img"
-                                             loading="lazy">
-                                         <div class="author-details">
-                                             <h5>- Georgia Holden</h5>
-                                             <span>Managing Director</span>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="swiper-slide swiper-slide-prev" style="width: 351px; margin-right: 24px;"
-                                 role="group" aria-label="2 / 5" data-swiper-slide-index="1">
-                                 <div class="testimonial-card">
-                                     <div class="card-top">
-                                         <div class="stars">
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                         </div>
-                                         <span class="quote-mark"><i class="bi bi-quote"></i></span>
-                                     </div>
-                                     <p class="testimonial-text"> "We've used web design agency for the last five years.
-                                         We can't
-                                         understand how we've been living without web design agency. Thank You! We can't
-                                         understand how
-                                         we've been living without web design
-                                         "</p>
-                                     <div class="author-info">
-                                         <img src="assets2/images/person-m-5.webp" alt="Client" class="author-img"
-                                             loading="lazy">
-                                         <div class="author-details">
-                                             <h5>- Luke Petrie</h5>
-                                             <span>Managing Director</span>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="swiper-slide swiper-slide-active" style="width: 351px; margin-right: 24px;"
-                                 role="group" aria-label="3 / 5" data-swiper-slide-index="2">
-                                 <div class="testimonial-card">
-                                     <div class="card-top">
-                                         <div class="stars">
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                         </div>
-                                         <span class="quote-mark"><i class="bi bi-quote"></i></span>
-                                     </div>
-                                     <p class="testimonial-text">I am so pleased with this product. Absolutely
-                                         wonderful! You won't
-                                         regret it. It's really wonderful. Definitely worth the investment. Absolutely
-                                         wonderful! You won't
-                                         regret it.</p>
-                                     <div class="author-info">
-                                         <img src="assets2/images/person-f-9.webp" alt="Client" class="author-img"
-                                             loading="lazy">
-                                         <div class="author-details">
-                                             <h5>Jai Erskine</h5>
-                                             <span>Startup Founder</span>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="swiper-slide swiper-slide-next" style="width: 351px; margin-right: 24px;"
-                                 role="group" aria-label="4 / 5" data-swiper-slide-index="3">
-                                 <div class="testimonial-card">
-                                     <div class="card-top">
-                                         <div class="stars">
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                         </div>
-                                         <span class="quote-mark"><i class="bi bi-quote"></i></span>
-                                     </div>
-                                     <p class="testimonial-text">I'd be lost without web design agency. Web design
-                                         agency is the most
-                                         valuable business resource we have EVER purchased. Web design agency is the
-                                         most valuable business
-                                         resource</p>
-                                     <div class="author-info">
-                                         <img src="assets2/images/person-m-11.webp" alt="Client" class="author-img"
-                                             loading="lazy">
-                                         <div class="author-details">
-                                             <h5>Georgia Holden</h5>
-                                             <span>Product Designer</span>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                             <div class="swiper-slide" role="group" aria-label="5 / 5"
-                                 style="width: 351px; margin-right: 24px;" data-swiper-slide-index="4">
-                                 <div class="testimonial-card">
-                                     <div class="card-top">
-                                         <div class="stars">
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                             <i class="bi bi-star-fill"></i>
-                                         </div>
-                                         <span class="quote-mark"><i class="bi bi-quote"></i></span>
-                                     </div>
-                                     <p class="testimonial-text">We've used web design agency for the last five years.
-                                         We can't
-                                         understand how we've been living without web design agency. Thank You! We can't
-                                         understand how
-                                         we've been living without web design
-                                     </p>
-                                     <div class="author-info">
-                                         <img src="assets2/images/person-f-14.webp" alt="Client" class="author-img"
-                                             loading="lazy">
-                                         <div class="author-details">
-                                             <h5>Luke Petrie</h5>
-                                             <span>Operations Manager</span>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-
-                         <div
-                             class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-                             <span class="swiper-pagination-bullet" tabindex="0" role="button"
-                                 aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0"
-                                 role="button" aria-label="Go to slide 2"></span><span
-                                 class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
-                                 role="button" aria-label="Go to slide 3" aria-current="true"></span><span
-                                 class="swiper-pagination-bullet" tabindex="0" role="button"
-                                 aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0"
-                                 role="button" aria-label="Go to slide 5"></span>
-                         </div>
-
-                         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
-                     </div>
-                 </div><!-- End Right Testimonials Slider -->
-
-             </div>
-
-         </div>
-
-     </section><!-- /Testimonials Section -->
-
-
-     <section class="logo-slider">
-         <div class="container mt-4 mb-4">
-
-             <div class="row justify-content-center">
-                 <div class="col-xl-12 aos-init">
-                     <!-- Section Title -->
-                     <div class="container section-title aos-init">
-                         <span class="section-subtitle"> Our Top Suppliers</span>
-                         <h2>Preferred Supplier for</h2>
-                     </div><!-- End Section Title -->
-                 </div>
-             </div>
-             <div class="row justify-content-center">
-                 <div class="col-xl-3 aos-init ">
-                     <img style="width: 100%;" src="assets2/images/nsw.png" class="rounded img-fluid" alt="nsw">
-                 </div>
-                 <div class="col-xl-3 aos-init aos-animate" data-aos="fade-right">
-                     <img style="width: 100%;" src="assets2/images/tafe.png" class="rounded img-fluid" alt="tafe">
-                 </div>
-                 <div class="col-xl-3 aos-init aos-animate">
-                     <img style="width: 100%;" src="assets2/images/localbuy.png" class="rounded img-fluid"
-                         alt="localbuy">
-                 </div>
-
-             </div>
-         </div>
-         <div class="container mt-5 pt-5">
-
-             <!-- Section Title -->
-             <div class="container section-title aos-init">
-                 <span class="section-subtitle"> Our Amazing Partners</span>
-                 <h2>We Partner With Top Leaders</h2>
-
-             </div><!-- End Section Title -->
-             <div class="row">
-                 <div class="col-xl-12 aos-init ">
-                     <div class="logo-track">
-                         <!-- Repeat logos twice for smooth loop -->
-                         <img src="assets2/images/logo1.png" alt="Client 1">
-                         <img src="assets2/images/logo2.png" alt="Client 2">
-                         <img src="assets2/images/logo3.png" alt="Client 3">
-                         <img src="assets2/images/logo4.png" alt="Client 4">
-                         <img src="assets2/images/logo5.png" alt="Client 5">
-
-                         <img src="assets2/images/logo1.png" alt="Client 1">
-                         <img src="assets2/images/logo2.png" alt="Client 2">
-                         <img src="assets2/images/logo3.png" alt="Client 3">
-                         <img src="assets2/images/logo4.png" alt="Client 4">
-                         <img src="assets2/images/logo5.png" alt="Client 5">
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </section>
 
  </main>
 

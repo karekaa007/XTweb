@@ -137,7 +137,7 @@
                 <i class="mobile-nav-toggle d-xl-none bi bi-list" id="mobile-menu-trigger"></i>
             </nav>
 
-            <a class="btn-getstarted" href="contact-us">Discuss Project</a>
+            <a class="btn-getstarted" href="contact-us.php">Discuss Project</a>
 
         </div>
 

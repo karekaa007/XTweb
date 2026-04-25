@@ -240,7 +240,7 @@
                              </div>
                              <h3>Ready to Transform Your Business?</h3>
                              <p>Connect with our specialists for a complimentary consultation.</p>
-                             <a href="contact-us" class="cta-btn">Schedule a Call <i class="bi bi-arrow-right"></i></a>
+                             <a href="contact-us.php" class="cta-btn">Schedule a Call <i class="bi bi-arrow-right"></i></a>
                          </div>
                      </div><!-- End CTA Widget -->
 
