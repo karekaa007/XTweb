@@ -1,6 +1,4 @@
  <?php include 'includes/header.php'; ?>
- 
-<link rel="stylesheet" href="assets\css\talent-acquisition.css">
 
 <main class="main">
 
@@ -10,16 +8,263 @@
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <!--  <li class="breadcrumb-item"><a href="#">About Us</a></li> -->
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Talent & Workforce Solutions</li>
                 </ol>
             </nav>
         </div>
     </section>
 
+    <section class="xp-telecom-section pb-0">
+        <div class="container">
+            <div class="xp-telecom-header" data-aos="fade-up">
+                <span class="xp-badge">TALENT & WORKFORCE SOLUTIONS</span>
+                <h2 class="xp-title">AI-Powered Recruitment for <span class="text-highlight">Technology Teams</span></h2>
+                <p class="xp-subtitle">
+                    Xpansion Technology delivers intelligent recruitment solutions that connect Australian businesses
+                    with top-tier technology talent. Our AI-driven approach combines human expertise with advanced
+                    analytics to deliver faster, more accurate hiring outcomes for software engineering, cloud
+                    infrastructure, data science, and technology leadership roles.
+                </p>
+            </div>
 
-    <div class="site-wrapper-reveal section-space--pt__120">
+            <div class="row align-items-center mt-5" data-aos="fade-right">
+                <div class="col-lg-5 col-md-12">
+                    <div class="xp-image-wrapper">
+                        <img src="assets/images/service1.jpg" class="w-100 xp-main-img" alt="Talent Acquisition">
+                        <div class="xp-floating-card">
+                            <i class="fas fa-users"></i>
+                            <span>500+ Hires</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-md-12" data-aos="fade-left">
+                    <div class="xp-services-grid">
+                        <div class="xp-service-card">
+                            <div class="xp-icon-box">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="xp-card-content">
+                                <h3>AI-Powered Sourcing</h3>
+                                <p>Advanced algorithms identify and engage passive candidates across global
+                                    talent pools with precision targeting.</p>
+                            </div>
+                        </div>
+
+                        <div class="xp-service-card">
+                            <div class="xp-icon-box">
+                                <i class="fas fa-clipboard-check"></i>
+                            </div>
+                            <div class="xp-card-content">
+                                <h3>Technical Screening</h3>
+                                <p>Comprehensive assessment frameworks evaluate coding skills, system design,
+                                    and technical competencies.</p>
+                            </div>
+                        </div>
+
+                        <div class="xp-service-card">
+                            <div class="xp-icon-box">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="xp-card-content">
+                                <h3>Market Intelligence</h3>
+                                <p>Data-driven insights on salary benchmarks, skill availability, and
+                                    competitive talent landscapes.</p>
+                            </div>
+                        </div>
+
+                        <div class="xp-service-card">
+                            <div class="xp-icon-box">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="xp-card-content">
+                                <h3>End-to-End RPO</h3>
+                                <p>Full recruitment process outsourcing with dedicated account management
+                                    and scalable hiring solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="xp-tele-section">
+
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="xp-telecom-header" data-aos="fade-up">
+
+                <span class="xp-badge">TALENT SOLUTIONS</span>
+                <h2 class="xp-title">Specialised Recruitment for <span class="text-highlight">Technology Excellence</span></h2>
+
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="row g-4 mt-2">
+
+                <!-- Card 1 -->
+                <div class="col-12" data-aos="fade-right">
+                    <div class="xp-tele-card xp-border-blue">
+
+                        <div class="xp-tele-icon bg-blue">
+                            <i class="fas fa-code"></i>
+                        </div>
+
+                        <div class="xp-tele-content">
+                            <h4>Software Engineering & Development</h4>
+                            <small> Full-Stack · Frontend · Backend · Mobile</small>
+
+                            <p>
+                                Access top-tier software engineers across all major technologies and frameworks.
+                                From React and Node.js specialists to Python and Java enterprise developers,
+                                we identify candidates with proven track records in scalable, production-ready code.
+                            </p>
+
+                            <div class="xp-tele-tags">
+                                <span>Full-Stack Development</span>
+                                <span>Frontend/Backend</span>
+                                <span>Mobile Development</span>
+                                <span>System Architecture</span>
+                                <span>Code Quality</span>
+                                <span>Agile Practices</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="xp-tele-card xp-border-green">
+
+                        <div class="xp-tele-icon bg-green">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+
+                        <div class="xp-tele-content">
+                            <h4>Cloud & DevOps Engineering</h4>
+                            <small> AWS · Azure · GCP · Kubernetes</small>
+
+                            <p>
+                                Certified cloud architects and DevOps engineers skilled in infrastructure
+                                automation, container orchestration, and cloud-native application development.
+                            </p>
+
+                            <div class="xp-tele-tags">
+                                <span>AWS/Azure/GCP</span>
+                                <span>Kubernetes</span>
+                                <span>Terraform</span>
+                                <span>CI/CD Pipelines</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="xp-tele-card xp-border-orange">
+
+                        <div class="xp-tele-icon bg-orange">
+                            <i class="fas fa-brain"></i>
+                        </div>
+
+                        <div class="xp-tele-content">
+                            <h4>Data Science & AI/ML</h4>
+                            <small> Analytics · Machine Learning · Big Data</small>
+
+                            <p>
+                                Data scientists and ML engineers with expertise in predictive modeling,
+                                computer vision, NLP, and big data processing across modern tech stacks.
+                            </p>
+
+                            <div class="xp-tele-tags">
+                                <span>Python/R</span>
+                                <span>TensorFlow</span>
+                                <span>Big Data</span>
+                                <span>Machine Learning</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12" data-aos="fade-right">
+                    <div class="xp-tele-card xp-border-purple">
+
+                        <div class="xp-tele-icon bg-purple">
+                            <i class="fas fa-crown"></i>
+                        </div>
+
+                        <div class="xp-tele-content">
+                            <h4>Technology Leadership</h4>
+                            <small> CTO · VP Engineering · Tech Leads · Architects</small>
+
+                            <p>
+                                Executive technology leaders with proven experience in scaling engineering
+                                organizations, driving digital transformation, and leading high-performing
+                                technical teams in complex, fast-paced environments.
+                            </p>
+
+                            <div class="xp-tele-tags">
+                                <span>Engineering Leadership</span>
+                                <span>Technical Strategy</span>
+                                <span>Team Scaling</span>
+                                <span>Digital Transformation</span>
+                                <span>Product Development</span>
+                                <span>System Architecture</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-12" data-aos="fade-left">
+                    <div class="xp-tele-card xp-border-green">
+
+                        <div class="xp-tele-icon bg-green">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+
+                        <div class="xp-tele-content">
+                            <h4>Recruitment Process Outsourcing</h4>
+                            <small> End-to-End · Managed Services · Scale</small>
+
+                            <p>
+                                Complete recruitment process outsourcing for organizations seeking to scale their
+                                hiring efforts. From initial planning and sourcing through offer management and
+                                onboarding, we manage your entire recruitment lifecycle with dedicated account
+                                management and flexible engagement models.
+                            </p>
+
+                            <div class="xp-tele-tags">
+                                <span>Full Lifecycle RPO</span>
+                                <span>Account Management</span>
+                                <span>Scalable Solutions</span>
+                                <span>Process Optimization</span>
+                                <span>Quality Assurance</span>
+                                <span>Reporting & Analytics</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+</main>
+
+<?php include 'includes/footer.php'; ?>
 
 
         <!-- ===== HERO ===== -->

@@ -100,7 +100,7 @@
             <div class="xp-telecom-header" data-aos="fade-up">
 
                 <span class="xp-badge">TELECOM SERVICES</span>
-                <h2 class="xp-title">Connectivity for the Next <span class="text-highlight">Generation of Australian
+                <h2 class="xp-title">Connectivity for the Next <span class="text-highlight">Generation
                         SMBs</span></h2>
 
             </div>
@@ -223,6 +223,38 @@
                                 <span>Number Porting</span>
                                 <span>SIP Trunking</span>
                                 <span>UCaaS</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-12" data-aos="fade-left">
+                    <div class="xp-tele-card xp-border-green">
+
+                        <div class="xp-tele-icon bg-green">
+                            <i class="fas fa-drafting-compass"></i>
+                        </div>
+
+                        <div class="xp-tele-content">
+                            <h4>Network Planning, Design & Operations Support</h4>
+                            <small> End-to-End Telecom Network Lifecycle</small>
+
+                            <p>
+                                Comprehensive telecom network lifecycle management covering
+                                strategic planning, detailed network design, seamless implementation,
+                                and ongoing operations support. From initial architecture planning
+                                to day-to-day network management and optimization.
+                            </p>
+
+                            <div class="xp-tele-tags">
+                                <span>Network Planning</span>
+                                <span>System Design</span>
+                                <span>Implementation</span>
+                                <span>Operations Support</span>
+                                <span>Network Optimization</span>
+                                <span>Lifecycle Management</span>
                             </div>
                         </div>
 

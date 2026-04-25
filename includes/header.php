@@ -76,40 +76,40 @@
     <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container position-relative d-flex align-items-center justify-content-between">
 
-            <a href="index" class="logo d-flex align-items-center me-auto me-xl-0">
+            <a href="index.php" class="logo d-flex align-items-center me-auto me-xl-0">
 
                 <h1 class="sitename"><img src="assets2/images/logo.png" alt="logo"></h1>
             </a>
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="index" class="active">Home</a></li>
-                    <li><a href="about">About Us</a></li>
+                    <li><a href="index.php" class="active">Home</a></li>
+                    <li><a href="about.php">About Us</a></li>
 
 
                     <li class="dropdown"><a href="#"><span> Services</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="digital-engineering-applications">Digital Engineering & Applications</a>
+                            <li><a href="digital-engineering-applications.php">Digital Engineering & Applications</a>
                             </li>
 
-                            <li><a href="managed-it-security">Managed IT & Security</a>
+                            <li><a href="managed-it-security.php">Managed IT & Security</a>
                             </li>
-                            <li><a href="ai-intelligent-automation">AI & Intelligent Automation</a></li>
-                            <li><a href="data-business">Data & Business Intelligence</a></li>
-                            <li><a href="cloud-services">Cloud Services</a></li>
+                            <li><a href="ai-intelligent-automation.php">AI & Intelligent Automation</a></li>
+                            <li><a href="data-business.php">Data & Business Intelligence</a></li>
+                            <li><a href="cloud-services.php">Cloud Services</a></li>
                         </ul>
                     </li>
 
                     <li class="dropdown"><a href="#"><span> Industry
                                 Solutions</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="telecom-services">Telecom Services</a></li>
-                            <li><a href="talent-acquisition-solutions"> Talent Acquisition Services </a>
+                            <li><a href="telecom-services.php">Telecom Services</a></li>
+                            <li><a href="talent-acquisition-solutions.php"> Talent Acquisition Services </a>
                             </li>
-                            <li><a href="education-solutions">Education Solutions </a>
+                            <li><a href="education-solutions.php">Education Services </a>
                             </li>
-                            <li><a href="smart-city-surveillance">Smart City & Surveillance</a></li>
+                            <li><a href="smart-city-surveillance.php">Smart City & Surveillance</a></li>
                         </ul>
                     </li>
 
@@ -117,22 +117,22 @@
                     <li class="dropdown"><a href="#"><span>Products</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="xims-invoice-management-system">XIMS- Invoice Management System</a></li>
-                            <li><a href="xt-vms-visitor-management-system">XT-VMS- Visitor Management System </a></li>
-                            <li><a href="foodways">Foodways </a></li>
-                            <li><a href="salon-management-system">Salon Management System </a></li>
-                            <li><a href="xevent">xEvent </a></li>
-                            <li><a href="human-resource-management-system">XHRMS- Human Resource Management System </a>
+                            <li><a href="xims-invoice-management-system.php">XIMS- Invoice Management System</a></li>
+                            <li><a href="xt-vms-visitor-management-system.php">XT-VMS- Visitor Management System </a></li>
+                            <li><a href="foodways.php">Foodways </a></li>
+                            <li><a href="salon-management-system.php">Salon Management System </a></li>
+                            <li><a href="xevent.php">xEvent </a></li>
+                            <li><a href="human-resource-management-system.php">XHRMS- Human Resource Management System </a>
                             </li>
-                            <li><a href="sports-academy-management-system"> Sports Academy Management System </a></li>
+                            <li><a href="sports-academy-management-system.php"> Sports Academy Management System </a></li>
 
                         </ul>
                     </li>
 
-                    <li><a href="case-studies">Case Studies</a></li>
+                    <li><a href="case-studies.php">Case Studies</a></li>
                     <!-- <li><a href="news-pr">News &amp; PR </a></li> -->
 
-                    <li><a href="contact-us">Contact Us</a></li>
+                    <li><a href="contact-us.php">Contact Us</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list" id="mobile-menu-trigger"></i>
             </nav>
@@ -150,7 +150,7 @@
                             <div class="col-md-6 col-8">
                                 <!-- logo -->
                                 <div class="logo">
-                                    <a href="index">
+                                    <a href="index.php">
                                         <img src="assets/images/logo.png" class="img-fluid" alt="">
                                     </a>
                                 </div>
@@ -169,10 +169,10 @@
                         <ul style="padding-left:0px;">
 
                             <!-- Home -->
-                            <li><a href="index">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
 
                             <!-- About -->
-                            <li><a href="about">About Us</a></li>
+                            <li><a href="about.php">About Us</a></li>
 
 
                             <!-- Our Services -->
@@ -181,15 +181,15 @@
                                 <a href="#">Services</a>
 
                                 <ul class="sub-menu" style="display:none;">
-                                    <li><a href="digital-engineering-applications">Digital Engineering &
+                                    <li><a href="digital-engineering-applications.php">Digital Engineering &
                                             Applications</a>
                                     </li>
 
-                                    <li><a href="managed-it-security">Managed IT & Security</a>
+                                    <li><a href="managed-it-security.php">Managed IT & Security</a>
                                     </li>
-                                    <li><a href="ai-intelligent-automation">AI & Intelligent Automation</a></li>
-                                    <li><a href="data-business">Data & Business Intelligence</a></li>
-                                    <li><a href="cloud-services">Cloud Services</a></li>
+                                    <li><a href="ai-intelligent-automation.php">AI & Intelligent Automation</a></li>
+                                    <li><a href="data-business.php">Data & Business Intelligence</a></li>
+                                    <li><a href="cloud-services.php">Cloud Services</a></li>
                                 </ul>
                             </li>
 
@@ -200,12 +200,12 @@
                                     Solutions</a>
 
                                 <ul class="sub-menu" style="display:none;">
-                                    <li><a href="telecom-services">Telecom Services</a></li>
-                                    <li><a href="talent-acquisition-solutions"> Talent Acquisition Services </a>
+                                    <li><a href="telecom-services.php">Telecom Services</a></li>
+                                    <li><a href="talent-acquisition-solutions.php"> Talent Acquisition Services </a>
                                     </li>
-                                    <li><a href="education-solutions">Education Solutions </a>
+                                    <li><a href="education-solutions.php">Education Services </a>
                                     </li>
-                                    <li><a href="smart-city-surveillance">Smart City & Surveillance</a></li>
+                                    <li><a href="smart-city-surveillance.php">Smart City & Surveillance</a></li>
                                 </ul>
                             </li>
 
@@ -216,29 +216,29 @@
                                 <a href="#">Products</a>
 
                                 <ul class="sub-menu" style="display:none;">
-                                    <li><a href="xims-invoice-management-system">XIMS - Invoice Management System</a>
+                                    <li><a href="xims-invoice-management-system.php">XIMS - Invoice Management System</a>
                                     </li>
-                                    <li><a href="xt-vms-visitor-management-system">XT-VMS - Visitor Management
+                                    <li><a href="xt-vms-visitor-management-system.php">XT-VMS - Visitor Management
                                             System</a></li>
-                                    <li><a href="foodways">Foodways</a></li>
-                                    <li><a href="salon-management-system">Salon Management System</a></li>
-                                    <li><a href="xevent">xEvent</a></li>
-                                    <li><a href="human-resource-management-system">XHRMS - Human Resource Management
+                                    <li><a href="foodways.php">Foodways</a></li>
+                                    <li><a href="salon-management-system.php">Salon Management System</a></li>
+                                    <li><a href="xevent.php">xEvent</a></li>
+                                    <li><a href="human-resource-management-system.php">XHRMS - Human Resource Management
                                             System</a></li>
-                                    <li><a href="sports-academy-management-system">Sports Academy Management System</a>
+                                    <li><a href="sports-academy-management-system.php">Sports Academy Management System</a>
                                     </li>
                                 </ul>
                             </li>
 
 
                             <!-- Case Studies -->
-                            <li><a href="case-studies">Case Studies</a></li>
+                            <li><a href="case-studies.php">Case Studies</a></li>
 
                             <!-- News -->
                             <!-- <li><a href="news-pr">News &amp; PR</a></li> -->
 
                             <!-- Contact -->
-                            <li><a href="contact-us">Contact Us</a></li>
+                            <li><a href="contact-us.php">Contact Us</a></li>
 
                         </ul>
                     </nav>

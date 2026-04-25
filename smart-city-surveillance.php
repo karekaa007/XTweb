@@ -13,8 +13,8 @@
                  <h1>Smart City & Surveillance</h1>
                  <nav aria-label="breadcrumb">
                      <ol class="breadcrumb justify-content-center">
-                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                         <li class="breadcrumb-item active">Smart City & Surveillance</li>
+                         <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                         <li class="breadcrumb-item active" aria-current="page">Smart City & Surveillance</li>
                      </ol>
                  </nav>
              </div>
@@ -97,317 +97,182 @@
                      </div>
                  </div>
              </div>
-         </section>
+    <section class="xp-tele-section">
+
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="xp-telecom-header" data-aos="fade-up">
+
+                <span class="xp-badge">SMART CITY & SURVEILLANCE</span>
+                <h2 class="xp-title">Intelligent Security for <span class="text-highlight">Modern Cities</span></h2>
+
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="row g-4 mt-2">
+
+                <!-- Card 1 -->
+                <div class="col-12" data-aos="fade-right">
+                    <div class="xp-tele-card xp-border-blue">
+
+                        <div class="xp-tele-icon bg-blue">
+                            <i class="fas fa-brain"></i>
+                        </div>
+
+                        <div class="xp-tele-content">
+                            <h4>AI-Powered Video Surveillance & Analytics</h4>
+                            <small> VisionCore AI · Computer Vision · Real-Time Intelligence</small>
+
+                            <p>
+                                Transform your CCTV infrastructure into an intelligent security network with
+                                our VisionCore AI platform. Advanced computer vision and deep learning models
+                                enable automated threat detection, behavioral analytics, and proactive incident
+                                response across your entire camera network.
+                            </p>
+
+                            <div class="xp-tele-tags">
+                                <span>Real-Time Detection</span>
+                                <span>Behavioral Analytics</span>
+                                <span>Facial Recognition</span>
+                                <span>Edge AI Processing</span>
+                                <span>Forensic Search</span>
+                                <span>Multi-Site Management</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="xp-tele-card xp-border-green">
+
+                        <div class="xp-tele-icon bg-green">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+
+                        <div class="xp-tele-content">
+                            <h4>Perimeter & Critical Infrastructure Security</h4>
+                            <small> High-Security Sites · 24/7 Monitoring · Layered Protection</small>
+
+                            <p>
+                                Comprehensive perimeter security solutions for data centers, utilities,
+                                government facilities, and transport hubs. AI-powered intrusion detection,
+                                thermal imaging, and drone monitoring ensure complete protection.
+                            </p>
+
+                            <div class="xp-tele-tags">
+                                <span>Perimeter Intrusion</span>
+                                <span>Thermal Imaging</span>
+                                <span>Drone Detection</span>
+                                <span>Access Control</span>
+                                <span>Tamper Detection</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="xp-tele-card xp-border-orange">
+
+                        <div class="xp-tele-icon bg-orange">
+                            <i class="fas fa-car"></i>
+                        </div>
+
+                        <div class="xp-tele-content">
+                            <h4>ANPR & Traffic Intelligence</h4>
+                            <small> Vehicle Recognition · Traffic Management · Access Control</small>
+
+                            <p>
+                                High-accuracy Automatic Number Plate Recognition systems for law enforcement,
+                                traffic management, parking enforcement, and facility access control.
+                                Integrated with centralized data platforms for real-time intelligence.
+                            </p>
+
+                            <div class="xp-tele-tags">
+                                <span>Vehicle Detection</span>
+                                <span>Traffic Analysis</span>
+                                <span>Parking Enforcement</span>
+                                <span>Access Control</span>
+                                <span>Watchlist Monitoring</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12" data-aos="fade-right">
+                    <div class="xp-tele-card xp-border-purple">
+
+                        <div class="xp-tele-icon bg-purple">
+                            <i class="fas fa-tower-broadcast"></i>
+                        </div>
+
+                        <div class="xp-tele-content">
+                            <h4>Smart City Command & Control Centres</h4>
+                            <small> Integrated Operations · Real-Time Data · Unified Interface</small>
+
+                            <p>
+                                Purpose-built Integrated Operations Centres that consolidate city-wide data streams
+                                into a single operational interface. GIS-integrated displays, automated incident
+                                detection, and cross-agency coordination tools for comprehensive urban management.
+                            </p>
+
+                            <div class="xp-tele-tags">
+                                <span>Multi-Source Data</span>
+                                <span>GIS Integration</span>
+                                <span>Incident Management</span>
+                                <span>Cross-Agency Comm</span>
+                                <span>Video Wall Systems</span>
+                                <span>24/7 Operations</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-12" data-aos="fade-left">
+                    <div class="xp-tele-card xp-border-green">
+
+                        <div class="xp-tele-icon bg-green">
+                            <i class="fas fa-globe"></i>
+                        </div>
+
+                        <div class="xp-tele-content">
+                            <h4>Social Media Monitoring & OSINT</h4>
+                            <small> Digital Intelligence · Threat Detection · Early Warning</small>
+
+                            <p>
+                                AI-powered Open Source Intelligence platforms that monitor public digital channels
+                                for early threat identification, event monitoring, and intelligence-led decision-making.
+                                Transform digital signals into actionable security intelligence before incidents occur.
+                            </p>
+
+                            <div class="xp-tele-tags">
+                                <span>Social Monitoring</span>
+                                <span>Sentiment Analysis</span>
+                                <span>Threat Detection</span>
+                                <span>Geolocation Tagging</span>
+                                <span>Network Analysis</span>
+                                <span>Compliance Handling</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
 
 
-         <section class="vcore-surveillance-section">
-             <div class="container">
 
-                 <div class="vcore-header">
-                     <div class="xp-app-badge">
-                         <i class="fas fa-cloud"></i> Next-Gen Intelligence
-                     </div>
+</main>
 
-                     <h2 class="xp-app-title">
-                         AI-Powered Video <br>
-                         <span class="xp-app-highlight">Surveillance & Analytics</span>
-                     </h2>
-                     <p>
-                         Modern surveillance demands more than cameras. Our AI-powered video analytics platform
-                         transforms your CCTV infrastructure into an intelligent, proactive security network — detecting
-                         threats, anomalies, and incidents in real time before they escalate.
-                     </p>
-                 </div>
-
-                 <div class="vcore-grid">
-
-                     <div class="vcore-card">
-                         <div class="vcore-card-icon">
-                             <i class="fa-solid fa-microchip"></i>
-                         </div>
-                         <h3>VisionCore AI CCTV Platform</h3>
-                         <p class="vcore-card-desc">
-                             Our VisionCore platform deploys advanced computer vision and deep learning models across
-                             your camera network — enabling intelligent, automated monitoring at scale without reliance
-                             on manual observation.
-                         </p>
-                         <ul class="vcore-list">
-                             <li><i class="fa-solid fa-circle-check"></i> Real-time object, person, and vehicle
-                                 detection
-                                 and classification</li>
-                             <li><i class="fa-solid fa-circle-check"></i> Behavioural analytics: loitering, perimeter
-                                 breach, crowd density monitoring</li>
-                             <li><i class="fa-solid fa-circle-check"></i> Facial recognition and biometric access
-                                 control
-                                 integration</li>
-                             <li><i class="fa-solid fa-circle-check"></i> Automatic alert generation and incident
-                                 workflow triggering</li>
-                             <li><i class="fa-solid fa-circle-check"></i> Integration with existing CCTV infrastructure
-                                 (IP cameras, DVR/NVR systems)</li>
-                             <li><i class="fa-solid fa-circle-check"></i> Edge AI processing for low-latency,
-                                 bandwidth-efficient deployment</li>
-                             <li><i class="fa-solid fa-circle-check"></i> Centralised video management platform with
-                                 multi-site visibility</li>
-                             <li><i class="fa-solid fa-circle-check"></i> Forensic search and retrospective video
-                                 intelligence capabilities</li>
-                         </ul>
-                     </div>
-
-                     <div class="vcore-card">
-                         <div class="vcore-card-icon">
-                             <i class="fa-solid fa-shield-halved"></i>
-                         </div>
-                         <h3>Perimeter & Critical Infrastructure Security</h3>
-                         <p class="vcore-card-desc">
-                             Protecting sensitive sites — data centres, utilities, government facilities, and transport
-                             hubs — requires always-on, intelligent perimeter monitoring. We deploy layered AI
-                             surveillance solutions purpose-built for high-security environments.
-                         </p>
-                         <ul class="vcore-list">
-                             <li><i class="fa-solid fa-circle-check"></i> AI-powered perimeter intrusion detection with
-                                 zone-based alerting</li>
-                             <li><i class="fa-solid fa-circle-check"></i> Thermal and low-light camera integration for
-                                 24/7 coverage</li>
-                             <li><i class="fa-solid fa-circle-check"></i> Drone detection and counter-UAV monitoring
-                                 capabilities</li>
-                             <li><i class="fa-solid fa-circle-check"></i> Integration with access control, alarms, and
-                                 response systems</li>
-                             <li><i class="fa-solid fa-circle-check"></i> Tamper detection, camera health monitoring,
-                                 and
-                                 uptime assurance</li>
-                         </ul>
-                     </div>
-
-                 </div>
-             </div>
-         </section>
-
-         <section class="anpr-main-wrapper about">
-             <div class="container">
-
-                 <div class="anpr-top-content ">
-                     <div class="anpr-title-box">
-                         <span class="xp-badge">Intelligent Mobility
-                         </span>
-                         <h2 class="xp-title" style="font-weight:800">Automatic Number Plate
-                             <span class="text-highlight">Recognition (ANPR)</span>
-                         </h2>
-                     </div>
-                     <div style="flex: 1.2;">
-                         <p class="anpr-main-desc">
-                             Our ANPR solutions deliver high-accuracy, high-throughput vehicle identification for a wide
-                             range of public safety, traffic management, and access control applications — integrated
-                             seamlessly into a centralised data platform.
-                         </p>
-                     </div>
-                 </div>
-
-                 <div class="anpr-feature-grid">
-
-                     <div class="anpr-feature-card">
-                         <div class="anpr-icon-wrap">
-                             <i class="fa-solid fa-database"></i>
-                         </div>
-                         <h3>ANPR Deployment & Data Hub Integration</h3>
-                         <p class="anpr-card-text">
-                             We design and deploy end-to-end ANPR systems that capture, process, and centralise vehicle
-                             data in real time — enabling law enforcement, traffic authorities, and facility managers to
-                             act on accurate, up-to-the-second intelligence.
-                         </p>
-
-                         <div class="anpr-list-group">
-                             <div class="anpr-list-item"><i class="fa-solid fa-chevron-right"></i> Fixed and mobile ANPR
-                                 camera deployment across intersections, roads, and sites</div>
-                             <div class="anpr-list-item"><i class="fa-solid fa-chevron-right"></i> High-accuracy plate
-                                 recognition across multiple vehicle types and speeds</div>
-                             <div class="anpr-list-item"><i class="fa-solid fa-chevron-right"></i> Centralised ANPR data
-                                 hub with real-time alerts and historical query capability</div>
-                             <div class="anpr-list-item"><i class="fa-solid fa-chevron-right"></i> Integration with
-                                 national and regional vehicle database systems</div>
-                             <div class="anpr-list-item"><i class="fa-solid fa-chevron-right"></i> Stolen vehicle,
-                                 watchlist, and permit violation detection</div>
-                             <div class="anpr-list-item"><i class="fa-solid fa-chevron-right"></i> Traffic flow
-                                 analysis,
-                                 journey time monitoring, and congestion reporting</div>
-                             <div class="anpr-list-item"><i class="fa-solid fa-chevron-right"></i> Parking enforcement
-                                 and permit management integration</div>
-                             <div class="anpr-list-item"><i class="fa-solid fa-chevron-right"></i> Tiered data storage
-                                 architecture: hot (real-time), warm (operational), cold (archival)</div>
-                         </div>
-                     </div>
-
-                     <div class="anpr-feature-card">
-                         <div class="anpr-image-placeholder"></div>
-
-                         <h3>ANPR for Access Control & Facility Management</h3>
-                         <p class="anpr-card-text">
-                             Beyond public roads, ANPR delivers intelligent vehicle access management for corporate
-                             campuses, logistics facilities, airports, and residential estates — automating entry,
-                             tracking movement, and enforcing access policies.
-                         </p>
-
-                         <div class="anpr-list-group">
-                             <div class="anpr-list-item"><i class="fa-solid fa-square-check"></i> Automated barrier and
-                                 gate control based on plate recognition</div>
-                             <div class="anpr-list-item"><i class="fa-solid fa-square-check"></i> Visitor management and
-                                 pre-authorised vehicle whitelist management</div>
-                             <div class="anpr-list-item"><i class="fa-solid fa-square-check"></i> Real-time vehicle
-                                 movement audit trail and reporting</div>
-                             <div class="anpr-list-item"><i class="fa-solid fa-square-check"></i> Integration with
-                                 visitor management, ERP, and security platforms</div>
-                         </div>
-                     </div>
-
-                 </div>
-             </div>
-         </section>
-
-         <!-- COMMAND CENTER -->
-         <section class="cmd-section">
-             <div class="cmd-container">
-
-                 <div class="cmd-intro">
-                     <div class="text-center section-title mb-2 pb-0">
-                         <h2 class="xp-title">Smart City Command & Control Centres</h2>
-                     </div>
-                     <p>
-                         A Smart City is only as capable as the platform that brings its data together. We design and
-                         deliver integrated command and control centre environments that unify surveillance, IoT,
-                         traffic, emergency response, and urban analytics into a single operational interface.
-                     </p>
-                 </div>
-
-                 <div class="cmd-row">
-                     <div class="cmd-content">
-                         <span class="cmd-badge">Urban Operations</span>
-                         <h3>Integrated Operations Centre (IOC) Design & Deployment</h3>
-                         <p class="cmd-desc">
-                             We build purpose-designed Integrated Operations Centres that consolidate city-wide data
-                             streams — giving operators a real-time, unified view of their environment and the tools to
-                             coordinate rapid, informed responses.
-                         </p>
-                         <ul class="cmd-list">
-                             <li><i class="fa-solid fa-layer-group"></i> Multi-source data ingestion: CCTV, ANPR, IoT
-                                 sensors, traffic systems, emergency feeds</li>
-                             <li><i class="fa-solid fa-map-location-dot"></i> GIS-integrated map display with real-time
-                                 incident overlaying</li>
-                             <li><i class="fa-solid fa-bolt"></i> Automated incident detection, classification, and
-                                 dispatcher workflows</li>
-                             <li><i class="fa-solid fa-tower-broadcast"></i> Cross-agency communication and escalation
-                                 management tools</li>
-                             <li><i class="fa-solid fa-desktop"></i> Video wall, console, and operator workstation
-                                 design
-                                 and fitout</li>
-                             <li><i class="fa-solid fa-shield-virus"></i> Redundant, high-availability architecture for
-                                 24/7 critical operations</li>
-                             <li><i class="fa-solid fa-user-lock"></i> Role-based access control and comprehensive audit
-                                 logging</li>
-                         </ul>
-                     </div>
-                     <div class="cmd-visual">
-                         <div class="cmd-glass-card">
-                             <img src="assets\images\1.jpg" alt="Command Center Visual">
-                         </div>
-                     </div>
-                 </div>
-
-                 <div class="cmd-row reverse">
-                     <div class="cmd-content">
-                         <span class="cmd-badge">Data Infrastructure</span>
-                         <h3>Urban IoT Sensor Networks</h3>
-                         <p class="cmd-desc">
-                             Smart cities run on data. We deploy and manage urban IoT sensor networks that feed
-                             real-time
-                             environmental, mobility, and infrastructure data into your central operations platform.
-                         </p>
-                         <ul class="cmd-list">
-                             <li><i class="fa-solid fa-wind"></i> Environmental monitoring: air quality, noise,
-                                 temperature, and flooding sensors</li>
-                             <li><i class="fa-solid fa-lightbulb"></i> Smart lighting and energy management system
-                                 integration</li>
-                             <li><i class="fa-solid fa-users-viewfinder"></i> Pedestrian and vehicle flow counting and
-                                 heatmap analytics</li>
-                             <li><i class="fa-solid fa-recycle"></i> Waste management, utility, and infrastructure
-                                 sensor
-                                 integration</li>
-                             <li><i class="fa-solid fa-network-wired"></i> Real-time data pipelines to central command
-                                 and analytics platforms</li>
-                         </ul>
-                     </div>
-                     <div class="cmd-visual">
-                         <div class="cmd-glass-card">
-                             <img src="assets\images\2.jpg" alt="IoT Network Visual">
-                         </div>
-                     </div>
-                 </div>
-
-             </div>
-         </section>
-
-
-         <section class="osint-lt-section">
-             <div class="container">
-
-                 <div class="osint-lt-header">
-                     <h2>Social Media Monitoring & OSINT</h2>
-                     <p>Physical surveillance alone is no longer sufficient. Our Social Media Monitoring and Open Source
-                         Intelligence (OSINT) capabilities provide law enforcement, government agencies, and security
-                         operations teams with early-warning intelligence drawn from the digital landscape.</p>
-                 </div>
-
-                 <div class="osint-lt-card">
-
-                     <div class="osint-lt-content">
-                         <span class="osint-lt-tag">Digital Intelligence</span>
-                         <h3>Social Media Intelligence & OSINT Platform</h3>
-                         <p class="osint-lt-main-desc">
-                             We deploy and operate AI-powered OSINT platforms that monitor public digital channels —
-                             enabling proactive threat identification, event monitoring, and intelligence-led
-                             decision-making before incidents reach the physical world.
-                         </p>
-
-                         <div class="osint-lt-list">
-                             <div class="osint-lt-list-item">
-                                 <i class="fa-solid fa-earth-americas"></i>
-                                 <span>Real-time monitoring of social channels</span>
-                             </div>
-                             <div class="osint-lt-list-item">
-                                 <i class="fa-solid fa-microchip"></i>
-                                 <span>AI-driven sentiment analysis</span>
-                             </div>
-                             <div class="osint-lt-list-item">
-                                 <i class="fa-solid fa-triangle-exclamation"></i>
-                                 <span>Threat & incident signal detection</span>
-                             </div>
-                             <div class="osint-lt-list-item">
-                                 <i class="fa-solid fa-location-dot"></i>
-                                 <span>Geolocation activity tagging</span>
-                             </div>
-                             <div class="osint-lt-list-item">
-                                 <i class="fa-solid fa-network-wired"></i>
-                                 <span>Command centre integration</span>
-                             </div>
-                             <div class="osint-lt-list-item">
-                                 <i class="fa-solid fa-diagram-project"></i>
-                                 <span>Network link analysis support</span>
-                             </div>
-                             <div class="osint-lt-list-item" style="grid-column: span 2;">
-                                 <i class="fa-solid fa-clipboard-check"></i>
-                                 <span>Compliance-aligned data handling & audit trails</span>
-                             </div>
-                         </div>
-                     </div>
-
-                     <div class="osint-lt-visual">
-                         <img style="border-radius:14px; width:100%" src="assets\images\3.png" alt="">
-                     </div>
-
-                 </div>
-             </div>
-         </section>
-
-
-     </div>
- </div>
-
- <?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>

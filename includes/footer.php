@@ -3,7 +3,7 @@
     <div class="container footer-top">
         <div class="row gy-4">
             <div class="col-lg-3 col-md-6 footer-info">
-                <a href="index" class="logo d-flex align-items-center mb-4">
+                <a href="index.php" class="logo d-flex align-items-center mb-4">
                     <span class="sitename"><img src="assets2/images/logo.png" alt="logo" class="footer-logo"></span>
                 </a>
                 <p>Xpansion Technologies is a Sydney based organization providing IT and IT enabled services to wide
@@ -27,28 +27,28 @@
             <div class="col-lg-3 col-md-6 footer-links">
                 <h4>Our Services</h4>
                 <ul>
-                    <li><a href="digital-engineering-applications">Digital Engineering & Applications</a>
+                    <li><a href="digital-engineering-applications.php">Digital Engineering & Applications</a>
                     </li>
 
-                    <li><a href="managed-it-security">Managed IT & Security</a>
+                    <li><a href="managed-it-security.php">Managed IT & Security</a>
                     </li>
-                    <li><a href="ai-intelligent-automation">AI & Intelligent Automation</a></li>
-                    <li><a href="data-business">Data & Business Intelligence</a></li>
-                    <li><a href="cloud-services">Cloud Services</a></li>
+                    <li><a href="ai-intelligent-automation.php">AI & Intelligent Automation</a></li>
+                    <li><a href="data-business.php">Data & Business Intelligence</a></li>
+                    <li><a href="cloud-services.php">Cloud Services</a></li>
                 </ul>
             </div>
 
             <div class="col-lg-3 col-md-6 footer-links">
                 <h4>Products</h4>
                 <ul>
-                    <li><a href="xims-invoice-management-system">XIMS- Invoice Management System</a></li>
-                    <li><a href="xt-vms-visitor-management-system">XT-VMS- Visitor Management System </a></li>
-                    <li><a href="foodways">Foodways </a></li>
-                    <li><a href="salon-management-system">Salon Management System </a></li>
-                    <li><a href="xevent">xEvent </a></li>
-                    <li><a href="human-resource-management-system">XHRMS- Human Resource Management System </a>
+                    <li><a href="xims-invoice-management-system.php">XIMS- Invoice Management System</a></li>
+                    <li><a href="xt-vms-visitor-management-system.php">XT-VMS- Visitor Management System </a></li>
+                    <li><a href="foodways.php">Foodways </a></li>
+                    <li><a href="salon-management-system.php">Salon Management System </a></li>
+                    <li><a href="xevent.php">xEvent </a></li>
+                    <li><a href="human-resource-management-system.php">XHRMS- Human Resource Management System </a>
                     </li>
-                    <li><a href="sports-academy-management-system"> Sports Academy Management System </a></li>
+                    <li><a href="sports-academy-management-system.php"> Sports Academy Management System </a></li>
                 </ul>
             </div>
 
@@ -90,9 +90,9 @@
             </div>
             <div class="col-md-6 order-1 order-md-2">
                 <div class="legal-links">
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Cookies</a>
+                    <a href="terms-of-service.php">Terms of Service</a>
+                    <a href="privacy-policy.php">Privacy Policy</a>
+                    <a href="cookies.php">Cookies</a>
                 </div>
             </div>
         </div>

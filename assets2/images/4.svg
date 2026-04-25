@@ -1,0 +1,173 @@
+<svg width="100%" viewBox="0 0 1280 500" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Xpansion Technologies — Animated banner, network right</title>
+  <desc>Dark navy hero banner with animated network graphic on the right half, left half open for text overlay.</desc>
+
+  <defs>
+    <style>
+      .bg-main { fill: #0D1B2E; }
+      .grid-ln { stroke: #162540; stroke-width: 0.8; fill: none; }
+      .conn    { fill: none; stroke-linecap: round; }
+      .data-lbl { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; font-weight: 600; }
+
+      .pulse-a { animation: pulseRing 2.8s ease-out infinite;      transform-origin: 740px 180px; }
+      .pulse-b { animation: pulseRing 3.2s ease-out infinite 0.6s; transform-origin: 960px 100px; }
+      .pulse-c { animation: pulseRing 3.0s ease-out infinite 1.1s; transform-origin: 1080px 300px; }
+      .pulse-d { animation: pulseRing 2.6s ease-out infinite 0.3s; transform-origin: 880px 380px; }
+      .pulse-e { animation: pulseRing 3.4s ease-out infinite 0.9s; transform-origin: 1200px 220px; }
+
+      @keyframes pulseRing {
+        0%   { r: 20; opacity: 0.4;  stroke-width: 1.2; }
+        100% { r: 52; opacity: 0;    stroke-width: 0.3; }
+      }
+
+      .breathe-a { animation: breathe 3.0s ease-in-out infinite; }
+      .breathe-b { animation: breathe 3.0s ease-in-out infinite 1.0s; }
+      .breathe-c { animation: breathe 3.0s ease-in-out infinite 0.5s; }
+      .breathe-d { animation: breathe 2.8s ease-in-out infinite 1.4s; }
+      .breathe-e { animation: breathe 3.2s ease-in-out infinite 0.8s; }
+
+      @keyframes breathe {
+        0%, 100% { opacity: 0.9; r: 8; }
+        50%       { opacity: 1;   r: 11; }
+      }
+
+      .packet-1 { animation: travel 4.0s linear infinite 0.0s; }
+      .packet-2 { animation: travel 5.0s linear infinite 1.2s; }
+      .packet-3 { animation: travel 3.8s linear infinite 2.0s; }
+      .packet-4 { animation: travel 4.5s linear infinite 0.7s; }
+      .packet-5 { animation: travel 3.5s linear infinite 1.8s; }
+      .packet-6 { animation: travel 5.2s linear infinite 0.4s; }
+
+      @keyframes travel {
+        0%   { offset-distance: 0%;   opacity: 0; }
+        5%   { opacity: 1; }
+        95%  { opacity: 1; }
+        100% { offset-distance: 100%; opacity: 0; }
+      }
+
+      .dl1  { stroke-dasharray: 500; stroke-dashoffset: 500; animation: dl 1.8s ease forwards 0.0s; }
+      .dl2  { stroke-dasharray: 450; stroke-dashoffset: 450; animation: dl 1.8s ease forwards 0.2s; }
+      .dl3  { stroke-dasharray: 500; stroke-dashoffset: 500; animation: dl 1.8s ease forwards 0.4s; }
+      .dl4  { stroke-dasharray: 400; stroke-dashoffset: 400; animation: dl 1.8s ease forwards 0.6s; }
+      .dl5  { stroke-dasharray: 380; stroke-dashoffset: 380; animation: dl 1.8s ease forwards 0.7s; }
+      .dl6  { stroke-dasharray: 420; stroke-dashoffset: 420; animation: dl 1.8s ease forwards 0.9s; }
+      .dl7  { stroke-dasharray: 350; stroke-dashoffset: 350; animation: dl 1.8s ease forwards 1.0s; }
+      .dl8  { stroke-dasharray: 400; stroke-dashoffset: 400; animation: dl 1.8s ease forwards 1.1s; }
+      .dl9  { stroke-dasharray: 380; stroke-dashoffset: 380; animation: dl 1.8s ease forwards 1.3s; }
+      .dl10 { stroke-dasharray: 300; stroke-dashoffset: 300; animation: dl 1.6s ease forwards 1.4s; }
+      .dla  { stroke-dasharray: 480; stroke-dashoffset: 480; animation: dl 2.0s ease forwards 0.3s; }
+      .dlb  { stroke-dasharray: 360; stroke-dashoffset: 360; animation: dl 1.7s ease forwards 1.0s; }
+
+      @keyframes dl { to { stroke-dashoffset: 0; } }
+
+      .pill-1 { animation: fi 0.7s ease forwards 2.0s; opacity: 0; }
+      .pill-2 { animation: fi 0.7s ease forwards 2.5s; opacity: 0; }
+      .pill-3 { animation: fi 0.7s ease forwards 3.0s; opacity: 0; }
+
+      @keyframes fi { from { opacity: 0; } to { opacity: 1; } }
+
+      .fade-mask { fill: url(#leftFade); }
+    </style>
+
+    <linearGradient id="leftFade" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%"   stop-color="#0D1B2E" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0D1B2E" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="500" class="bg-main"/>
+
+  <line x1="640"  y1="0" x2="640"  y2="500" class="grid-ln"/>
+  <line x1="760"  y1="0" x2="760"  y2="500" class="grid-ln"/>
+  <line x1="880"  y1="0" x2="880"  y2="500" class="grid-ln"/>
+  <line x1="1000" y1="0" x2="1000" y2="500" class="grid-ln"/>
+  <line x1="1120" y1="0" x2="1120" y2="500" class="grid-ln"/>
+  <line x1="1240" y1="0" x2="1240" y2="500" class="grid-ln"/>
+  <line x1="600" y1="100" x2="1280" y2="100" class="grid-ln"/>
+  <line x1="600" y1="200" x2="1280" y2="200" class="grid-ln"/>
+  <line x1="600" y1="300" x2="1280" y2="300" class="grid-ln"/>
+  <line x1="600" y1="400" x2="1280" y2="400" class="grid-ln"/>
+
+  <line x1="680"  y1="300" x2="740"  y2="180" class="conn dl1"  stroke="#2563EB" stroke-width="1.2" opacity="0.65"/>
+  <line x1="740"  y1="180" x2="960"  y2="100" class="conn dl2"  stroke="#2563EB" stroke-width="1.2" opacity="0.7"/>
+  <line x1="740"  y1="180" x2="880"  y2="380" class="conn dl3"  stroke="#2563EB" stroke-width="1.1" opacity="0.65"/>
+  <line x1="960"  y1="100" x2="1080" y2="300" class="conn dl4"  stroke="#2563EB" stroke-width="1.0" opacity="0.6"/>
+  <line x1="960"  y1="100" x2="1200" y2="220" class="conn dl5"  stroke="#2563EB" stroke-width="1.0" opacity="0.55"/>
+  <line x1="880"  y1="380" x2="1080" y2="300" class="conn dl6"  stroke="#2563EB" stroke-width="1.0" opacity="0.55"/>
+  <line x1="1080" y1="300" x2="1200" y2="220" class="conn dl7"  stroke="#2563EB" stroke-width="0.9" opacity="0.5"/>
+  <line x1="1080" y1="300" x2="1160" y2="420" class="conn dl8"  stroke="#2563EB" stroke-width="0.9" opacity="0.4"/>
+  <line x1="1200" y1="220" x2="1260" y2="100" class="conn dl9"  stroke="#2563EB" stroke-width="0.9" opacity="0.45"/>
+  <line x1="1200" y1="220" x2="1260" y2="380" class="conn dl10" stroke="#2563EB" stroke-width="0.9" opacity="0.4"/>
+  <line x1="960"  y1="100" x2="880"  y2="380" class="conn dla"  stroke="#F59E0B" stroke-width="1.5" opacity="0.4"/>
+  <line x1="1080" y1="300" x2="1160" y2="420" class="conn dlb"  stroke="#F59E0B" stroke-width="1.1" opacity="0.35"/>
+  <line x1="740"  y1="180" x2="1080" y2="300" class="conn" stroke="#4B6FA8" stroke-width="0.6" opacity="0.18"/>
+  <line x1="960"  y1="100" x2="1160" y2="420" class="conn" stroke="#4B6FA8" stroke-width="0.6" opacity="0.15"/>
+  <line x1="1260" y1="100" x2="1260" y2="380" class="conn" stroke="#4B6FA8" stroke-width="0.6" opacity="0.15"/>
+
+  <circle r="4.5" fill="#2563EB" class="packet-1" style="offset-path:path('M740,180 L960,100'); offset-distance:0%;"/>
+  <circle r="4.0" fill="#FFFFFF" opacity="0.85" class="packet-2" style="offset-path:path('M960,100 L1200,220'); offset-distance:0%;"/>
+  <circle r="4.0" fill="#F59E0B" class="packet-3" style="offset-path:path('M960,100 L880,380'); offset-distance:0%;"/>
+  <circle r="3.5" fill="#2563EB" class="packet-4" style="offset-path:path('M880,380 L1080,300'); offset-distance:0%;"/>
+  <circle r="3.5" fill="#10B981" class="packet-5" style="offset-path:path('M1200,220 L1080,300'); offset-distance:0%;"/>
+  <circle r="3.0" fill="#FFFFFF" opacity="0.7" class="packet-6" style="offset-path:path('M1080,300 L1200,220'); offset-distance:0%;"/>
+
+  <circle cx="740"  cy="180" r="20" fill="none" stroke="#2563EB" class="pulse-a"/>
+  <circle cx="960"  cy="100" r="20" fill="none" stroke="#FFFFFF"  class="pulse-b"/>
+  <circle cx="1080" cy="300" r="20" fill="none" stroke="#2563EB"  class="pulse-c"/>
+  <circle cx="880"  cy="380" r="20" fill="none" stroke="#F59E0B"  class="pulse-d"/>
+  <circle cx="1200" cy="220" r="20" fill="none" stroke="#2563EB"  class="pulse-e"/>
+
+  <circle cx="740"  cy="180" r="24" fill="#2563EB" opacity="0.13"/>
+  <circle cx="740"  cy="180" r="15" fill="#2563EB" opacity="0.28"/>
+  <circle cx="740"  cy="180" r="8"  fill="#2563EB" class="breathe-a"/>
+
+  <circle cx="960"  cy="100" r="20" fill="#FFFFFF" opacity="0.07"/>
+  <circle cx="960"  cy="100" r="13" fill="#FFFFFF" opacity="0.18"/>
+  <circle cx="960"  cy="100" r="7"  fill="#FFFFFF" class="breathe-b"/>
+
+  <circle cx="1080" cy="300" r="26" fill="#2563EB" opacity="0.15"/>
+  <circle cx="1080" cy="300" r="16" fill="#2563EB" opacity="0.33"/>
+  <circle cx="1080" cy="300" r="9"  fill="#2563EB" class="breathe-c"/>
+
+  <circle cx="880"  cy="380" r="18" fill="#F59E0B" opacity="0.15"/>
+  <circle cx="880"  cy="380" r="11" fill="#F59E0B" opacity="0.38"/>
+  <circle cx="880"  cy="380" r="6"  fill="#F59E0B" class="breathe-d"/>
+
+  <circle cx="1200" cy="220" r="22" fill="#2563EB" opacity="0.13"/>
+  <circle cx="1200" cy="220" r="14" fill="#2563EB" opacity="0.28"/>
+  <circle cx="1200" cy="220" r="8"  fill="#2563EB" class="breathe-e"/>
+
+  <circle cx="680"  cy="300" r="7"  fill="#2563EB" opacity="0.65"/>
+  <circle cx="680"  cy="300" r="13" fill="none" stroke="#2563EB" stroke-width="0.8" opacity="0.22"/>
+  <circle cx="1260" cy="100" r="6"  fill="#B0BDD0" opacity="0.5"/>
+  <circle cx="1260" cy="380" r="6"  fill="#B0BDD0" opacity="0.45"/>
+  <circle cx="1160" cy="420" r="7"  fill="#F59E0B" opacity="0.7"/>
+  <circle cx="1160" cy="420" r="12" fill="none" stroke="#F59E0B" stroke-width="0.8" opacity="0.25"/>
+
+  <rect x="1090" y="281" width="58" height="16" rx="3" fill="none" stroke="#2563EB" stroke-width="0.7"/>
+  <text x="1119" y="293" text-anchor="middle" class="data-lbl" fill="#2563EB">AI / ML</text>
+
+  <rect x="888"  y="362" width="68" height="16" rx="3" fill="none" stroke="#F59E0B" stroke-width="0.7"/>
+  <text x="922"  y="374" text-anchor="middle" class="data-lbl" fill="#F59E0B">Analytics</text>
+
+  <rect x="968"  y="83"  width="54" height="16" rx="3" fill="none" stroke="#FFFFFF" stroke-width="0.5" opacity="0.4"/>
+  <text x="995"  y="95"  text-anchor="middle" class="data-lbl" fill="#B0BDD0">Cloud</text>
+
+  <rect x="1208" y="204" width="64" height="16" rx="3" fill="none" stroke="#2563EB" stroke-width="0.7"/>
+  <text x="1240" y="216" text-anchor="middle" class="data-lbl" fill="#2563EB">Security</text>
+
+  <g class="pill-1">
+    <rect x="1156" y="56"  width="90"  height="24" rx="12" fill="#2563EB" opacity="0.15" stroke="#2563EB" stroke-width="0.8"/>
+    <text x="1201" y="72"  text-anchor="middle" class="data-lbl" fill="#2563EB">99.9% SLA</text>
+  </g>
+  <g class="pill-2">
+    <rect x="630"  y="244" width="86"  height="24" rx="12" fill="#F59E0B" opacity="0.12" stroke="#F59E0B" stroke-width="0.8"/>
+    <text x="673"  y="260" text-anchor="middle" class="data-lbl" fill="#F59E0B">&lt; 50ms</text>
+  </g>
+  <g class="pill-3">
+    <rect x="1156" y="416" width="100" height="24" rx="12" fill="#10B981" opacity="0.12" stroke="#10B981" stroke-width="0.8"/>
+    <text x="1206" y="432" text-anchor="middle" class="data-lbl" fill="#10B981">ISO 27001</text>
+  </g>
+
+  <rect x="600" y="0" width="140" height="500" class="fade-mask"/>
+</svg>

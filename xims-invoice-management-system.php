@@ -8,7 +8,7 @@
 
              <nav aria-label="breadcrumb">
                  <ol class="breadcrumb justify-content-center">
-                     <li class="breadcrumb-item"><a href="#">Home</a></li>
+                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                      <!--  <li class="breadcrumb-item"><a href="#">About Us</a></li> -->
                      <li class="breadcrumb-item active" aria-current="page">XIMS- Invoice Management System</li>
                  </ol>
@@ -163,43 +163,43 @@
                          <h3> Our Amazing Products </h3>
                          <ul>
                              <li class="active">
-                                 <a href="xims-invoice-management-system">
+                                 <a href="xims-invoice-management-system.php">
                                      <i class="bi bi-arrow-right-circle"></i>
                                      <span>XIMS- Invoice Management System</span>
                                  </a>
                              </li>
                              <li>
-                                 <a href="xt-vms-visitor-management-system">
+                                 <a href="xt-vms-visitor-management-system.php">
                                      <i class="bi bi-arrow-right-circle"></i>
                                      <span>XT-VMS- Visitor Management System</span>
                                  </a>
                              </li>
                              <li>
-                                 <a href="foodways">
+                                 <a href="foodways.php">
                                      <i class="bi bi-arrow-right-circle"></i>
                                      <span>Foodways</span>
                                  </a>
                              </li>
                              <li>
-                                 <a href="salon-management-system">
+                                 <a href="salon-management-system.php">
                                      <i class="bi bi-arrow-right-circle"></i>
                                      <span>Salon Management System</span>
                                  </a>
                              </li>
                              <li>
-                                 <a href="xevent">
+                                 <a href="xevent.php">
                                      <i class="bi bi-arrow-right-circle"></i>
                                      <span>xEvent</span>
                                  </a>
                              </li>
                              <li>
-                                 <a href="human-resource-management-system">
+                                 <a href="human-resource-management-system.php">
                                      <i class="bi bi-arrow-right-circle"></i>
                                      <span>XHRMS- Human Resource Management System</span>
                                  </a>
                              </li>
                              <li>
-                                 <a href="sports-academy-management-system">
+                                 <a href="sports-academy-management-system.php">
                                      <i class="bi bi-arrow-right-circle"></i>
                                      <span>Sports Academy Management System </span>
                                  </a>
@@ -247,7 +247,7 @@
                              </div>
                              <h3>Ready to Transform Your Business?</h3>
                              <p>Connect with our specialists for a complimentary consultation.</p>
-                             <a href="contact-us" class="cta-btn">Schedule a Call <i class="bi bi-arrow-right"></i></a>
+                             <a href="contact-us.php" class="cta-btn">Schedule a Call <i class="bi bi-arrow-right"></i></a>
                          </div>
                      </div><!-- End CTA Widget -->
                      <section id="portfolio-details" class="portfolio-details section">

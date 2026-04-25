@@ -1701,6 +1701,32 @@ section,
   color: color-mix(in srgb, var(--accent-color) 80%, black);
 }
 
+/* General service-link styling for CTAs outside services section */
+.service-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent-color);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.service-link:hover {
+  color: color-mix(in srgb, var(--accent-color) 80%, black);
+  text-decoration: none;
+}
+
+.service-link i {
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.service-link:hover i {
+  transform: translateX(4px);
+}
+
 @media (max-width: 768px) {
   .services .service-card {
     padding: 24px;
@@ -6996,6 +7022,16 @@ section,
   color: #ffffff;
   z-index: 10;
   padding: 0 15px;
+}
+
+.carousel-item .custom-caption-container {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.carousel-item.active .custom-caption-container {
+  visibility: visible;
+  opacity: 1;
 }
 
 .hero-content {

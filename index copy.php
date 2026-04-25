@@ -25,7 +25,7 @@
 
                                              <h1 class="hero-headline aos-init aos-animate" data-aos-delay="300">
                                                  Automate
-                                                 More. <br> Work Faster. <br></h1>
+                                                 More. Work Faster. <br> Grow Smarter.</h1>
 
                                              <p class="hero-text aos-init aos-animate" data-aos-delay="350"> From
                                                  intelligent automation to powerful dashboards, we remove manual effort
@@ -57,7 +57,7 @@
                                              <h1 class="hero-headline aos-init aos-animate" data-aos-delay="300">Smart
                                                  IT
                                                  &amp; AI <br>
-                                                 Solutions for Businesses</h1>
+                                                 Solutions for Modern Businesses</h1>
 
                                              <p class="hero-text aos-init aos-animate" data-aos-delay="350"> Use AI to automate processes, reduce operational overhead, and gain real-time intelligence that drives faster execution and measurable business outcomes.
 
@@ -227,81 +227,16 @@ managed services to build foundation for future growth. </p>
 
      <!-- /Services Section -->
 
-     <!-- About Section -->
-     <section id="about" class="about section" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-
-         <div class="container aos-init aos-animate">
-
-             <div class="row gy-5 align-items-center">
-
-                 <div class="col-xl-6 aos-init aos-animate" data-aos="fade-right">
-                     <div class="about-images-wrapper">
-                         <div class="image-main">
-                             <img src="assets2/images/about-5.jpg" alt="Xpansion AI" class="img-fluid">
-                         </div>
-                         <div class="image-offset">
-                             <img src="assets2/images/about-square-3.jpg" alt="Xpansion Technologies" class="img-fluid">
-                         </div>
-                         <div class="experience-badge">
-                             <span class="years purecounter" data-purecounter-start="0" data-purecounter-end="12"
-                                 data-purecounter-duration="0">12</span>
-                             <span class="text">Years of<br>Excellence</span>
-                         </div>
-                         <div class="shape-pattern"></div>
-                     </div>
-                 </div>
-
-                 <div class="col-xl-6 aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
-                     <div class="about-content">
-                         <div class="section-subtitle">About Us</div>
-                         <h2>Your Strategic IT &amp; AI Partner </h2>
-
-                         <p class="mb-4 description">Xpansion Technologies is a strategic IT and AI solutions partner
-                             committed to
-                             helping businesses achieve operational excellence, scalability, and sustainable growth. We
-                             combine Core
-                             Digital Operations, Intelligent Automation, Advanced Data Analytics, and Secure Cloud
-                             Solutions to build
-                             future-ready digital ecosystems. Our unified approach ensures stability, performance
-                             optimisation, and
-                             seamless AI integration across business processes, enabling organisations to move beyond
-                             maintenance and
-                             unlock measurable competitive advantage. </p>
-
-                         <div class="features-grid">
-                             <div class="feature-card">
-                                 <i class="bi bi-check-circle-fill"></i>
-                                 <span>24/7 Proactive IT Monitoring &amp; Support</span>
-                             </div>
-                             <div class="feature-card">
-                                 <i class="bi bi-check-circle-fill"></i>
-                                 <span>High-Performance Application Management</span>
-                             </div>
-                             <div class="feature-card">
-                                 <i class="bi bi-check-circle-fill"></i>
-                                 <span>Security Operations Centre (SOC)</span>
-                             </div>
-                             <div class="feature-card">
-                                 <i class="bi bi-check-circle-fill"></i>
-                                 <span>Infrastructure Stability &amp; Reliability </span>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-
-             </div>
-
-         </div>
-
-     </section><!-- /About Section -->
-
      <!-- Portfolio Section -->
      <section id="portfolio" class="portfolio section pt-0" data-aos="fade-up" data-aos-duration="1000">
 
          <!-- Section Title -->
          <div class="container section-title aos-init">
              <h2> Our Key Products </h2>
-             <p> Following are some of Our Amazing Products created using a wide range of technologies. These include visitor management systems, invoicing tools, event platforms, HR software, salon management, supply chain solutions, sports academy systems, and smart city surveillance, all popular with our clients. </p>
+             <p> Following are some of Our Amazing Products created using wide range of technologies. Products such as
+                 invoicing system, <br> events management system, project management system, ect. are very popular with
+                 our
+                 clients </p>
          </div><!-- End Section Title -->
 
          <div class="container aos-init">
@@ -391,7 +326,8 @@ managed services to build foundation for future growth. </p>
                              </div>
                              <div class="project-info">
                                  <h3> xEvent</h3>
-                                 <p>xEvent is an event planning and publishing web application that lets you publish events and inform your community, providing a platform for event information and management.</p>
+                                 <p>xEvent is an event planning and publishing web application which lets you publish
+                                     your events and inform your community about the events.</p>
                                  <div class="project-meta">
                                      <div class="tech-tags">
                                          <span>Features</span>
@@ -400,79 +336,108 @@ managed services to build foundation for future growth. </p>
 
                                  </div>
                              </div>
+                         </div>
+                     </div><!-- End Portfolio Item -->
+
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
+                         <div class="project-card">
+                             <div class="image-wrapper">
+                                 <img src="assets2/images/human-resource-management-system/services-10.jpg"
+                                     alt="XTService Desk " class="img-fluid" loading="lazy">
+                                 <div class="hover-overlay">
+                                     <div class="overlay-actions">
+                                         <a href="human-resource-management-system" class="action-btn">
+                                             <i class="bi bi-eye"></i>
+                                         </a>
+
+                                     </div>
+                                 </div>
+
+                             </div>
+                             <div class="project-info">
+                                 <h3>
+                                     Human Resource Management System</h3>
+                                 <p> xHRMS is a Time tracking software that simplifies your business. Predict time needs
+                                     for job costs, plan for payroll, and increase profitability.
+
+                                 </p>
+                                 <div class="project-meta">
+                                     <div class="tech-tags">
+                                         <span>Features</span>
+                                         <span> Start your trial today!</span>
+                                     </div>
+
+                                 </div>
+                             </div>
+                         </div>
+                     </div><!-- End Portfolio Item -->
+
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+                         <div class="project-card">
+                             <div class="image-wrapper">
+                                 <img src="assets2/images/portfolio-5.jpg" alt="Premium Digital Solutions"
+                                     class="img-fluid" loading="lazy">
+                                 <div class="hover-overlay">
+                                     <div class="overlay-actions">
+                                         <a href="salon-management-system" class="action-btn">
+                                             <i class="bi bi-eye"></i>
+                                         </a>
+                                     </div>
+                                 </div>
+
+                             </div>
+                             <div class="project-info">
+                                 <h3>Salon Management System </h3>
+                                 <p> Xpansion Salon Management System is software that helps manage the day-to-day
+                                     operations of a hair
+                                     salon, nail salon, spa, or similar business. </p>
+                                 <div class="project-meta">
+                                     <div class="tech-tags">
+                                         <span>Features</span>
+                                         <span> Start your trial today!</span>
+                                     </div>
+
+                                 </div>
+                             </div>
+                         </div>
+                     </div><!-- End Portfolio Item -->
+
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
+                         <div class="project-card">
+                             <div class="image-wrapper">
+                                 <img src="assets2/images/portfolio-6.jpg" alt="Xpansion Technologies" class="img-fluid"
+                                     loading="lazy">
+                                 <div class="hover-overlay">
+                                     <div class="overlay-actions">
+                                         <a href="foodways" class="action-btn">
+                                             <i class="bi bi-eye"></i>
+                                         </a>
+                                         <a href="https://demo.xpansion.com.au/foodways/" target="_blank"
+                                             class="action-btn">
+                                             <i class="bi bi-link-45deg"></i>
+                                         </a>
+                                     </div>
+                                 </div>
+                                 <span class="category-badge">Mobile Apps</span>
+                             </div>
+                             <div class="project-info">
+                                 <h3>Health Monitoring App</h3>
+                                 <p> Foodways is a B2B platform that connects food suppliers with commercial buyers
+                                     (HORECA) in the
+                                     F&amp;B industry. Foodways streamlines the supply-chain process by </p>
+                                 <div class="project-meta">
+                                     <div class="tech-tags">
+                                         <span>Features</span>
+                                         <span> Start your trial today!</span>
+                                     </div>
+
+                                 </div>
+                             </div>
+                         </div>
                      </div><!-- End Portfolio Item -->
 
                  </div><!-- End Portfolio Container -->
              </div>
-
-             <div class="row align-items-center mt-4">
-                 <div class="col-sm-6">
-                     <h5 class="mb-0">Our Key Products</h5>
-                 </div>
-                 <div class="col-sm-6 text-sm-end">
-                     <a href="products.php" class="service-link">View all 8 products <i class="bi bi-arrow-right"></i></a>
-                 </div>
-             </div>
-
-             <section class="featured-engagements section pt-0" data-aos="fade-up" data-aos-duration="1000">
-                 <div class="container section-title aos-init">
-                     <h2>Featured engagements</h2>
-                 </div>
-                 <div class="container aos-init">
-                     <div class="row g-4">
-                         <div class="col-lg-4 col-md-6 aos-init">
-                             <div class="cs-featured-card h-100">
-                                 <div class="d-flex justify-content-between align-items-start mb-3">
-                                     <span class="ref-label">CS 07</span>
-                                     <span class="industry-badge badge-teal">Public safety</span>
-                                 </div>
-                                 <h3 class="h5 fw-bold mb-2">City with no way to detect stolen or dangerous vehicles in real time</h3>
-                                 <p class="text-secondary mb-4">City-wide ANPR platform with live police DB integration and command dashboard.</p>
-                                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                                     <div class="keyword-tags">ANPR · Computer vision · Smart city</div>
-                                     <div class="kpi-text text-end">98%+ accuracy · &lt;3s alert</div>
-                                 </div>
-                             </div>
-                         </div>
-                         <div class="col-lg-4 col-md-6 aos-init">
-                             <div class="cs-featured-card h-100">
-                                 <div class="d-flex justify-content-between align-items-start mb-3">
-                                     <span class="ref-label">CS 04</span>
-                                     <span class="industry-badge badge-coral">Security</span>
-                                 </div>
-                                 <h3 class="h5 fw-bold mb-2">No security operations function — threats only discovered after damage was already done</h3>
-                                 <p class="text-secondary mb-4">24/7 managed SOC with SIEM and playbook-driven incident response.</p>
-                                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                                     <div class="keyword-tags">Managed SOC · SIEM · Threat intel</div>
-                                     <div class="kpi-text text-end">&lt;15 min MTTD · 85% fewer alerts</div>
-                                 </div>
-                             </div>
-                         </div>
-                         <div class="col-lg-4 col-md-6 aos-init">
-                             <div class="cs-featured-card h-100">
-                                 <div class="d-flex justify-content-between align-items-start mb-3">
-                                     <span class="ref-label">CS 20</span>
-                                     <span class="industry-badge badge-pink">Telecom</span>
-                                 </div>
-                                 <h3 class="h5 fw-bold mb-2">National telco: legacy OSS/BSS silos — orders fell out, billing had gaps, ops teams context-switching</h3>
-                                 <p class="text-secondary mb-4">API-first integration layer unifying order management, provisioning, fault and billing.</p>
-                                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                                     <div class="keyword-tags">OSS/BSS · API integration · Order management</div>
-                                     <div class="kpi-text text-end">85% order fallout reduction</div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="row align-items-center mt-4">
-                         <div class="col-sm-6">
-                             <h5 class="mb-0">Featured engagements</h5>
-                         </div>
-                         <div class="col-sm-6 text-sm-end">
-                             <a href="case-studies.php" class="service-link">View all 21 case studies <i class="bi bi-arrow-right"></i></a>
-                         </div>
-                     </div>
-                 </div>
-             </section>
 
              <div class="cta-section aos-init" data-aos="zoom-in" data-aos-duration="2000">
                  <div class="cta-content">
@@ -498,6 +463,75 @@ managed services to build foundation for future growth. </p>
          </div>
 
      </section><!-- /Portfolio Section -->
+
+
+     <!-- About Section -->
+     <section id="about" class="about section" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+
+         <div class="container aos-init aos-animate">
+
+             <div class="row gy-5 align-items-center">
+
+                 <div class="col-xl-6 aos-init aos-animate" data-aos="fade-right">
+                     <div class="about-images-wrapper">
+                         <div class="image-main">
+                             <img src="assets2/images/about-5.jpg" alt="Xpansion AI" class="img-fluid">
+                         </div>
+                         <div class="image-offset">
+                             <img src="assets2/images/about-square-3.jpg" alt="Xpansion Technologies" class="img-fluid">
+                         </div>
+                         <div class="experience-badge">
+                             <span class="years purecounter" data-purecounter-start="0" data-purecounter-end="12"
+                                 data-purecounter-duration="0">12</span>
+                             <span class="text">Years of<br>Excellence</span>
+                         </div>
+                         <div class="shape-pattern"></div>
+                     </div>
+                 </div>
+
+                 <div class="col-xl-6 aos-init aos-animate" data-aos="fade-left" data-aos-delay="300">
+                     <div class="about-content">
+                         <div class="section-subtitle">About Us</div>
+                         <h2>Your Strategic IT &amp; AI Partner </h2>
+
+                         <p class="mb-4 description">Xpansion Technologies is a strategic IT and AI solutions partner
+                             committed to
+                             helping businesses achieve operational excellence, scalability, and sustainable growth. We
+                             combine Core
+                             Digital Operations, Intelligent Automation, Advanced Data Analytics, and Secure Cloud
+                             Solutions to build
+                             future-ready digital ecosystems. Our unified approach ensures stability, performance
+                             optimisation, and
+                             seamless AI integration across business processes, enabling organisations to move beyond
+                             maintenance and
+                             unlock measurable competitive advantage. </p>
+
+                         <div class="features-grid">
+                             <div class="feature-card">
+                                 <i class="bi bi-check-circle-fill"></i>
+                                 <span>24/7 Proactive IT Monitoring &amp; Support</span>
+                             </div>
+                             <div class="feature-card">
+                                 <i class="bi bi-check-circle-fill"></i>
+                                 <span>High-Performance Application Management</span>
+                             </div>
+                             <div class="feature-card">
+                                 <i class="bi bi-check-circle-fill"></i>
+                                 <span>Security Operations Centre (SOC)</span>
+                             </div>
+                             <div class="feature-card">
+                                 <i class="bi bi-check-circle-fill"></i>
+                                 <span>Infrastructure Stability &amp; Reliability </span>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+
+             </div>
+
+         </div>
+
+     </section><!-- /About Section -->
 
 
      <!-- Testimonials Section -->

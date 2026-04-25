@@ -55,16 +55,6 @@
 
                              <div class="method-item">
                                  <div class="method-icon">
-                                     <i class="bi bi-headset"></i>
-                                 </div>
-                                 <div class="method-details">
-                                     <span class="method-label">Call Us</span>
-                                     <a href="tel:+61417122787">+61 417 122 787</a>
-                                 </div>
-                             </div>
-
-                             <div class="method-item">
-                                 <div class="method-icon">
                                      <i class="bi bi-pin-map-fill"></i>
                                  </div>
                                  <div class="method-details">
