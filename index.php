@@ -18,7 +18,7 @@
                      <div class="carousel-inner">
                          <div class="carousel-item active">
                              <img src="assets2/images/2.jpg" class="d-block w-100" alt="Premium Digital Solutions">
-                             <div class="custom-caption-container carousel-caption  d-none d-md-block">
+                             <div class="custom-caption-container carousel-caption">
                                  <div class="row ">
                                      <div>
                                          <div class="hero-content">
@@ -49,7 +49,7 @@
                          </div>
                          <div class="carousel-item">
                              <img src="assets2/images/3.jpg" class="d-block w-100" alt="Premium Digital Solutions">
-                             <div class="custom-caption-container carousel-caption  d-none d-md-block">
+                             <div class="custom-caption-container carousel-caption">
                                  <div class="row">
                                      <div>
                                          <div class="hero-content">
@@ -77,7 +77,7 @@
                          </div>
                          <div class="carousel-item">
                              <img src="assets2/images/4.svg" class="d-block w-100" alt="Premium Digital Solutions">
-                             <div class="custom-caption-container carousel-caption  d-none d-md-block">
+                             <div class="custom-caption-container carousel-caption">
                                  <div class="row">
                                      <div>
                                          <div class="hero-content">
@@ -90,8 +90,8 @@ blending experience design, engineering, and
 managed services to build foundation for future growth. </p>
 
                                              <div class="hero-cta aos-init aos-animate" data-aos-delay="400">
-                                                 <a href="#services" class="cta-button">
-                                                     <span>Explore Services</span>
+                                                 <a href="contact-us.php" class="cta-button">
+                                                     <span>Discuss Your Project</span>
                                                      <i class="bi bi-arrow-right"></i>
                                                  </a>
 
@@ -189,7 +189,7 @@ managed services to build foundation for future growth. </p>
              </div>
 
              <!-- Stats Row -->
-             <div class="stats-row aos-init d-none" data-aos-delay="400">
+             <div class="stats-row aos-init" data-aos="fade-up" data-aos-delay="400">
                  <div class="row g-4 justify-content-center">
                      <div class="col-6 col-md-3">
                          <div class="stat-item">
@@ -256,34 +256,30 @@ managed services to build foundation for future growth. </p>
                          <div class="section-subtitle">About Us</div>
                          <h2>Your Strategic IT &amp; AI Partner </h2>
 
-                         <p class="mb-4 description">Xpansion Technologies is a strategic IT and AI solutions partner
-                             committed to
-                             helping businesses achieve operational excellence, scalability, and sustainable growth. We
-                             combine Core
-                             Digital Operations, Intelligent Automation, Advanced Data Analytics, and Secure Cloud
-                             Solutions to build
-                             future-ready digital ecosystems. Our unified approach ensures stability, performance
-                             optimisation, and
-                             seamless AI integration across business processes, enabling organisations to move beyond
-                             maintenance and
-                             unlock measurable competitive advantage. </p>
+                         <p class="mb-4 description">Xpansion Technologies helps businesses modernise operations,
+                             automate critical workflows, and make smarter decisions with secure, scalable digital
+                             platforms. We combine digital engineering, cloud, data, AI automation, and managed IT
+                             expertise to solve practical business problems, from improving daily operations to enabling
+                             long-term growth. Our approach is hands-on and outcome-led: we understand the workflow,
+                             design the right technology path, and deliver solutions that are stable, measurable, and
+                             built to scale.</p>
 
                          <div class="features-grid">
                              <div class="feature-card">
                                  <i class="bi bi-check-circle-fill"></i>
-                                 <span>24/7 Proactive IT Monitoring &amp; Support</span>
+                                 <span>Outcome-Led Digital Transformation</span>
                              </div>
                              <div class="feature-card">
                                  <i class="bi bi-check-circle-fill"></i>
-                                 <span>High-Performance Application Management</span>
+                                 <span>AI Automation for Real Workflows</span>
                              </div>
                              <div class="feature-card">
                                  <i class="bi bi-check-circle-fill"></i>
-                                 <span>Security Operations Centre (SOC)</span>
+                                 <span>Secure, Scalable Cloud &amp; IT Operations</span>
                              </div>
                              <div class="feature-card">
                                  <i class="bi bi-check-circle-fill"></i>
-                                 <span>Infrastructure Stability &amp; Reliability </span>
+                                 <span>Custom Platforms Built Around Your Business</span>
                              </div>
                          </div>
                      </div>
@@ -306,103 +302,59 @@ managed services to build foundation for future growth. </p>
 
          <div class="container aos-init">
 
-             <div class="isotope-layout">
+             <div class="row g-4">
 
-                 <div class="row g-4 ">
-
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
-                         <div class="project-card">
-                             <div class="image-wrapper">
-                                 <img src="assets2/images/portfolio-1.jpg" alt="Xpansion Technologies" class="img-fluid"
-                                     loading="lazy">
-                                 <div class="hover-overlay">
-                                     <div class="overlay-actions">
-                                         <a href="xt-vms-visitor-management-system" class="action-btn">
-                                             <i class="bi bi-eye"></i>
-                                         </a>
-                                     </div>
+                     <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="0">
+                         <a href="xt-vms-visitor-management-system.php" class="cs-img-card cs-img-card--sm">
+                             <div class="cs-img-inner" style="background-image:url('assets2/images/portfolio-1.jpg')">
+                                 <div class="cs-img-overlay"></div>
+                                 <div class="cs-img-badge">
+                                     <i class="bi bi-person-check-fill"></i>
+                                     <span>Visitor Operations</span>
                                  </div>
-
-                             </div>
-                             <div class="project-info">
-                                 <h3> XT-VMS</h3>
-                                 <p>XT-VMS is a visitor management system that effectively tracks and manages visitors with paperless check-ins, real-time analytics, cloud-based storage, and customizable features for faster and more secure access control.</p>
-                                 <div class="project-meta">
-                                     <div class="tech-tags">
-                                         <span>Features</span>
-                                         <span> Start your trial today!</span>
-                                     </div>
-
+                                 <div class="cs-img-body">
+                                     <h3>XT-VMS</h3>
+                                     <div class="cs-img-kpi">Paperless check-in &middot; Multi-site &middot; Analytics</div>
                                  </div>
+                                 <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
                              </div>
-                         </div>
-                     </div><!-- End Portfolio Item -->
+                         </a>
+                     </div>
 
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-mobile">
-                         <div class="project-card">
-                             <div class="image-wrapper">
-                                 <img src="assets2/images/portfolio-2.jpg" alt="Xpansion Technologies" class="img-fluid"
-                                     loading="lazy">
-                                 <div class="hover-overlay">
-                                     <div class="overlay-actions">
-                                         <a href="xims-invoice-management-system" class="action-btn">
-                                             <i class="bi bi-eye"></i>
-                                         </a>
-                                         <a href="https://xims.com.au/" target="_blank" class="action-btn">
-                                             <i class="bi bi-link-45deg"></i>
-                                         </a>
-                                     </div>
+                     <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="150">
+                         <a href="xims-invoice-management-system.php" class="cs-img-card cs-img-card--sm">
+                             <div class="cs-img-inner" style="background-image:url('assets2/images/portfolio-2.jpg')">
+                                 <div class="cs-img-overlay"></div>
+                                 <div class="cs-img-badge">
+                                     <i class="bi bi-receipt-cutoff"></i>
+                                     <span>Finance</span>
                                  </div>
-
-                             </div>
-                             <div class="project-info">
-                                 <h3> Invoice Management System</h3>
-                                 <p>XIMS (Xpansion Invoice Management System) is a comprehensive tool designed to streamline invoicing for businesses of all sizes, enabling effortless creation of professional invoices, real-time payment tracking, and automated reminders.</p>
-                                 <div class="project-meta">
-                                     <div class="tech-tags">
-                                         <span>Features</span>
-
-                                         <span> <a target="_blank"
-                                                 href="https://xims.com.au/request-domain/create/eyJpdiI6IkFieW56VWExQWh0aXFyM2ZXK2dFeWc9PSIsInZhbHVlIjoiK3JtNDQxN2dkR2lFVGFqcFUxYlovdTJwNUtoVHo2dWlxcTUxZ0p4UWNMbz0iLCJtYWMiOiIyMTdlZDRmMzhiMzJlNTNhMTY4YWJhYWM4OGFjNDA5NmRlNmU5NGE1NjIwYzIyYjIyMTY2YjUwNDkzOTUzZGE0IiwidGFnIjoiIn0=">
-                                                 Get your Free Instance Now! </a></span>
-                                     </div>
-
+                                 <div class="cs-img-body">
+                                     <h3>XIMS</h3>
+                                     <div class="cs-img-kpi">Invoices &middot; Quotes &middot; Payment tracking</div>
                                  </div>
+                                 <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
                              </div>
-                         </div>
-                     </div><!-- End Portfolio Item -->
+                         </a>
+                     </div>
 
-                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                         <div class="project-card">
-                             <div class="image-wrapper">
-                                 <img src="assets2/images/portfolio-3.jpg" alt="Xpansion Technologies" class="img-fluid"
-                                     loading="lazy">
-                                 <div class="hover-overlay">
-                                     <div class="overlay-actions">
-                                         <a href="xevent" class="action-btn">
-                                             <i class="bi bi-eye"></i>
-                                         </a>
-                                         <a href="https://xevent.com.au/index.php" target="_blank" class="action-btn">
-                                             <i class="bi bi-link-45deg"></i>
-                                         </a>
-                                     </div>
+                     <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="300">
+                         <a href="xevent.php" class="cs-img-card cs-img-card--sm">
+                             <div class="cs-img-inner" style="background-image:url('assets2/images/portfolio-3.jpg')">
+                                 <div class="cs-img-overlay"></div>
+                                 <div class="cs-img-badge">
+                                     <i class="bi bi-calendar-event-fill"></i>
+                                     <span>Events</span>
                                  </div>
-
-                             </div>
-                             <div class="project-info">
-                                 <h3> xEvent</h3>
-                                 <p>xEvent is an event planning and publishing web application that lets you publish events and inform your community, providing a platform for event information and management.</p>
-                                 <div class="project-meta">
-                                     <div class="tech-tags">
-                                         <span>Features</span>
-                                         <span> Start your trial today!</span>
-                                     </div>
-
+                                 <div class="cs-img-body">
+                                     <h3>xEvent</h3>
+                                     <div class="cs-img-kpi">Publish events &middot; RSVPs &middot; Community</div>
                                  </div>
+                                 <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
                              </div>
-                     </div><!-- End Portfolio Item -->
+                         </a>
+                     </div>
 
-                 </div><!-- End Portfolio Container -->
              </div>
 
              <div class="row align-items-center mt-4">
@@ -420,48 +372,58 @@ managed services to build foundation for future growth. </p>
                  </div>
                  <div class="container aos-init">
                      <div class="row g-4">
-                         <div class="col-lg-4 col-md-6 aos-init">
-                             <div class="cs-featured-card h-100">
-                                 <div class="d-flex justify-content-between align-items-start mb-3">
-                                     <span class="ref-label">CS 07</span>
-                                     <span class="industry-badge badge-teal">Public safety</span>
+
+                         <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="0">
+                             <a href="case-studies.php" class="cs-img-card">
+                                 <div class="cs-img-inner" style="background-image:url('assets2/images/case-studies/case-studies-1.jpg')">
+                                     <div class="cs-img-overlay"></div>
+                                     <div class="cs-img-badge">
+                                         <i class="bi bi-camera-video-fill"></i>
+                                         <span>Public Safety</span>
+                                     </div>
+                                     <div class="cs-img-body">
+                                         <h3>City with no way to detect stolen or dangerous vehicles in real time</h3>
+                                         <div class="cs-img-kpi">98%+ accuracy &middot; &lt;3s alert time</div>
+                                     </div>
+                                     <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
                                  </div>
-                                 <h3 class="h5 fw-bold mb-2">City with no way to detect stolen or dangerous vehicles in real time</h3>
-                                 <p class="text-secondary mb-4">City-wide ANPR platform with live police DB integration and command dashboard.</p>
-                                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                                     <div class="keyword-tags">ANPR · Computer vision · Smart city</div>
-                                     <div class="kpi-text text-end">98%+ accuracy · &lt;3s alert</div>
-                                 </div>
-                             </div>
+                             </a>
                          </div>
-                         <div class="col-lg-4 col-md-6 aos-init">
-                             <div class="cs-featured-card h-100">
-                                 <div class="d-flex justify-content-between align-items-start mb-3">
-                                     <span class="ref-label">CS 04</span>
-                                     <span class="industry-badge badge-coral">Security</span>
+
+                         <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="150">
+                             <a href="case-studies.php" class="cs-img-card">
+                                 <div class="cs-img-inner" style="background-image:url('assets2/images/case-studies/case-studies-4.jpg')">
+                                     <div class="cs-img-overlay"></div>
+                                     <div class="cs-img-badge">
+                                         <i class="bi bi-shield-lock-fill"></i>
+                                         <span>Security</span>
+                                     </div>
+                                     <div class="cs-img-body">
+                                         <h3>No security operations function — threats only discovered after damage was done</h3>
+                                         <div class="cs-img-kpi">&lt;15 min MTTD &middot; 85% fewer alerts</div>
+                                     </div>
+                                     <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
                                  </div>
-                                 <h3 class="h5 fw-bold mb-2">No security operations function — threats only discovered after damage was already done</h3>
-                                 <p class="text-secondary mb-4">24/7 managed SOC with SIEM and playbook-driven incident response.</p>
-                                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                                     <div class="keyword-tags">Managed SOC · SIEM · Threat intel</div>
-                                     <div class="kpi-text text-end">&lt;15 min MTTD · 85% fewer alerts</div>
-                                 </div>
-                             </div>
+                             </a>
                          </div>
-                         <div class="col-lg-4 col-md-6 aos-init">
-                             <div class="cs-featured-card h-100">
-                                 <div class="d-flex justify-content-between align-items-start mb-3">
-                                     <span class="ref-label">CS 20</span>
-                                     <span class="industry-badge badge-pink">Telecom</span>
+
+                         <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="300">
+                             <a href="case-studies.php" class="cs-img-card">
+                                 <div class="cs-img-inner" style="background-image:url('assets2/images/case-studies/case-studies-6.jpg')">
+                                     <div class="cs-img-overlay"></div>
+                                     <div class="cs-img-badge">
+                                         <i class="bi bi-broadcast"></i>
+                                         <span>Telecom</span>
+                                     </div>
+                                     <div class="cs-img-body">
+                                         <h3>National telco: legacy OSS/BSS silos causing order fallout and billing gaps</h3>
+                                         <div class="cs-img-kpi">85% order fallout reduction</div>
+                                     </div>
+                                     <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
                                  </div>
-                                 <h3 class="h5 fw-bold mb-2">National telco: legacy OSS/BSS silos — orders fell out, billing had gaps, ops teams context-switching</h3>
-                                 <p class="text-secondary mb-4">API-first integration layer unifying order management, provisioning, fault and billing.</p>
-                                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                                     <div class="keyword-tags">OSS/BSS · API integration · Order management</div>
-                                     <div class="kpi-text text-end">85% order fallout reduction</div>
-                                 </div>
-                             </div>
+                             </a>
                          </div>
+
                      </div>
                      <div class="row align-items-center mt-4">
                          <div class="col-sm-6">

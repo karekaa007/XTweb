@@ -57,7 +57,7 @@
             <div class="col-lg-3 col-md-6">
                 <div class="footer-newsletter">
                     <h4>Stay Updated</h4>
-                    <p>Subscribe to our newsletter for exclusive offers, new arrivals, and fashion tips.</p>
+                    <p>Stay up to date with the latest in IT, AI, and digital transformation insights.</p>
                     <form id="newsletterForm" action="insert_newsletter.php" method="POST">
 
                         <div class="position-relative">
@@ -108,15 +108,12 @@
 
 
 <!-- Vendor JS Files -->
-<script src="assets2\js\bootstrap.bundle.min.js"></script>
-<script src="assets2\js\aos.js"></script>
-<script src="assets2\js\glightbox.min.js"></script>
-<script src="assets2\js\imagesloaded.pkgd.min.js"></script>
-<script src="assets2\js\isotope.pkgd.min.js"></script>
-<!-- <script src="assets2\js\purecounter_vanilla.js"></script> -->
-<script src="assets2\js\swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets2/js/glightbox.min.js"></script>
+<script src="assets2/js/imagesloaded.pkgd.min.js"></script>
+<script src="assets2/js/isotope.pkgd.min.js"></script>
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>
 <script>
@@ -179,32 +176,21 @@ AOS.init();
 </script>
 
 
-<!-- Modernizer JS -->
+<!-- Legacy vendor JS -->
 <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-
-
 <script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
-
-<!-- Bootstrap JS -->
 <script src="assets/js/vendor/bootstrap.min.js"></script>
-
-
 <script src="assets/js/plugins/plugins.min.js"></script>
 
-<!-- Main JS -->
-<script src="assets/js/main.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
 
-    // Desktop menu select karo
     const desktopMenu = document.querySelector("#main-desktop-menu");
-
-    // Mobile nav container select karo
     const mobileNav = document.querySelector(".offcanvas-navigation");
 
     if (desktopMenu && mobileNav) {
 
-        // Desktop UL clone karo
+        // Clone desktop nav into mobile overlay
         const clonedMenu = desktopMenu.cloneNode(true);
 
         // Mobile nav me add karo
@@ -282,6 +268,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 </script>
+
+<?php include __DIR__ . '/chatbot.php'; ?>
 
 </body>
 

@@ -12,15 +12,135 @@
 
     <section class="products-page section pt-0">
         <div class="container">
+            <div class="page-overview products-overview" data-aos="fade-up" data-aos-duration="1000">
+                <div class="overview-copy">
+                    <span class="section-subtitle">Product Suite</span>
+                    <h2>Choose the operating system for your next workflow.</h2>
+                    <p>Explore ready-to-deploy platforms for visitor access, invoicing, HR, events, salon operations and food supply chains. Each product is built for practical adoption, secure operations and measurable efficiency gains.</p>
+                </div>
+                <div class="overview-stats">
+                    <div class="overview-stat">
+                        <strong>6</strong>
+                        <span>solution tracks</span>
+                    </div>
+                    <div class="overview-stat">
+                        <strong>Cloud</strong>
+                        <span>deployment ready</span>
+                    </div>
+                    <div class="overview-stat">
+                        <strong>API</strong>
+                        <span>integration options</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-showcase-header">
+                <span class="section-subtitle">Explore Products</span>
+                <h2>Start with the workflow you need to fix.</h2>
+            </div>
+
+            <div class="product-showcase-grid" aria-label="Product portfolio">
+                <a href="#xtvms" class="product-showcase-card featured">
+                    <div class="product-showcase-image">
+                        <img src="assets2/images/portfolio-1.jpg" alt="XT-VMS visitor management dashboard">
+                    </div>
+                    <div class="product-showcase-content">
+                        <span class="product-category">Visitor Operations</span>
+                        <h3>XT-VMS</h3>
+                        <p>Digitise visitor check-ins, host alerts, compliance logs and site visibility.</p>
+                        <div class="product-chip-row">
+                            <span>Paperless check-in</span>
+                            <span>Multi-site</span>
+                            <span>Analytics</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#xims" class="product-showcase-card">
+                    <div class="product-showcase-image">
+                        <img src="assets2/images/portfolio-2.jpg" alt="XIMS invoice management interface">
+                    </div>
+                    <div class="product-showcase-content">
+                        <span class="product-category">Finance</span>
+                        <h3>XIMS</h3>
+                        <p>Manage quotes, invoices, clients, leads and payment visibility in one platform.</p>
+                        <div class="product-chip-row">
+                            <span>Quotes</span>
+                            <span>Invoices</span>
+                            <span>CRM</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#xevent" class="product-showcase-card">
+                    <div class="product-showcase-image">
+                        <img src="assets2/images/portfolio-3.jpg" alt="xEvent event management platform">
+                    </div>
+                    <div class="product-showcase-content">
+                        <span class="product-category">Events</span>
+                        <h3>xEvent</h3>
+                        <p>Publish events, manage RSVPs, send notifications and measure engagement.</p>
+                        <div class="product-chip-row">
+                            <span>RSVPs</span>
+                            <span>Publishing</span>
+                            <span>Reports</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#xhrms" class="product-showcase-card">
+                    <div class="product-showcase-image">
+                        <img src="assets2/images/human-resource-management-system/xhrms-1.jpg" alt="xHRMS human resource management dashboard">
+                    </div>
+                    <div class="product-showcase-content">
+                        <span class="product-category">People Operations</span>
+                        <h3>xHRMS</h3>
+                        <p>Centralise employee records, attendance, leave workflows and HR reporting.</p>
+                        <div class="product-chip-row">
+                            <span>Attendance</span>
+                            <span>Leave</span>
+                            <span>Payroll-ready</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#salon" class="product-showcase-card">
+                    <div class="product-showcase-image">
+                        <img src="assets2/images/portfolio-5.jpg" alt="Salon management system interface">
+                    </div>
+                    <div class="product-showcase-content">
+                        <span class="product-category">Retail Services</span>
+                        <h3>Salon MS</h3>
+                        <p>Run appointments, staff schedules, client records and service payments smoothly.</p>
+                        <div class="product-chip-row">
+                            <span>Bookings</span>
+                            <span>Clients</span>
+                            <span>Payments</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#foodways" class="product-showcase-card">
+                    <div class="product-showcase-image">
+                        <img src="assets2/images/Foodways/foodway-1.jpg" alt="Foodways B2B supply chain marketplace">
+                    </div>
+                    <div class="product-showcase-content">
+                        <span class="product-category">F&B Supply Chain</span>
+                        <h3>Foodways</h3>
+                        <p>Connect suppliers and HORECA buyers with digital ordering and fulfilment tracking.</p>
+                        <div class="product-chip-row">
+                            <span>Marketplace</span>
+                            <span>Ordering</span>
+                            <span>Delivery</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
             <!-- Tab Navigation -->
             <div class="product-tabs">
                 <div class="nav nav-tabs justify-content-center mb-5" id="productTabs" role="tablist">
-                    <button class="nav-link active" id="xtvms-tab" data-bs-toggle="tab" data-bs-target="#xtvms" type="button" role="tab">XT-VMS</button>
-                    <button class="nav-link" id="xims-tab" data-bs-toggle="tab" data-bs-target="#xims" type="button" role="tab">XIMS</button>
-                    <button class="nav-link" id="xevent-tab" data-bs-toggle="tab" data-bs-target="#xevent" type="button" role="tab">xEvent</button>
-                    <button class="nav-link" id="xhrms-tab" data-bs-toggle="tab" data-bs-target="#xhrms" type="button" role="tab">xHRMS</button>
-                    <button class="nav-link" id="salon-tab" data-bs-toggle="tab" data-bs-target="#salon" type="button" role="tab">Salon MS</button>
-                    <button class="nav-link" id="foodways-tab" data-bs-toggle="tab" data-bs-target="#foodways" type="button" role="tab">Foodways</button>
+                    <button class="nav-link active" id="xtvms-tab" data-bs-toggle="tab" data-bs-target="#xtvms" type="button" role="tab"><i class="bi bi-person-badge"></i> XT-VMS</button>
+                    <button class="nav-link" id="xims-tab" data-bs-toggle="tab" data-bs-target="#xims" type="button" role="tab"><i class="bi bi-receipt"></i> XIMS</button>
+                    <button class="nav-link" id="xevent-tab" data-bs-toggle="tab" data-bs-target="#xevent" type="button" role="tab"><i class="bi bi-calendar-event"></i> xEvent</button>
+                    <button class="nav-link" id="xhrms-tab" data-bs-toggle="tab" data-bs-target="#xhrms" type="button" role="tab"><i class="bi bi-people"></i> xHRMS</button>
+                    <button class="nav-link" id="salon-tab" data-bs-toggle="tab" data-bs-target="#salon" type="button" role="tab"><i class="bi bi-shop"></i> Salon MS</button>
+                    <button class="nav-link" id="foodways-tab" data-bs-toggle="tab" data-bs-target="#foodways" type="button" role="tab"><i class="bi bi-basket"></i> Foodways</button>
                 </div>
             </div>
 
@@ -100,8 +220,8 @@
                                 </div>
 
                                 <div class="cta-buttons">
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=XT-VMS Free Trial Request" class="btn btn-primary">Start free trial</a>
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=XT-VMS Demo Request" class="btn btn-outline-primary">Request a demo</a>
+                                    <a href="contact-us.php" class="btn btn-primary">Start free trial</a>
+                                    <a href="contact-us.php" class="btn btn-outline-primary">Request a demo</a>
                                 </div>
 
                                 <div class="stats-section">
@@ -197,8 +317,8 @@
                                 </div>
 
                                 <div class="cta-buttons">
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=XIMS Free Instance Request" class="btn btn-primary">Get free instance</a>
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=XIMS Demo Request" class="btn btn-outline-primary">Request a demo</a>
+                                    <a href="contact-us.php" class="btn btn-primary">Get free instance</a>
+                                    <a href="contact-us.php" class="btn btn-outline-primary">Request a demo</a>
                                 </div>
 
                                 <div class="stats-section">
@@ -294,8 +414,8 @@
                                 </div>
 
                                 <div class="cta-buttons">
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=xEvent Free Trial Request" class="btn btn-primary">Start free trial</a>
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=xEvent Demo Request" class="btn btn-outline-primary">Request a demo</a>
+                                    <a href="contact-us.php" class="btn btn-primary">Start free trial</a>
+                                    <a href="contact-us.php" class="btn btn-outline-primary">Request a demo</a>
                                 </div>
 
                                 <div class="stats-section">
@@ -391,8 +511,8 @@
                                 </div>
 
                                 <div class="cta-buttons">
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=xHRMS Free Trial Request" class="btn btn-primary">Start free trial</a>
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=xHRMS Demo Request" class="btn btn-outline-primary">Request a demo</a>
+                                    <a href="contact-us.php" class="btn btn-primary">Start free trial</a>
+                                    <a href="contact-us.php" class="btn btn-outline-primary">Request a demo</a>
                                 </div>
 
                                 <div class="stats-section">
@@ -489,8 +609,8 @@
                                 </div>
 
                                 <div class="cta-buttons">
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=Salon Management System Free Trial Request" class="btn btn-primary">Start free trial</a>
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=Salon Management System Demo Request" class="btn btn-outline-primary">Request a demo</a>
+                                    <a href="contact-us.php" class="btn btn-primary">Start free trial</a>
+                                    <a href="contact-us.php" class="btn btn-outline-primary">Request a demo</a>
                                 </div>
 
                                 <div class="stats-section">
@@ -587,8 +707,8 @@
                                 </div>
 
                                 <div class="cta-buttons">
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=Foodways Free Trial Request" class="btn btn-primary">Start free trial</a>
-                                    <a href="mailto:info@xpansiontechnologies.com?subject=Foodways Demo Request" class="btn btn-outline-primary">Request a demo</a>
+                                    <a href="contact-us.php" class="btn btn-primary">Start free trial</a>
+                                    <a href="contact-us.php" class="btn btn-outline-primary">Request a demo</a>
                                 </div>
 
                                 <div class="stats-section">
@@ -607,6 +727,69 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-comparison" data-aos="fade-up" data-aos-duration="1000">
+                <div class="product-comparison-heading">
+                    <span class="section-subtitle">Compare Fit</span>
+                    <h2>Match each product to the job it does best.</h2>
+                </div>
+                <div class="product-comparison-table">
+                    <div class="comparison-row comparison-head">
+                        <span>Product</span>
+                        <span>Best for</span>
+                        <span>Key outcome</span>
+                        <span>Action</span>
+                    </div>
+                    <div class="comparison-row">
+                        <span><strong>XT-VMS</strong></span>
+                        <span>Corporate, government and campus visitor access</span>
+                        <span>Real-time site visibility and paperless compliance</span>
+                        <a href="#xtvms">View details</a>
+                    </div>
+                    <div class="comparison-row">
+                        <span><strong>XIMS</strong></span>
+                        <span>SMEs, agencies and service businesses</span>
+                        <span>Cleaner quote-to-payment workflow</span>
+                        <a href="#xims">View details</a>
+                    </div>
+                    <div class="comparison-row">
+                        <span><strong>xEvent</strong></span>
+                        <span>Community, corporate and education events</span>
+                        <span>Centralised publishing, RSVP and attendee updates</span>
+                        <a href="#xevent">View details</a>
+                    </div>
+                    <div class="comparison-row">
+                        <span><strong>xHRMS</strong></span>
+                        <span>Multi-site teams and HR operations</span>
+                        <span>Employee data, attendance and leave in one place</span>
+                        <a href="#xhrms">View details</a>
+                    </div>
+                    <div class="comparison-row">
+                        <span><strong>Salon MS</strong></span>
+                        <span>Salons, clinics and appointment-led services</span>
+                        <span>Better bookings, client records and staff planning</span>
+                        <a href="#salon">View details</a>
+                    </div>
+                    <div class="comparison-row">
+                        <span><strong>Foodways</strong></span>
+                        <span>Food suppliers and HORECA buyers</span>
+                        <span>Digital ordering with fulfilment visibility</span>
+                        <a href="#foodways">View details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio cta-section page-bottom-cta" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="cta-content">
+                    <span class="cta-label"><i class="bi bi-lightning-charge-fill"></i> Product Fit</span>
+                    <h3>Need help choosing the right platform?</h3>
+                    <p>Tell us about your workflow and we will map the best product, deployment path and integration plan.</p>
+                    <div class="cta-buttons">
+                        <a href="contact-us.php" class="btn-cta-primary">Discuss Project <i class="bi bi-arrow-right"></i></a>
+                        <a href="case-studies.php" class="btn-cta-secondary"><i class="bi bi-journal-text"></i> View Case Studies</a>
                     </div>
                 </div>
             </div>
@@ -648,6 +831,20 @@ document.addEventListener('DOMContentLoaded', function() {
         button.addEventListener('shown.bs.tab', function(e) {
             const targetId = e.target.getAttribute('data-bs-target').substring(1);
             history.replaceState(null, null, `#${targetId}`);
+        });
+    });
+
+    document.querySelectorAll('.product-showcase-card, .product-comparison-table a').forEach(card => {
+        card.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href').substring(1);
+            if (!targetId) return;
+            e.preventDefault();
+            activateTab(targetId);
+            history.replaceState(null, null, `#${targetId}`);
+            document.getElementById('productTabs')?.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
         });
     });
 });

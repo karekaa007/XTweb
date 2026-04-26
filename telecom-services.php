@@ -8,7 +8,7 @@
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb justify-content-center">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                     <!--  <li class="breadcrumb-item"><a href="#">About Us</a></li> -->
                     <li class="breadcrumb-item active" aria-current="page">Telecom Services</li>
                 </ol>
@@ -93,176 +93,101 @@
     </section>
 
     <section class="xp-tele-section">
-
         <div class="container">
 
-            <!-- Section Header -->
             <div class="xp-telecom-header" data-aos="fade-up">
-
                 <span class="xp-badge">TELECOM SERVICES</span>
-                <h2 class="xp-title">Connectivity for the Next <span class="text-highlight">Generation
-                        SMBs</span></h2>
-
+                <h2 class="xp-title">Connectivity for the Next <span class="text-highlight">Generation SMBs</span></h2>
             </div>
 
-            <!-- Cards Grid -->
             <div class="row g-4 mt-2">
 
-                <!-- Card 1 -->
-                <div class="col-12" data-aos="fade-right">
-                    <div class="xp-tele-card xp-border-blue">
-
-                        <div class="xp-tele-icon bg-blue">
-                            <i class="fas fa-broadcast-tower"></i>
-                        </div>
-
-                        <div class="xp-tele-content">
-                            <h4>Private 5G & LTE Networks</h4>
-                            <small> Design · Deploy · Support</small>
-
-                            <p>
-                                Deploy a dedicated private cellular network for your business —
-                                ideal for warehouses, logistics hubs, mining operations,
-                                construction sites, remote facilities, and enterprise campuses.
-                                Includes spectrum licensing support, deployment, and managed
-                                operations with AI-powered optimisation.
-                            </p>
-
-                            <div class="xp-tele-tags">
-                                <span>Private LTE / 5G</span>
-                                <span>Industrial IoT</span>
-                                <span>CBRS / Shared Spectrum</span>
-                                <span>ACMA Licensing</span>
-                                <span>Network Planning</span>
-                                <span>Managed NOC</span>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                    <a href="contact-us.php" class="cs-img-card cs-img-card--sm">
+                        <div class="cs-img-inner" style="background-image:url('assets2/images/portfolio-4.jpg')">
+                            <div class="cs-img-overlay"></div>
+                            <div class="cs-img-badge">
+                                <i class="bi bi-broadcast"></i>
+                                <span>Private Networks</span>
                             </div>
+                            <div class="cs-img-body">
+                                <h3>Private 5G & LTE Networks</h3>
+                                <div class="cs-img-kpi">Design · Deploy · Managed NOC</div>
+                            </div>
+                            <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="col-lg-6" data-aos="fade-right">
-                    <div class="xp-tele-card xp-border-green">
-
-                        <div class="xp-tele-icon bg-green">
-                            <i class="fas fa-network-wired"></i>
-                        </div>
-
-                        <div class="xp-tele-content">
-                            <h4>SD-WAN & Managed Connectivity</h4>
-                            <small> Multi-Site · Cloud-Ready</small>
-
-                            <p>
-                                Intelligent SD-WAN automatically routes traffic across
-                                multiple ISP links and prioritises business-critical
-                                applications with AI-driven traffic shaping.
-                            </p>
-
-                            <div class="xp-tele-tags">
-                                <span>SD-WAN</span>
-                                <span>Multi-Link Failover</span>
-                                <span>QoS</span>
-                                <span>Cloud Optimisation</span>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <a href="contact-us.php" class="cs-img-card cs-img-card--sm">
+                        <div class="cs-img-inner" style="background-image:url('assets2/images/portfolio-5.jpg')">
+                            <div class="cs-img-overlay"></div>
+                            <div class="cs-img-badge">
+                                <i class="bi bi-hdd-network"></i>
+                                <span>Connectivity</span>
                             </div>
+                            <div class="cs-img-body">
+                                <h3>SD-WAN & Managed Connectivity</h3>
+                                <div class="cs-img-kpi">Multi-Site · Cloud-Ready · QoS</div>
+                            </div>
+                            <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
 
-                <!-- Card 3 -->
-                <div class="col-lg-6" data-aos="fade-left">
-                    <div class="xp-tele-card xp-border-orange">
-
-                        <div class="xp-tele-icon bg-orange">
-                            <i class="fas fa-sim-card"></i>
-                        </div>
-
-                        <div class="xp-tele-content">
-                            <h4>IoT Connectivity & SIM Management</h4>
-                            <small>Fleet · Assets · Devices</small>
-
-                            <p>
-                                Manage IoT SIM plans with AI-powered anomaly detection,
-                                usage analytics, billing automation, and predictive
-                                monitoring dashboards.
-                            </p>
-
-                            <div class="xp-tele-tags">
-                                <span>IoT SIMs</span>
-                                <span>Fleet Tracking</span>
-                                <span>Asset Monitoring</span>
-                                <span>SIM Portal</span>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <a href="contact-us.php" class="cs-img-card cs-img-card--sm">
+                        <div class="cs-img-inner" style="background-image:url('assets2/images/portfolio-6.jpg')">
+                            <div class="cs-img-overlay"></div>
+                            <div class="cs-img-badge">
+                                <i class="bi bi-cpu"></i>
+                                <span>IoT</span>
                             </div>
+                            <div class="cs-img-body">
+                                <h3>IoT Connectivity & SIM Management</h3>
+                                <div class="cs-img-kpi">Fleet · Assets · Devices</div>
+                            </div>
+                            <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
 
-                <!-- Card 4 -->
-                <div class="col-12" data-aos="fade-right">
-                    <div class="xp-tele-card xp-border-purple">
-
-                        <div class="xp-tele-icon bg-purple">
-                            <i class="fas fa-phone-volume"></i>
-                        </div>
-
-                        <div class="xp-tele-content">
-                            <h4>VoIP & Unified Communications (UCaaS)</h4>
-                            <small> Cloud Phone · Microsoft Teams · Multi-Site</small>
-
-                            <p>
-                                Modern cloud VoIP and Microsoft Teams Direct Routing
-                                with AI-powered call transcription, analytics dashboards,
-                                and unified voice, video, and messaging accessible from any device.
-                            </p>
-
-                            <div class="xp-tele-tags">
-                                <span>Cloud VoIP</span>
-                                <span>Teams Direct Routing</span>
-                                <span>Number Porting</span>
-                                <span>SIP Trunking</span>
+                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                    <a href="contact-us.php" class="cs-img-card cs-img-card--sm">
+                        <div class="cs-img-inner" style="background-image:url('assets2/images/portfolio-1.jpg')">
+                            <div class="cs-img-overlay"></div>
+                            <div class="cs-img-badge">
+                                <i class="bi bi-telephone-fill"></i>
                                 <span>UCaaS</span>
                             </div>
+                            <div class="cs-img-body">
+                                <h3>VoIP & Unified Communications</h3>
+                                <div class="cs-img-kpi">Cloud Phone · Microsoft Teams · SIP Trunking</div>
+                            </div>
+                            <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
 
-                <!-- Card 5 -->
-                <div class="col-12" data-aos="fade-left">
-                    <div class="xp-tele-card xp-border-green">
-
-                        <div class="xp-tele-icon bg-green">
-                            <i class="fas fa-drafting-compass"></i>
-                        </div>
-
-                        <div class="xp-tele-content">
-                            <h4>Network Planning, Design & Operations Support</h4>
-                            <small> End-to-End Telecom Network Lifecycle</small>
-
-                            <p>
-                                Comprehensive telecom network lifecycle management covering
-                                strategic planning, detailed network design, seamless implementation,
-                                and ongoing operations support. From initial architecture planning
-                                to day-to-day network management and optimization.
-                            </p>
-
-                            <div class="xp-tele-tags">
-                                <span>Network Planning</span>
-                                <span>System Design</span>
-                                <span>Implementation</span>
-                                <span>Operations Support</span>
-                                <span>Network Optimization</span>
-                                <span>Lifecycle Management</span>
+                <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <a href="contact-us.php" class="cs-img-card cs-img-card--sm">
+                        <div class="cs-img-inner" style="background-image:url('assets2/images/portfolio-2.jpg')">
+                            <div class="cs-img-overlay"></div>
+                            <div class="cs-img-badge">
+                                <i class="bi bi-diagram-3-fill"></i>
+                                <span>Engineering</span>
                             </div>
+                            <div class="cs-img-body">
+                                <h3>Network Planning & Operations</h3>
+                                <div class="cs-img-kpi">Design · Implementation · Lifecycle Management</div>
+                            </div>
+                            <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
                         </div>
-
-                    </div>
+                    </a>
                 </div>
 
             </div>
-
         </div>
     </section>
 

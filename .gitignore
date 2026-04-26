@@ -1,2 +1,4 @@
 .DS_Store
-.DS_Store
+
+# Chat API key — never commit this
+includes/chat_config.php

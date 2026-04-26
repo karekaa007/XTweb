@@ -8,7 +8,7 @@
 
              <nav aria-label="breadcrumb">
                  <ol class="breadcrumb justify-content-center">
-                     <li class="breadcrumb-item"><a href="#">Home</a></li>
+                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                      <!--  <li class="breadcrumb-item"><a href="#">About Us</a></li> -->
                      <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
                  </ol>
@@ -38,8 +38,7 @@
                                  Get In Touch
                              </span>
                              <h3>Let's Bring Your Vision to Life</h3>
-                             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                                 consequuntur magni dolores.</p>
+                             <p>Whether you're ready to start a project or just want to explore your options, our team is here to help.</p>
                          </div>
 
                          <div class="contact-methods">
@@ -82,10 +81,10 @@
                          <div class="social-connect">
                              <span>Follow Us</span>
                              <div class="social-icons">
-                                 <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                                 <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
-                                 <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                                 <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                                 <a href="https://www.facebook.com/xpansiontech/" aria-label="Facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+                                 <a href="https://x.com/XpansionTech" aria-label="Twitter" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                                 <a href="https://www.linkedin.com/company/xpansiontechnologies" aria-label="LinkedIn" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                 <a href="https://www.instagram.com/xpansiontechnologies/" aria-label="Instagram" target="_blank"><i class="bi bi-instagram"></i></a>
                              </div>
                          </div>
                      </div>

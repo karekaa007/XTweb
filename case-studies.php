@@ -11,18 +11,101 @@
     </section>
 
     <section class="case-studies-page section pt-0">
-        <div class="container-fluid">
-            <div class="row g-0">
+        <div class="container">
+            <div class="page-overview case-overview" data-aos="fade-up" data-aos-duration="1000">
+                <div class="overview-copy">
+                    <span class="section-subtitle">Outcome Library</span>
+                    <h2>Evidence-led stories for complex digital work.</h2>
+                    <p>Explore concise delivery stories shaped around the business challenge, the intervention, measurable outcomes and the capabilities applied. Start with a featured engagement or use the library to compare related challenges.</p>
+                    <div class="case-overview-actions">
+                        <a href="#caseStudyTabs" class="btn btn-primary">Browse library</a>
+                        <a href="contact-us.php" class="btn btn-outline-primary">Discuss Project</a>
+                    </div>
+                </div>
+                <div class="overview-stats">
+                    <div class="overview-stat">
+                        <strong>21</strong>
+                        <span>engagement references</span>
+                    </div>
+                    <div class="overview-stat">
+                        <strong>8+</strong>
+                        <span>industries covered</span>
+                    </div>
+                    <div class="overview-stat">
+                        <strong>2</strong>
+                        <span>detailed studies available</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="case-feature-grid" data-aos="fade-up" data-aos-duration="1000">
+                <button class="case-feature-card active" type="button" data-case-target="cs07">
+                    <span class="case-feature-media">
+                        <img src="assets/images/anpr.jpg" alt="City-wide ANPR platform">
+                    </span>
+                    <span class="case-feature-content">
+                        <span class="case-feature-ref">CS 07</span>
+                        <span class="case-feature-industry">Public safety</span>
+                        <strong>City-wide ANPR platform</strong>
+                        <span>98%+ accuracy · &lt;3s alert time</span>
+                    </span>
+                </button>
+                <button class="case-feature-card" type="button" data-case-target="cs08">
+                    <span class="case-feature-media">
+                        <img src="assets/images/case-study.png" alt="24/7 managed SOC operations">
+                    </span>
+                    <span class="case-feature-content">
+                        <span class="case-feature-ref">CS 08</span>
+                        <span class="case-feature-industry">Security operations</span>
+                        <strong>24/7 managed SOC operations</strong>
+                        <span>&lt;15 min MTTD · 85% alert reduction</span>
+                    </span>
+                </button>
+                <a class="case-feature-card case-feature-contact" href="contact-us.php">
+                    <span class="case-feature-content">
+                        <span class="case-feature-ref">NEXT</span>
+                        <span class="case-feature-industry">Your challenge</span>
+                        <strong>Turn your operating problem into a measurable delivery plan.</strong>
+                        <span>Book a discovery session</span>
+                    </span>
+                </a>
+            </div>
+
+            <div class="row g-4 case-workbench">
                 <!-- Left Sidebar - Case Study Tabs -->
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-4 case-library-col">
+                    <div class="case-study-panel-title">
+                        <span>Case Library</span>
+                        <strong>Find a relevant engagement</strong>
+                    </div>
                     <div class="case-study-filter">
                         <div class="input-group">
                             <span class="input-group-text"><i class="bi bi-search"></i></span>
-                            <input type="search" id="caseStudySearch" class="form-control" placeholder="Filter case studies by reference or title">
+                            <input type="search" id="caseStudySearch" class="form-control" placeholder="Search reference, industry or title">
                         </div>
                     </div>
                     <div class="case-study-tabs">
                         <div class="nav flex-column nav-pills" id="caseStudyTabs" role="tablist">
+                            <button class="nav-link" id="cs01-tab" data-bs-toggle="tab" data-bs-target="#cs01" type="button" role="tab">
+                                <span class="case-ref">CS 01</span>
+                                <span class="case-title">Corporate office automation</span>
+                            </button>
+                            <button class="nav-link" id="cs03-tab" data-bs-toggle="tab" data-bs-target="#cs03" type="button" role="tab">
+                                <span class="case-ref">CS 03</span>
+                                <span class="case-title">Government operations digitization</span>
+                            </button>
+                            <button class="nav-link" id="cs04-tab" data-bs-toggle="tab" data-bs-target="#cs04" type="button" role="tab">
+                                <span class="case-ref">CS 04</span>
+                                <span class="case-title">Managed SOC with SIEM</span>
+                            </button>
+                            <button class="nav-link" id="cs05-tab" data-bs-toggle="tab" data-bs-target="#cs05" type="button" role="tab">
+                                <span class="case-ref">CS 05</span>
+                                <span class="case-title">Retail POS integration</span>
+                            </button>
+                            <button class="nav-link" id="cs06-tab" data-bs-toggle="tab" data-bs-target="#cs06" type="button" role="tab">
+                                <span class="case-ref">CS 06</span>
+                                <span class="case-title">Educational facility security</span>
+                            </button>
                             <button class="nav-link active" id="cs07-tab" data-bs-toggle="tab" data-bs-target="#cs07" type="button" role="tab">
                                 <span class="case-ref">CS 07</span>
                                 <span class="case-title">City-wide ANPR platform</span>
@@ -35,84 +118,65 @@
                                 <span class="case-ref">CS 09</span>
                                 <span class="case-title">Unified OSS/BSS platform</span>
                             </button>
-                            <button class="nav-link" id="cs04-tab" data-bs-toggle="tab" data-bs-target="#cs04" type="button" role="tab">
-                                <span class="case-ref">CS 04</span>
-                                <span class="case-title">Managed SOC with SIEM</span>
-                            </button>
-                            <button class="nav-link" id="cs13-tab" data-bs-toggle="tab" data-bs-target="#cs13" type="button" role="tab">
-                                <span class="case-ref">CS 13</span>
-                                <span class="case-title">Digital visitor management</span>
-                            </button>
-                            <button class="nav-link" id="cs17-tab" data-bs-toggle="tab" data-bs-target="#cs17" type="button" role="tab">
-                                <span class="case-ref">CS 17</span>
-                                <span class="case-title">Event management platform</span>
-                            </button>
-                            <button class="nav-link" id="cs20-tab" data-bs-toggle="tab" data-bs-target="#cs20" type="button" role="tab">
-                                <span class="case-ref">CS 20</span>
-                                <span class="case-title">API-first integration layer</span>
-                            </button>
-                            <button class="nav-link" id="cs19-tab" data-bs-toggle="tab" data-bs-target="#cs19" type="button" role="tab">
-                                <span class="case-ref">CS 19</span>
-                                <span class="case-title">Multi-site HRMS deployment</span>
-                            </button>
-                            <button class="nav-link" id="cs21-tab" data-bs-toggle="tab" data-bs-target="#cs21" type="button" role="tab">
-                                <span class="case-ref">CS 21</span>
-                                <span class="case-title">HORECA supply chain platform</span>
-                            </button>
                             <button class="nav-link" id="cs10-tab" data-bs-toggle="tab" data-bs-target="#cs10" type="button" role="tab">
                                 <span class="case-ref">CS 10</span>
                                 <span class="case-title">Salon management system</span>
-                            </button>
-                            <button class="nav-link" id="cs12-tab" data-bs-toggle="tab" data-bs-target="#cs12" type="button" role="tab">
-                                <span class="case-ref">CS 12</span>
-                                <span class="case-title">Sports academy platform</span>
-                            </button>
-                            <button class="nav-link" id="cs22-tab" data-bs-toggle="tab" data-bs-target="#cs22" type="button" role="tab">
-                                <span class="case-ref">CS 22</span>
-                                <span class="case-title">Smart city surveillance</span>
-                            </button>
-                            <button class="nav-link" id="cs14-tab" data-bs-toggle="tab" data-bs-target="#cs14" type="button" role="tab">
-                                <span class="case-ref">CS 14</span>
-                                <span class="case-title">Invoice management platform</span>
                             </button>
                             <button class="nav-link" id="cs11-tab" data-bs-toggle="tab" data-bs-target="#cs11" type="button" role="tab">
                                 <span class="case-ref">CS 11</span>
                                 <span class="case-title">Time tracking & job costing</span>
                             </button>
-                            <button class="nav-link" id="cs16-tab" data-bs-toggle="tab" data-bs-target="#cs16" type="button" role="tab">
-                                <span class="case-ref">CS 16</span>
-                                <span class="case-title">Community event publishing</span>
+                            <button class="nav-link" id="cs12-tab" data-bs-toggle="tab" data-bs-target="#cs12" type="button" role="tab">
+                                <span class="case-ref">CS 12</span>
+                                <span class="case-title">Sports academy platform</span>
                             </button>
-                            <button class="nav-link" id="cs18-tab" data-bs-toggle="tab" data-bs-target="#cs18" type="button" role="tab">
-                                <span class="case-ref">CS 18</span>
-                                <span class="case-title">Multi-supplier marketplace</span>
+                            <button class="nav-link" id="cs13-tab" data-bs-toggle="tab" data-bs-target="#cs13" type="button" role="tab">
+                                <span class="case-ref">CS 13</span>
+                                <span class="case-title">Digital visitor management</span>
                             </button>
-                            <button class="nav-link" id="cs05-tab" data-bs-toggle="tab" data-bs-target="#cs05" type="button" role="tab">
-                                <span class="case-ref">CS 05</span>
-                                <span class="case-title">Retail POS integration</span>
-                            </button>
-                            <button class="nav-link" id="cs06-tab" data-bs-toggle="tab" data-bs-target="#cs06" type="button" role="tab">
-                                <span class="case-ref">CS 06</span>
-                                <span class="case-title">Educational facility security</span>
+                            <button class="nav-link" id="cs14-tab" data-bs-toggle="tab" data-bs-target="#cs14" type="button" role="tab">
+                                <span class="case-ref">CS 14</span>
+                                <span class="case-title">Invoice management platform</span>
                             </button>
                             <button class="nav-link" id="cs15-tab" data-bs-toggle="tab" data-bs-target="#cs15" type="button" role="tab">
                                 <span class="case-ref">CS 15</span>
                                 <span class="case-title">Healthcare visitor tracking</span>
                             </button>
-                            <button class="nav-link" id="cs01-tab" data-bs-toggle="tab" data-bs-target="#cs01" type="button" role="tab">
-                                <span class="case-ref">CS 01</span>
-                                <span class="case-title">Corporate office automation</span>
+                            <button class="nav-link" id="cs16-tab" data-bs-toggle="tab" data-bs-target="#cs16" type="button" role="tab">
+                                <span class="case-ref">CS 16</span>
+                                <span class="case-title">Community event publishing</span>
                             </button>
-                            <button class="nav-link" id="cs03-tab" data-bs-toggle="tab" data-bs-target="#cs03" type="button" role="tab">
-                                <span class="case-ref">CS 03</span>
-                                <span class="case-title">Government operations digitization</span>
+                            <button class="nav-link" id="cs17-tab" data-bs-toggle="tab" data-bs-target="#cs17" type="button" role="tab">
+                                <span class="case-ref">CS 17</span>
+                                <span class="case-title">Event management platform</span>
+                            </button>
+                            <button class="nav-link" id="cs18-tab" data-bs-toggle="tab" data-bs-target="#cs18" type="button" role="tab">
+                                <span class="case-ref">CS 18</span>
+                                <span class="case-title">Multi-supplier marketplace</span>
+                            </button>
+                            <button class="nav-link" id="cs19-tab" data-bs-toggle="tab" data-bs-target="#cs19" type="button" role="tab">
+                                <span class="case-ref">CS 19</span>
+                                <span class="case-title">Multi-site HRMS deployment</span>
+                            </button>
+                            <button class="nav-link" id="cs20-tab" data-bs-toggle="tab" data-bs-target="#cs20" type="button" role="tab">
+                                <span class="case-ref">CS 20</span>
+                                <span class="case-title">API-first integration layer</span>
+                            </button>
+                            <button class="nav-link" id="cs21-tab" data-bs-toggle="tab" data-bs-target="#cs21" type="button" role="tab">
+                                <span class="case-ref">CS 21</span>
+                                <span class="case-title">HORECA supply chain platform</span>
+                            </button>
+                            <button class="nav-link" id="cs22-tab" data-bs-toggle="tab" data-bs-target="#cs22" type="button" role="tab">
+                                <span class="case-ref">CS 22</span>
+                                <span class="case-title">Smart city surveillance</span>
                             </button>
                         </div>
+                        <div class="case-study-empty" id="caseStudyEmpty">No matching case studies found.</div>
                     </div>
                 </div>
 
                 <!-- Right Content - Case Study Details -->
-                <div class="col-lg-9 col-md-8">
+                <div class="col-lg-9 col-md-8 case-detail-col">
                     <div class="case-study-content">
                         <div class="tab-content" id="caseStudyTabsContent">
                             <!-- CS 07 -->
@@ -245,8 +309,8 @@
                                                     <div class="cta-sidebar">
                                                         <h4>Facing a similar challenge?</h4>
                                                         <p>Many cities struggle with vehicle-related public safety issues. Our ANPR and smart city solutions can help.</p>
-                                                        <a href="mailto:info@xpansiontechnologies.com?subject=CS07 - Public Safety ANPR Inquiry" class="btn btn-primary">Book a discovery session</a>
-                                                        <a href="mailto:info@xpansiontechnologies.com?subject=CS07 - Request Capabilities Briefing" class="btn btn-outline-primary">Request capabilities briefing</a>
+                                                        <a href="contact-us.php" class="btn btn-primary">Book a discovery session</a>
+                                                        <a href="contact-us.php" class="btn btn-outline-primary">Request capabilities briefing</a>
                                                     </div>
 
                                                     <div class="related-cases">
@@ -404,8 +468,8 @@
                                                     <div class="cta-sidebar">
                                                         <h4>Facing a similar challenge?</h4>
                                                         <p>Multi-site organizations often struggle with fragmented security monitoring. Our SOC and SIEM solutions provide unified protection.</p>
-                                                        <a href="mailto:info@xpansiontechnologies.com?subject=CS08 - Multi-site SOC Inquiry" class="btn btn-primary">Book a discovery session</a>
-                                                        <a href="mailto:info@xpansiontechnologies.com?subject=CS08 - Request Capabilities Briefing" class="btn btn-outline-primary">Request capabilities briefing</a>
+                                                        <a href="contact-us.php" class="btn btn-primary">Book a discovery session</a>
+                                                        <a href="contact-us.php" class="btn btn-outline-primary">Request capabilities briefing</a>
                                                     </div>
 
                                                     <div class="related-cases">
@@ -440,6 +504,18 @@
                     </div>
                 </div>
             </div>
+
+            <div class="portfolio cta-section page-bottom-cta case-bottom-cta" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="cta-content">
+                    <span class="cta-label"><i class="bi bi-lightning-charge-fill"></i> Have a similar challenge?</span>
+                    <h3>Turn a complex operating problem into a measurable delivery plan.</h3>
+                    <p>Share the workflow, risk or growth constraint you need to solve and we will map the right solution path.</p>
+                    <div class="cta-buttons">
+                        <a href="contact-us.php" class="btn-cta-primary">Discuss Project <i class="bi bi-arrow-right"></i></a>
+                        <a href="products.php" class="btn-cta-secondary"><i class="bi bi-grid"></i> Explore Products</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -448,58 +524,33 @@
 <script>
 // Tab functionality with URL hash support
 document.addEventListener('DOMContentLoaded', function() {
-    const tabButtons = document.querySelectorAll('#caseStudyTabs .nav-link');
-    const tabPanes = document.querySelectorAll('.tab-pane');
-
-    // Function to activate tab
-    function activateTab(tabId) {
-        // Remove active class from all tabs
-        tabButtons.forEach(btn => btn.classList.remove('active'));
-        tabPanes.forEach(pane => pane.classList.remove('show', 'active'));
-
-        // Add active class to target tab
-        const targetButton = document.querySelector(`[data-bs-target="#${tabId}"]`);
-        const targetPane = document.getElementById(tabId);
-
-        if (targetButton && targetPane) {
-            targetButton.classList.add('active');
-            targetPane.classList.add('show', 'active');
-        }
-    }
-
-    // Check URL hash on load
-    const hash = window.location.hash.substring(1);
-    if (hash) {
-        activateTab(hash);
-    }
-
-    // Update URL hash when tab changes
-    tabButtons.forEach(button => {
-        button.addEventListener('shown.bs.tab', function(e) {
-            const targetId = e.target.getAttribute('data-bs-target').substring(1);
-            history.replaceState(null, null, `#${targetId}`);
-        });
-    });
-
-    // Mobile dropdown functionality and search support
+    const tabButtons = Array.from(document.querySelectorAll('#caseStudyTabs .nav-link'));
+    const tabPanes = Array.from(document.querySelectorAll('.tab-pane'));
+    const featureCards = Array.from(document.querySelectorAll('[data-case-target]'));
     const tabContainer = document.querySelector('.case-study-tabs');
     const navList = tabContainer.querySelector('#caseStudyTabs');
     let mobileSelect = null;
 
     function activateTab(tabId) {
-        tabButtons.forEach(btn => btn.classList.remove('active'));
-        tabPanes.forEach(pane => pane.classList.remove('show', 'active'));
-
         const targetButton = document.querySelector(`[data-bs-target="#${tabId}"]`);
         const targetPane = document.getElementById(tabId);
 
-        if (targetButton && targetPane) {
-            targetButton.classList.add('active');
-            targetPane.classList.add('show', 'active');
-            if (mobileSelect) {
-                mobileSelect.value = tabId;
-            }
+        if (!targetButton || !targetPane) {
+            return false;
         }
+
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabPanes.forEach(pane => pane.classList.remove('show', 'active'));
+        featureCards.forEach(card => card.classList.toggle('active', card.dataset.caseTarget === tabId));
+
+        targetButton.classList.add('active');
+        targetPane.classList.add('show', 'active');
+
+        if (mobileSelect) {
+            mobileSelect.value = tabId;
+        }
+
+        return true;
     }
 
     function updateMobileSelect() {
@@ -507,7 +558,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const activeValue = mobileSelect.value || '';
         const options = ['<option value="">Select a case study</option>'];
 
-        tabButtons.filter(button => button.style.display !== 'none').forEach(button => {
+        tabButtons.filter(button => button.style.display !== 'none' && !button.classList.contains('is-summary-only')).forEach(button => {
             const value = button.getAttribute('data-bs-target').substring(1);
             const label = button.querySelector('.case-ref').textContent + ' - ' + button.querySelector('.case-title').textContent;
             options.push(`<option value="${value}">${label}</option>`);
@@ -523,14 +574,57 @@ document.addEventListener('DOMContentLoaded', function() {
         const searchInput = document.getElementById('caseStudySearch');
         if (!searchInput) return;
         const query = searchInput.value.trim().toLowerCase();
+        let visibleCount = 0;
 
         tabButtons.forEach(button => {
             const text = button.textContent.toLowerCase();
-            button.style.display = text.includes(query) ? '' : 'none';
+            const isVisible = text.includes(query);
+            button.style.display = isVisible ? '' : 'none';
+            if (isVisible) visibleCount++;
         });
+
+        const emptyState = document.getElementById('caseStudyEmpty');
+        if (emptyState) {
+            emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
+        }
 
         updateMobileSelect();
     }
+
+    tabButtons.forEach(button => {
+        const targetId = button.getAttribute('data-bs-target').substring(1);
+        const hasDetailPane = Boolean(document.getElementById(targetId));
+
+        if (!hasDetailPane) {
+            button.classList.add('is-summary-only');
+            button.setAttribute('aria-disabled', 'true');
+            button.insertAdjacentHTML('beforeend', '<span class="case-status">Summary queued</span>');
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+            });
+            return;
+        }
+
+        button.addEventListener('shown.bs.tab', function(e) {
+            const activeId = e.target.getAttribute('data-bs-target').substring(1);
+            activateTab(activeId);
+            history.replaceState(null, null, `#${activeId}`);
+        });
+    });
+
+    featureCards.forEach(card => {
+        card.addEventListener('click', function() {
+            const targetId = this.dataset.caseTarget;
+            if (activateTab(targetId)) {
+                history.replaceState(null, null, `#${targetId}`);
+                document.querySelector('.case-study-content')?.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
 
     function createMobileSelect() {
         if (mobileSelect) return;
@@ -566,7 +660,11 @@ document.addEventListener('DOMContentLoaded', function() {
         searchInput.addEventListener('input', filterCaseStudies);
     }
 
-    // Handle mobile tabs on load and resize
+    const hash = window.location.hash.substring(1);
+    if (hash) {
+        activateTab(hash);
+    }
+
     handleMobileTabs();
     window.addEventListener('resize', handleMobileTabs);
 });
