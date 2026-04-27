@@ -430,7 +430,7 @@ managed services to build foundation for future growth. </p>
                              <h5 class="mb-0">Featured engagements</h5>
                          </div>
                          <div class="col-sm-6 text-sm-end">
-                             <a href="case-studies.php" class="service-link">View all 21 case studies <i class="bi bi-arrow-right"></i></a>
+                             <a href="case-studies.php" class="service-link">View all 32 case studies <i class="bi bi-arrow-right"></i></a>
                          </div>
                      </div>
                  </div>

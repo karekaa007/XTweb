@@ -20,7 +20,7 @@
                 </div>
                 <div class="overview-stats">
                     <div class="overview-stat">
-                        <strong>6</strong>
+                        <strong>7</strong>
                         <span>solution tracks</span>
                     </div>
                     <div class="overview-stat">
@@ -130,6 +130,21 @@
                         </div>
                     </div>
                 </a>
+                <a href="#sports" class="product-showcase-card">
+                    <div class="product-showcase-image">
+                        <img src="assets2/images/sports-academy-management-system/services-11.jpg" alt="Sports Academy Management System">
+                    </div>
+                    <div class="product-showcase-content">
+                        <span class="product-category">Sports & Education</span>
+                        <h3>Sports Academy MS</h3>
+                        <p>Manage enrolments, scheduling, billing, coaching and parent communications in one platform.</p>
+                        <div class="product-chip-row">
+                            <span>Enrolments</span>
+                            <span>Scheduling</span>
+                            <span>Billing</span>
+                        </div>
+                    </div>
+                </a>
             </div>
 
             <!-- Tab Navigation -->
@@ -141,6 +156,7 @@
                     <button class="nav-link" id="xhrms-tab" data-bs-toggle="tab" data-bs-target="#xhrms" type="button" role="tab"><i class="bi bi-people"></i> xHRMS</button>
                     <button class="nav-link" id="salon-tab" data-bs-toggle="tab" data-bs-target="#salon" type="button" role="tab"><i class="bi bi-shop"></i> Salon MS</button>
                     <button class="nav-link" id="foodways-tab" data-bs-toggle="tab" data-bs-target="#foodways" type="button" role="tab"><i class="bi bi-basket"></i> Foodways</button>
+                    <button class="nav-link" id="sports-tab" data-bs-toggle="tab" data-bs-target="#sports" type="button" role="tab"><i class="bi bi-trophy"></i> Sports Academy MS</button>
                 </div>
             </div>
 
@@ -161,35 +177,35 @@
                                 <div class="features-grid">
                                     <div class="feature-item">
                                         <strong>Digital check-in</strong>
-                                        <p>Touchless or kiosk-based check-in with photo capture</p>
+                                        <p>Kiosk-based check-in with instant badge printing on arrival</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Pre-registration</strong>
-                                        <p>Hosts invite visitors in advance with auto-confirmation</p>
+                                        <strong>Instant host alerts</strong>
+                                        <p>SMS or email notification to hosts the moment a visitor checks in or out</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Host notifications</strong>
-                                        <p>Instant SMS or email alert on visitor arrival</p>
+                                        <strong>Mobile number verification</strong>
+                                        <p>Mandatory mobile verification step to strengthen on-site security</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Badge printing</strong>
-                                        <p>Auto-generated visitor badges on check-in</p>
+                                        <strong>Staff directory import</strong>
+                                        <p>Upload staff data via CSV or sync directly with Active Directory</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Emergency alert broadcast</strong>
+                                        <p>Send SMS or email alerts to individuals, groups, or all people on premises in one click</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Existing system integration</strong>
+                                        <p>Log visitor details, duration, and purpose into existing security systems</p>
                                     </div>
                                     <div class="feature-item">
                                         <strong>Analytics dashboard</strong>
-                                        <p>Live and historical visitor flow reporting</p>
+                                        <p>Real-time and historical visitor flow reporting</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Multi-site support</strong>
-                                        <p>Manage multiple locations from one admin panel</p>
-                                    </div>
-                                    <div class="feature-item">
-                                        <strong>Watchlist screening</strong>
-                                        <p>Flag visitors against a custom watchlist on arrival</p>
-                                    </div>
-                                    <div class="feature-item">
-                                        <strong>Compliance logs</strong>
-                                        <p>Full audit-ready visitor log with timestamps</p>
+                                        <strong>Customisable workflows</strong>
+                                        <p>Configurable check-in flows, fields, and templates to match site requirements</p>
                                     </div>
                                 </div>
 
@@ -250,43 +266,43 @@
                             <div class="product-detail-content">
                                 <p class="eyebrow">Finance</p>
                                 <h2 class="product-title">XIMS</h2>
-                                <p class="tagline">Clients · Quotes · Invoices · Inventory · Leads</p>
+                                <p class="tagline">Quotes · Approvals · Invoices · Payments · Reminders</p>
                                 <h3 class="problem-statement">Businesses managing invoicing across spreadsheets and email lose track of outstanding payments, miss follow-ups and have no clear view of their revenue pipeline.</h3>
-                                <p class="product-description">XIMS is a comprehensive invoicing and client management platform — one place to manage quotations, invoices, client records, inventory items and leads. Built for businesses of all sizes with no accounting background required.</p>
+                                <p class="product-description">XIMS is a comprehensive invoicing and client management platform — one place to manage quotations, client approvals, invoices, payments and reminders. Built for businesses of all sizes with no accounting background required.</p>
 
                                 <h4>Key features</h4>
                                 <div class="features-grid">
                                     <div class="feature-item">
                                         <strong>Quotation builder</strong>
-                                        <p>Create and send professional quotes in minutes</p>
+                                        <p>Create and send professional quotes using elegant, selectable templates</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Email quote approval</strong>
+                                        <p>Clients approve quotations directly by email — no login required</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Quote-to-invoice conversion</strong>
+                                        <p>Approved quotes convert to invoices automatically with one click</p>
                                     </div>
                                     <div class="feature-item">
                                         <strong>Invoice tracking</strong>
-                                        <p>Monitor payment status, due dates and overdue alerts</p>
+                                        <p>Monitor payment status, due dates and overdue balances at a glance</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Auto reminders</strong>
+                                        <p>Automated follow-ups for outstanding invoices — no manual chasing</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Payment recording</strong>
+                                        <p>Log payments against invoices with running balance and history</p>
                                     </div>
                                     <div class="feature-item">
                                         <strong>Client CRM</strong>
                                         <p>Centralised client profiles with full transaction history</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Lead management</strong>
-                                        <p>Track prospects from enquiry through to conversion</p>
-                                    </div>
-                                    <div class="feature-item">
-                                        <strong>Inventory items</strong>
-                                        <p>Maintain a product and service catalogue for fast quoting</p>
-                                    </div>
-                                    <div class="feature-item">
-                                        <strong>Payment recording</strong>
-                                        <p>Log payments against invoices with running balance</p>
-                                    </div>
-                                    <div class="feature-item">
-                                        <strong>Custom branding</strong>
-                                        <p>Add your logo and colours to all client-facing documents</p>
-                                    </div>
-                                    <div class="feature-item">
-                                        <strong>Reporting</strong>
-                                        <p>Revenue summaries, outstanding balances and pipeline reports</p>
+                                        <strong>Customisable dashboard</strong>
+                                        <p>Configure your view with revenue summaries and outstanding balances</p>
                                     </div>
                                 </div>
 
@@ -347,43 +363,43 @@
                             <div class="product-detail-content">
                                 <p class="eyebrow">Events</p>
                                 <h2 class="product-title">xEvent</h2>
-                                <p class="tagline">Publish · Promote · Inform · Manage RSVPs</p>
-                                <h3 class="problem-statement">Organisations managing events through email chains and social posts have no central record of attendees, can't send targeted updates and have no way to measure engagement.</h3>
-                                <p class="product-description">xEvent is a web-based event planning and publishing platform. Create events, publish them to your community, manage RSVPs and send targeted notifications — all from one dashboard. Suitable for corporate events, community programmes and recurring series.</p>
+                                <p class="tagline">Plan · Publish · Inform · Community</p>
+                                <h3 class="problem-statement">Organisations promoting events across email and social channels have no single place to publish, inform attendees and keep their community up to date.</h3>
+                                <p class="product-description">xEvent is a web-based event planning and publishing platform. Create events, publish them to your community and keep attendees informed with relevant updates — all from one dashboard. Suitable for community programmes, corporate events and recurring series.</p>
 
                                 <h4>Key features</h4>
                                 <div class="features-grid">
                                     <div class="feature-item">
                                         <strong>Event creation</strong>
-                                        <p>Rich event pages with details, images and scheduling</p>
+                                        <p>Create detailed event pages with scheduling, location and descriptions</p>
                                     </div>
                                     <div class="feature-item">
                                         <strong>Community publishing</strong>
-                                        <p>Publish to your subscriber base with one click</p>
+                                        <p>Publish events to your community or subscriber base with one click</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>RSVP management</strong>
-                                        <p>Track registrations, confirmations and attendance</p>
+                                        <strong>Attendee information</strong>
+                                        <p>Provide relevant event details and updates to registered attendees</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Targeted notifications</strong>
-                                        <p>Send updates to specific attendee segments</p>
+                                        <strong>Event notifications</strong>
+                                        <p>Keep your community informed with event reminders and updates</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Multi-channel distribution</strong>
-                                        <p>Publish across web, email and social simultaneously</p>
+                                        <strong>Event catalogue</strong>
+                                        <p>Maintain a browsable directory of upcoming and past community events</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Recurring events</strong>
-                                        <p>Set up event series with automated scheduling</p>
+                                        <strong>Multi-event management</strong>
+                                        <p>Manage multiple events and series from a single dashboard</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Attendee portal</strong>
-                                        <p>Self-service registration and event information access</p>
+                                        <strong>Event page customisation</strong>
+                                        <p>Tailor event pages with images, schedules and custom information</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Post-event reporting</strong>
-                                        <p>Attendance, engagement and feedback summaries</p>
+                                        <strong>Web-based platform</strong>
+                                        <p>No app install required — fully accessible via browser on any device</p>
                                     </div>
                                 </div>
 
@@ -444,52 +460,52 @@
                             <div class="product-detail-content">
                                 <p class="eyebrow">HR & Workforce</p>
                                 <h2 class="product-title">xHRMS</h2>
-                                <p class="tagline">Time tracking · Job costing · Payroll planning · Profitability</p>
-                                <h3 class="problem-statement">Businesses without accurate time tracking and job costing cannot predict staffing needs, control labour costs or understand which work is actually profitable.</h3>
-                                <p class="product-description">xHRMS simplifies workforce operations through accurate time tracking, job costing, payroll planning and profitability reporting. It gives managers the data to make better resourcing decisions without complex HRIS infrastructure.</p>
+                                <p class="tagline">Employee data · Payroll · Benefits · Performance</p>
+                                <h3 class="problem-statement">Organisations managing HR across disconnected spreadsheets, emails and manual processes can't maintain accurate employee records, process payroll efficiently or track performance consistently.</h3>
+                                <p class="product-description">xHRMS is a full human resource management system designed to streamline and automate core HR operations — from employee data and payroll processing to benefits administration and performance evaluations. It gives HR teams the tools to increase efficiency and make better-informed decisions.</p>
 
                                 <h4>Key features</h4>
                                 <div class="features-grid">
                                     <div class="feature-item">
-                                        <strong>Time tracking</strong>
-                                        <p>Clock-in/out with project and job code assignment</p>
+                                        <strong>Employee data management</strong>
+                                        <p>Centralised staff records including contracts, documents and history</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Job costing</strong>
-                                        <p>Allocate labour costs to specific jobs, clients or cost centres</p>
+                                        <strong>Payroll processing</strong>
+                                        <p>Automate pay run calculations with tax, deductions and compliance exports</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Payroll planning</strong>
-                                        <p>Calculate pay runs based on tracked time and leave</p>
+                                        <strong>Benefits administration</strong>
+                                        <p>Manage and track employee entitlements, allowances and benefits</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Performance evaluations</strong>
+                                        <p>Set goals, conduct reviews and track performance over time</p>
                                     </div>
                                     <div class="feature-item">
                                         <strong>Leave management</strong>
-                                        <p>Apply, approve and track leave with balance visibility</p>
+                                        <p>Apply, approve and track leave balances with full audit trail</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Employee profiles</strong>
-                                        <p>Centralised staff records with documents and history</p>
+                                        <strong>Attendance tracking</strong>
+                                        <p>Monitor attendance patterns and flag irregularities</p>
                                     </div>
                                     <div class="feature-item">
                                         <strong>Role-based access</strong>
-                                        <p>Separate views for employees, managers and admin</p>
+                                        <p>Separate views and permissions for employees, managers and HR admin</p>
                                     </div>
                                     <div class="feature-item">
-                                        <strong>Profitability reporting</strong>
-                                        <p>Revenue vs. labour cost analysis by job or client</p>
-                                    </div>
-                                    <div class="feature-item">
-                                        <strong>Compliance exports</strong>
-                                        <p>Payroll summaries formatted for payroll processing</p>
+                                        <strong>HR reporting</strong>
+                                        <p>Workforce analytics and summaries to support decision-making</p>
                                     </div>
                                 </div>
 
                                 <h4>Best suited for</h4>
                                 <div class="ideal-for">
-                                    <span class="badge">Trade businesses</span>
-                                    <span class="badge">Professional services</span>
-                                    <span class="badge">Project-based teams</span>
-                                    <span class="badge">SMEs with field staff</span>
+                                    <span class="badge">SMEs</span>
+                                    <span class="badge">Multi-site organisations</span>
+                                    <span class="badge">Growing teams</span>
+                                    <span class="badge">HR departments</span>
                                 </div>
                             </div>
                         </div>
@@ -503,10 +519,10 @@
                                         <strong>Availability:</strong> Free trial
                                     </div>
                                     <div class="info-item">
-                                        <strong>Integration:</strong> Major payroll processors (export-ready); accounting platforms via CSV
+                                        <strong>Integration:</strong> Payroll processors (export-ready); accounting platforms via CSV
                                     </div>
                                     <div class="info-item">
-                                        <strong>Platform:</strong> Web · Mobile (time tracking and leave)
+                                        <strong>Platform:</strong> Web · Mobile (leave and attendance)
                                     </div>
                                 </div>
 
@@ -517,16 +533,16 @@
 
                                 <div class="stats-section">
                                     <div class="stat-item">
-                                        <div class="stat-number">Accurate job</div>
-                                        <div class="stat-label">costing</div>
+                                        <div class="stat-number">Full HR</div>
+                                        <div class="stat-label">lifecycle in one platform</div>
                                     </div>
                                     <div class="stat-item">
-                                        <div class="stat-number">Reduced payroll</div>
-                                        <div class="stat-label">errors</div>
+                                        <div class="stat-number">Automated</div>
+                                        <div class="stat-label">payroll processing</div>
                                     </div>
                                     <div class="stat-item">
-                                        <div class="stat-number">Labour cost visibility</div>
-                                        <div class="stat-label">by project</div>
+                                        <div class="stat-number">Informed</div>
+                                        <div class="stat-label">HR decisions</div>
                                     </div>
                                 </div>
                             </div>
@@ -729,6 +745,104 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Sports Academy MS Tab -->
+                <div class="tab-pane fade" id="sports" role="tabpanel">
+                    <div class="row g-5">
+                        <div class="col-lg-8">
+                            <div class="product-detail-content">
+                                <p class="eyebrow">Sports & Education</p>
+                                <h2 class="product-title">Sports Academy Management System</h2>
+                                <p class="tagline">Enrolments · Scheduling · Billing · Performance · Communication</p>
+                                <h3 class="problem-statement">Sports academies managing registrations, training schedules and payments manually spend more time on administration than on coaching — and have no way to track athlete progress or keep parents informed.</h3>
+                                <p class="product-description">Xpansion Sports Academy Management System is a purpose-built platform for sports academies to manage their day-to-day operations more efficiently. From student enrolment and session scheduling to billing, parent communication and performance tracking — everything runs from one system.</p>
+
+                                <h4>Key features</h4>
+                                <div class="features-grid">
+                                    <div class="feature-item">
+                                        <strong>Student enrolment</strong>
+                                        <p>Online registration and enrolment management for new and returning students</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Session scheduling</strong>
+                                        <p>Plan and manage training sessions, fixtures and academy calendar</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Billing & payments</strong>
+                                        <p>Generate fees, process payments and track outstanding balances</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Performance tracking</strong>
+                                        <p>Record and monitor individual athlete development and progress over time</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Parent communication</strong>
+                                        <p>Send updates, schedules and announcements directly to parents and students</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Coach management</strong>
+                                        <p>Assign coaches to sessions and track coaching activity and workload</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Attendance tracking</strong>
+                                        <p>Record session attendance to monitor student engagement and commitment</p>
+                                    </div>
+                                    <div class="feature-item">
+                                        <strong>Reporting</strong>
+                                        <p>Academy performance reports covering enrolments, revenue and student progress</p>
+                                    </div>
+                                </div>
+
+                                <h4>Best suited for</h4>
+                                <div class="ideal-for">
+                                    <span class="badge">Cricket academies</span>
+                                    <span class="badge">Football clubs</span>
+                                    <span class="badge">Multi-sport centres</span>
+                                    <span class="badge">School sports programmes</span>
+                                    <span class="badge">Martial arts schools</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="product-sidebar">
+                                <div class="product-info-card">
+                                    <div class="info-item">
+                                        <strong>Deployment:</strong> Cloud-hosted
+                                    </div>
+                                    <div class="info-item">
+                                        <strong>Availability:</strong> Free trial
+                                    </div>
+                                    <div class="info-item">
+                                        <strong>Integration:</strong> Payment gateways; email and SMS for parent communication
+                                    </div>
+                                    <div class="info-item">
+                                        <strong>Platform:</strong> Web · Mobile
+                                    </div>
+                                </div>
+
+                                <div class="cta-buttons">
+                                    <a href="contact-us.php" class="btn btn-primary">Start free trial</a>
+                                    <a href="contact-us.php" class="btn btn-outline-primary">Request a demo</a>
+                                </div>
+
+                                <div class="stats-section">
+                                    <div class="stat-item">
+                                        <div class="stat-number">Less admin</div>
+                                        <div class="stat-label">more coaching time</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-number">Full student</div>
+                                        <div class="stat-label">progress tracking</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-number">Parent comms</div>
+                                        <div class="stat-label">built in</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="product-comparison" data-aos="fade-up" data-aos-duration="1000">
@@ -779,17 +893,25 @@
                         <span>Digital ordering with fulfilment visibility</span>
                         <a href="#foodways">View details</a>
                     </div>
+                    <div class="comparison-row">
+                        <span><strong>Sports Academy MS</strong></span>
+                        <span>Sports academies, clubs and school programmes</span>
+                        <span>Streamlined enrolments, scheduling and billing</span>
+                        <a href="#sports">View details</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="portfolio cta-section page-bottom-cta" data-aos="zoom-in" data-aos-duration="1000">
-                <div class="cta-content">
-                    <span class="cta-label"><i class="bi bi-lightning-charge-fill"></i> Product Fit</span>
-                    <h3>Need help choosing the right platform?</h3>
-                    <p>Tell us about your workflow and we will map the best product, deployment path and integration plan.</p>
-                    <div class="cta-buttons">
-                        <a href="contact-us.php" class="btn-cta-primary">Discuss Project <i class="bi bi-arrow-right"></i></a>
-                        <a href="case-studies.php" class="btn-cta-secondary"><i class="bi bi-journal-text"></i> View Case Studies</a>
+            <div class="portfolio page-bottom-cta">
+                <div class="cta-section" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="cta-content">
+                        <span class="cta-label"><i class="bi bi-lightning-charge-fill"></i> Product Fit</span>
+                        <h3>Need help choosing the right platform?</h3>
+                        <p>Tell us about your workflow and we will map the best product, deployment path and integration plan.</p>
+                        <div class="cta-buttons">
+                            <a href="contact-us.php" class="btn-cta-primary">Discuss Project <i class="bi bi-arrow-right"></i></a>
+                            <a href="case-studies.php" class="btn-cta-secondary"><i class="bi bi-journal-text"></i> View Case Studies</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -799,52 +921,33 @@
 </main>
 
 <script>
-// Tab functionality with URL hash support
-document.addEventListener('DOMContentLoaded', function() {
-    const tabButtons = document.querySelectorAll('#productTabs .nav-link');
-    const tabPanes = document.querySelectorAll('.tab-pane');
+document.addEventListener('DOMContentLoaded', function () {
+    const tabNav = document.getElementById('productTabs');
 
-    // Function to activate tab
     function activateTab(tabId) {
-        // Remove active class from all tabs
-        tabButtons.forEach(btn => btn.classList.remove('active'));
-        tabPanes.forEach(pane => pane.classList.remove('show', 'active'));
-
-        // Add active class to target tab
-        const targetButton = document.querySelector(`[data-bs-target="#${tabId}"]`);
-        const targetPane = document.getElementById(tabId);
-
-        if (targetButton && targetPane) {
-            targetButton.classList.add('active');
-            targetPane.classList.add('show', 'active');
-        }
+        const btn = tabNav.querySelector(`[data-bs-target="#${tabId}"]`);
+        if (btn) bootstrap.Tab.getOrCreateInstance(btn).show();
     }
 
-    // Check URL hash on load
-    const hash = window.location.hash.substring(1);
-    if (hash) {
-        activateTab(hash);
-    }
+    // Restore tab from URL hash on page load
+    const hash = window.location.hash.replace('#', '');
+    if (hash && document.getElementById(hash)) activateTab(hash);
 
-    // Update URL hash when tab changes
-    tabButtons.forEach(button => {
-        button.addEventListener('shown.bs.tab', function(e) {
-            const targetId = e.target.getAttribute('data-bs-target').substring(1);
-            history.replaceState(null, null, `#${targetId}`);
-        });
+    // Keep URL hash in sync when Bootstrap changes tabs
+    tabNav.addEventListener('shown.bs.tab', function (e) {
+        const id = e.target.getAttribute('data-bs-target').replace('#', '');
+        history.replaceState(null, null, '#' + id);
     });
 
-    document.querySelectorAll('.product-showcase-card, .product-comparison-table a').forEach(card => {
-        card.addEventListener('click', function(e) {
-            const targetId = this.getAttribute('href').substring(1);
-            if (!targetId) return;
+    // Showcase cards and comparison table links
+    document.querySelectorAll('.product-showcase-card, .product-comparison-table a').forEach(function (el) {
+        el.addEventListener('click', function (e) {
             e.preventDefault();
+            const targetId = this.getAttribute('href').replace('#', '');
+            if (!targetId) return;
             activateTab(targetId);
-            history.replaceState(null, null, `#${targetId}`);
-            document.getElementById('productTabs')?.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
+            history.replaceState(null, null, '#' + targetId);
+            tabNav.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
     });
 });
