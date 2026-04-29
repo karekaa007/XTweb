@@ -304,56 +304,43 @@ managed services to build foundation for future growth. </p>
 
              <div class="row g-4">
 
-                     <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="0">
-                         <a href="xt-vms-visitor-management-system.php" class="cs-img-card cs-img-card--sm">
-                             <div class="cs-img-inner" style="background-image:url('assets2/images/portfolio-1.jpg')">
-                                 <div class="cs-img-overlay"></div>
-                                 <div class="cs-img-badge">
-                                     <i class="bi bi-person-check-fill"></i>
-                                     <span>Visitor Operations</span>
-                                 </div>
-                                 <div class="cs-img-body">
-                                     <h3>XT-VMS</h3>
-                                     <div class="cs-img-kpi">Paperless check-in &middot; Multi-site &middot; Analytics</div>
-                                 </div>
-                                 <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
-                             </div>
-                         </a>
-                     </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                        <a href="xt-vms-visitor-management-system.php" class="prod-plain-card">
+                            <div class="prod-plain-img" style="background:#f05a5b;">
+                                <img src="assets2/images/xt-vms-visitor-management-system/services-7.jpeg" alt="XT-VMS Visitor Management System" style="object-fit:contain;">
+                            </div>
+                            <div class="prod-plain-body">
+                                <h3>XT-VMS</h3>
+                                <p>Digitise visitor check-ins, host notifications, compliance logs and real-time site visibility — all without paper.</p>
+                                <span class="prod-plain-link">Read More <i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
 
-                     <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="150">
-                         <a href="xims-invoice-management-system.php" class="cs-img-card cs-img-card--sm">
-                             <div class="cs-img-inner" style="background-image:url('assets2/images/portfolio-2.jpg')">
-                                 <div class="cs-img-overlay"></div>
-                                 <div class="cs-img-badge">
-                                     <i class="bi bi-receipt-cutoff"></i>
-                                     <span>Finance</span>
-                                 </div>
-                                 <div class="cs-img-body">
-                                     <h3>XIMS</h3>
-                                     <div class="cs-img-kpi">Invoices &middot; Quotes &middot; Payment tracking</div>
-                                 </div>
-                                 <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
-                             </div>
-                         </a>
-                     </div>
-
-                     <div class="col-lg-4 col-md-6 aos-init" data-aos="fade-up" data-aos-delay="300">
-                         <a href="xevent.php" class="cs-img-card cs-img-card--sm">
-                             <div class="cs-img-inner" style="background-image:url('assets2/images/portfolio-3.jpg')">
-                                 <div class="cs-img-overlay"></div>
-                                 <div class="cs-img-badge">
-                                     <i class="bi bi-calendar-event-fill"></i>
-                                     <span>Events</span>
-                                 </div>
-                                 <div class="cs-img-body">
-                                     <h3>xEvent</h3>
-                                     <div class="cs-img-kpi">Publish events &middot; RSVPs &middot; Community</div>
-                                 </div>
-                                 <div class="cs-img-arrow"><i class="bi bi-play-fill"></i></div>
-                             </div>
-                         </a>
-                     </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                        <a href="foodways.php" class="prod-plain-card">
+                            <div class="prod-plain-img">
+                                <img src="assets2/images/Foodways/Foodways Medium.jpeg" alt="Foodways Food Distribution Platform">
+                            </div>
+                            <div class="prod-plain-body">
+                                <h3>Foodways</h3>
+                                <p>A smart food distribution platform connecting suppliers, distributors and buyers with streamlined ordering and logistics.</p>
+                                <span class="prod-plain-link">Read More <i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <a href="human-resource-management-system.php" class="prod-plain-card">
+                            <div class="prod-plain-img">
+                                <img src="assets2/images/human-resource-management-system/xhrms-1.jpg" alt="xHRMS Human Resource Management System">
+                            </div>
+                            <div class="prod-plain-body">
+                                <h3>xHRMS</h3>
+                                <p>Manage employees, payroll, leave, performance and onboarding in one unified HR platform built for growing teams.</p>
+                                <span class="prod-plain-link">Read More <i class="bi bi-arrow-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
 
              </div>
 

@@ -53,7 +53,7 @@
                                      <i class="fas fa-layer-group"></i>
                                  </div>
                                  <div class="xp-card-content">
-                                     <h3>AI-Driven Surveillance</h3>
+                                     <h3>Advanced Video Intelligence & Monitoring</h3>
                                      <p>Video analytics and computer vision that move beyond passive recording to
                                          deliver
                                          active, real-time situational awareness and automated threat detection</p>
@@ -88,9 +88,8 @@
                                      <i class="fas fa-microchip"></i>
                                  </div>
                                  <div class="xp-card-content">
-                                     <h3>Scalable & Interoperable</h3>
-                                     <p>Open-architecture platforms designed to integrate with existing city
-                                         infrastructure, third-party systems, and future technology expansions.</p>
+                                     <h3>Smart City IoT Integration</h3>
+                                     <p>Integrate city-wide devices and systems into a unified platform for real-time insights and efficient urban management.</p>
                                  </div>
                              </div>
                          </div>
@@ -214,16 +213,18 @@
 
                         <div class="xp-tele-content">
                             <h4>Smart City Command & Control Centres</h4>
-                            <small> Integrated Operations · Real-Time Data · Unified Interface</small>
+                            <small> Integrated Operations · IoT Sensor Fusion · Real-Time Data · Unified Interface</small>
 
                             <p>
-                                Purpose-built Integrated Operations Centres that consolidate city-wide data streams
-                                into a single operational interface. GIS-integrated displays, automated incident
-                                detection, and cross-agency coordination tools for comprehensive urban management.
+                                Purpose-built Integrated Operations Centres that consolidate city-wide data streams —
+                                including IoT sensors, connected devices, and environmental monitors — into a single
+                                operational interface. GIS-integrated displays, automated incident detection, and
+                                cross-agency coordination tools for comprehensive urban management.
                             </p>
 
                             <div class="xp-tele-tags">
                                 <span>Multi-Source Data</span>
+                                <span>IoT Integration</span>
                                 <span>GIS Integration</span>
                                 <span>Incident Management</span>
                                 <span>Cross-Agency Comm</span>

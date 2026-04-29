@@ -90,12 +90,31 @@
 
                      <?php
                         $services = [
-                            ["Managed IT Services","Reliable IT support ensuring smooth operations."],
-                            ["SOC Operations","24/7 monitoring, detection, and response."],
-                            ["Cybersecurity Management","Advanced multi-layer protection."],
-                            ["Infrastructure Monitoring","Continuous system performance tracking."],
-                            ["Backup & Recovery","Secure backup and disaster recovery."],
-                            ["24/7 IT Support","Round-the-clock assistance."]
+                            [
+                                "bi-gear-wide-connected",
+                                "Managed IT Operations",
+                                "Proactive management of your entire IT environment — servers, networks, endpoints, and cloud — to keep systems stable, performant, and aligned with business needs."
+                            ],
+                            [
+                                "bi-shield-lock-fill",
+                                "Security Operations & Threat Management",
+                                "24/7 SOC-backed threat detection, incident response, vulnerability management, and multi-layer defence across your infrastructure and applications."
+                            ],
+                            [
+                                "bi-activity",
+                                "Monitoring & Observability",
+                                "Continuous visibility into system health, performance metrics, logs, and alerts — enabling rapid diagnosis and proactive resolution before issues impact users."
+                            ],
+                            [
+                                "bi-cloud-arrow-up-fill",
+                                "Backup, Recovery & Business Continuity",
+                                "Automated backup, tested disaster recovery plans, and resilient architectures that minimise downtime and protect critical data from loss or ransomware."
+                            ],
+                            [
+                                "bi-headset",
+                                "End-User Support & Service Desk",
+                                "Responsive helpdesk and on-site support for your team — covering hardware, software, connectivity, and access management with defined SLAs."
+                            ],
                         ];
 
                         foreach($services as $s){
@@ -104,10 +123,12 @@
                      <div class="col-lg-4 col-md-6">
                          <div class="p-4 bg-white rounded shadow-sm h-100 service-card">
                              <div class="mb-3">
-                                 <span class="badge bg-light theme-color">Service</span>
+                                 <div style="width:48px;height:48px;border-radius:10px;background:rgba(8,106,216,.1);display:flex;align-items:center;justify-content:center;">
+                                     <i class="bi <?php echo $s[0]; ?>" style="font-size:22px;color:#086ad8;"></i>
+                                 </div>
                              </div>
-                             <h5 class="fw-bold"><?php echo $s[0]; ?></h5>
-                             <p class="mt-2 text-muted"><?php echo $s[1]; ?></p>
+                             <h5 class="fw-bold"><?php echo $s[1]; ?></h5>
+                             <p class="mt-2 text-muted"><?php echo $s[2]; ?></p>
                          </div>
                      </div>
 

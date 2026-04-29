@@ -1878,7 +1878,6 @@ section,
   display: flex;
   flex-direction: column;
 }
-
 .portfolio .project-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 20px 60px

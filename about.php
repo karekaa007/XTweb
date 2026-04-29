@@ -9,9 +9,9 @@
 
                  <nav aria-label="breadcrumb">
                      <ol class="breadcrumb justify-content-center">
-                         <li class="breadcrumb-item"><a href="#">Home</a></li>
+                         <!--<li class="breadcrumb-item"><a href="#"></a></li>-->
                          <!--  <li class="breadcrumb-item"><a href="#">About Us</a></li> -->
-                         <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                         <li class="breadcrumb-item active" aria-current="page"></li>-
                      </ol>
                  </nav>
              </div>
@@ -37,7 +37,7 @@
                              </div>
                              <div class="experience-badge">
                                  <span class="years purecounter" data-purecounter-start="0" data-purecounter-end="12"
-                                     data-purecounter-duration="0">12</span>
+                                     data-purecounter-duration="0">15</span>
                                  <span class="text">Years of<br>Excellence</span>
                              </div>
                              <div class="shape-pattern"></div>
@@ -48,32 +48,33 @@
                          <div class="about-content">
                              <div class="section-subtitle">About Us</div>
                              <h2>We Create Customer-Centric Digital Solutions with Passion. </h2>
-
-                             <p class="mb-2 description text-justify">Xpansion Technologies is a leading global
-                                 organization
-                                 providing cutting-edge IT and digital-enabled services to a diverse international
-                                 clientele across industries like Manufacturing, Telecom, Real Estate, Engineering,
-                                 Healthcare, and Education.
+                            <!--Xpansion Technologies is an IT and digital solutions partner, delivering advanced, scalable technologies to organizations across Manufacturing, Telecom, Real Estate, Engineering, Healthcare, and Education.
+With a team of experienced professionals and a strong focus on outcomes, we design tailored solutions that create measurable business value. From startups to large enterprises, we enable organizations to operate more efficiently, adapt to changing market demands, and stay competitive in an increasingly dynamic <environment class="--"></environment>-->
+                             <p class="mb-2 description text-justify">Xpansion Technologies is a global IT and digital 
+                                solutions partner, enabling organizations across Manufacturing, Telecom, 
+                                Real Estate, Engineering, Healthcare, and Education with scalable, 
+                                future-ready technology solutions.
+ 
                              </p>
                              <p class="mb-4 description text-justify">
 
-                                 Led by a team of world-class experts, our mission is to deliver highly personalized
-                                 solutions that drive measurable business value. With vast experience serving small,
-                                 medium, and large enterprises worldwide, we empower businesses to become more
-                                 efficient, competitive, and future-ready by navigating complex market dynamics with
-                                 precision.
+                                 With a team of experienced professionals and a 
+                                strong focus on outcomes, we design tailored solutions that create measurable 
+                                business value. From startups to large enterprises, we enable organizations to 
+                                operate more efficiently, adapt to changing market demands, and stay competitive 
+                                in an increasingly dynamic environment
                              </p>
                              <div class="action-buttons">
                                  <a href="contact-us.php" class="btn btn-primary-custom">
                                      Discuss Project <i class="bi bi-arrow-right"></i>
                                  </a>
-                                 <div class="contact-info">
+                                 <!--div class="contact-info">
                                      <div class="icon-box">
-                                         <i class="bi bi-telephone-fill"></i>
+                                         <--i class="bi bi-telephone-fill"></i>
                                      </div>
                                      <div class="text">
-                                         <span>Call Us Today</span>
-                                         <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                                         <-span>Call Us Today</span>
+                                         <a href="tel:+15551234567">+1 (555) 123-4567</a>-->
                                      </div>
                                  </div>
                              </div>
@@ -95,7 +96,7 @@
                  <div class="row justify-content-center">
                      <div class="col-xl-12 aos-init">
                          <div class="container section-title aos-init">
-                             <span class="section-subtitle"> Our Top Suppliers</span>
+                             <!--span class="section-subtitle"> Our Top Suppliers</span-->
                              <h2>Preferred Supplier for</h2>
                          </div>
                      </div>
@@ -116,84 +117,26 @@
          </section>
 
 
-         <div class="brand-logo-slider-area section-space--ptb_60" data-aos="fade-up" data-aos-duration="1000">
+         <div class="partners-section" data-aos="fade-up" data-aos-duration="1000">
              <div class="container">
-                 <div class="row">
-                     <div class="col-lg-12">
-                         <!-- brand logo slider -->
-                         <div class="conact-us-wrap-three">
-                             <h6 class="mb-3 section-sub-title">Our Amazing Partners</h6>
-                             <h4 class="heading text-dark mb-3">We Partner With Top Leaders</h4>
-                         </div>
-                         <div class="brand-logo-slider__container-area">
-                             <div class="swiper-container brand-logo-slider__container">
-                                 <div class="swiper-wrapper brand-logo-slider__four">
-                                     <div class="swiper-slide brand-logo brand-logo--slider">
-                                         <a href="#">
-                                             <div class="brand-logo__image">
-                                                 <img src="assets/images/partners/1.png" class="img-fluid" alt="">
-                                             </div>
-                                         </a>
-                                     </div>
-                                     <div class="swiper-slide brand-logo brand-logo--slider">
-                                         <a href="#">
-                                             <div class="brand-logo__image">
-                                                 <img src="assets/images/partners/2.png" class="img-fluid" alt="">
-                                             </div>
-                                         </a>
-                                     </div>
-                                     <div class="swiper-slide brand-logo brand-logo--slider">
-                                         <a href="#">
-                                             <div class="brand-logo__image">
-                                                 <img src="assets/images/partners/3.png" class="img-fluid" alt="">
-                                             </div>
-                                         </a>
-                                     </div>
-                                     <div class="swiper-slide brand-logo brand-logo--slider">
-                                         <a href="#">
-                                             <div class="brand-logo__image">
-                                                 <img src="assets/images/partners/5.png" class="img-fluid" alt="">
-                                             </div>
-                                         </a>
-                                     </div>
-                                     <div class="swiper-slide brand-logo brand-logo--slider">
-                                         <a href="#">
-                                             <div class="brand-logo__image">
-                                                 <img src="assets/images/partners/1.png" class="img-fluid" alt="">
-                                             </div>
-                                         </a>
-                                     </div>
-                                     <div class="swiper-slide brand-logo brand-logo--slider">
-                                         <a href="#">
-                                             <div class="brand-logo__image">
-                                                 <img src="assets/images/partners/3.png" class="img-fluid" alt="">
-                                             </div>
-                                         </a>
-                                     </div>
-                                     <div class="swiper-slide brand-logo brand-logo--slider">
-                                         <a href="#">
-                                             <div class="brand-logo__image">
-                                                 <img src="assets/images/partners/2.png" class="img-fluid" alt="">
-                                             </div>
-                                         </a>
-                                     </div>
-                                     <div class="swiper-slide brand-logo brand-logo--slider">
-                                         <a href="#">
-                                             <div class="brand-logo__image">
-                                                 <img src="assets/images/partners/5.png" class="img-fluid" alt="">
-                                             </div>
-                                         </a>
-                                     </div>
-                                     <div class="swiper-slide brand-logo brand-logo--slider">
-                                         <a href="#">
-                                             <div class="brand-logo__image">
-                                                 <img src="assets/images/partners/4.png" class="img-fluid" alt="">
-                                             </div>
-                                         </a>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
+                 <div class="text-center mb-4">
+                     <h4 class="text-dark fw-semibold">Trusted Technology Partners</h4>
+                 </div>
+                 <div class="partners-logo-row">
+                     <div class="partner-logo-item">
+                         <img src="assets/images/partners/1.png" class="img-fluid" alt="Microsoft">
+                     </div>
+                     <div class="partner-logo-item">
+                         <img src="assets/images/partners/2.png" class="img-fluid" alt="McAfee Secure">
+                     </div>
+                     <div class="partner-logo-item">
+                         <img src="assets/images/partners/3.png" class="img-fluid" alt="IBM">
+                     </div>
+                     <div class="partner-logo-item">
+                         <img src="assets/images/partners/4.png" class="img-fluid" alt="HP">
+                     </div>
+                     <div class="partner-logo-item">
+                         <img src="assets/images/partners/5.png" class="img-fluid" alt="Citrix">
                      </div>
                  </div>
              </div>
@@ -226,8 +169,8 @@
                                  <h3>Discover What Our Clients Say About Us</h3>
                                  <p>Hear genuine feedback and experiences shared by our valued clients about our
                                      services.</p>
-                                 <a target="_blank" href="https://share.google/6wv3lAzJEB3mihv5U"
-                                     class="btn-view-all">View All Reviews <i class="bi bi-arrow-right"></i></a>
+                                 <a target="_blank" href="contact-us.php" 
+                                     class="btn-view-all">Contact Us For Client References <i class="bi bi-arrow-right"></i></a>
                              </div>
                          </div>
                      </div>
