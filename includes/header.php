@@ -93,14 +93,14 @@ $product_pages  = ['xims-invoice-management-system.php','xt-vms-visitor-manageme
 
                     <li class="dropdown<?= in_array($current_page, $industry_pages) ? ' active' : '' ?>"><a href="#"><span>Industry Solutions</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="telecom-services.php"<?= nav_active('telecom-services.php') ?>>Telecom Services</a></li>
-                            <li><a href="talent-acquisition-solutions.php"<?= nav_active('talent-acquisition-solutions.php') ?>>Talent Acquisition Services</a></li>
-                            <li><a href="education-solutions.php"<?= nav_active('education-solutions.php') ?>>Education Services</a></li>
+                            <li><a href="telecom-services.php"<?= nav_active('telecom-services.php') ?>>Telecom</a></li>
+                            <li><a href="education-solutions.php"<?= nav_active('education-solutions.php') ?>>Education</a></li>
+                            <li><a href="talent-acquisition-solutions.php"<?= nav_active('talent-acquisition-solutions.php') ?>>Talent Acquisition</a></li>
                             <li><a href="smart-city-surveillance.php"<?= nav_active('smart-city-surveillance.php') ?>>Smart City &amp; Surveillance</a></li>
                         </ul>
                     </li>
 
-                    <li class="dropdown<?= in_array($current_page, $product_pages) || $current_page === 'products.php' ? ' active' : '' ?>"><a href="#"><span>Products</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <li class="dropdown<?= in_array($current_page, $product_pages) || $current_page === 'products.php' ? ' active' : '' ?>"><a href="products.php"><span>Products</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
                             <li><a href="xims-invoice-management-system.php"<?= nav_active('xims-invoice-management-system.php') ?>>XIMS – Invoice Management System</a></li>
                             <li><a href="xt-vms-visitor-management-system.php"<?= nav_active('xt-vms-visitor-management-system.php') ?>>XT-VMS – Visitor Management System</a></li>

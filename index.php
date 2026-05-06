@@ -244,7 +244,7 @@ managed services to build foundation for future growth. </p>
                          </div>
                          <div class="experience-badge">
                              <span class="years purecounter" data-purecounter-start="0" data-purecounter-end="12"
-                                 data-purecounter-duration="0">12</span>
+                                 data-purecounter-duration="0">15</span>
                              <span class="text">Years of<br>Excellence</span>
                          </div>
                          <div class="shape-pattern"></div>

@@ -58,7 +58,9 @@
                                  </div>
                                  <div class="method-details">
                                      <span class="method-label">Visit Us</span>
-                                     <span>Sussex Street, Sydney, NSW 2000</span>
+                                     <span>Australia : 60 Martin Pl, Sydney, NSW 2000
+                                            <br>India : HB Chambers, 810, Tower B Ithum, Sector 62, Noida-201309 </span></span>
+                                    </span>
                                  </div>
                              </div>
                          </div>

@@ -4,7 +4,7 @@
 
     <section class="inner-banner text-center">
         <div class="container content">
-            <h1>Education Services</h1>
+            <h1>Education Solutions</h1>
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb justify-content-center">
@@ -19,7 +19,7 @@
     <section class="xp-telecom-section pb-0">
         <div class="container">
             <div class="xp-telecom-header" data-aos="fade-up">
-                <span class="xp-badge">EDUCATION SERVICES</span>
+                <span class="xp-badge">EDUCATION SOLUTIONS</span>
                 <h2 class="xp-title">Digital Learning Solutions for <span class="text-highlight">Modern Educational Institutions</span></h2>
                 <p class="xp-subtitle">
                     Xpansion Technology delivers comprehensive digital education solutions that transform learning experiences, streamline administrative processes, and enhance student outcomes. We design, implement, and support technology ecosystems that empower educators and engage students in the digital age.
